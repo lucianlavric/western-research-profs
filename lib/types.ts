@@ -1,0 +1,29 @@
+export interface Publication {
+  title: string;
+  year: number;
+  venue?: string;
+  url?: string;
+  citationCount?: number;
+}
+
+export interface Professor {
+  id: string;
+  name: string;
+  title: string;
+  department: string;
+  email: string;
+  profileUrl: string;
+  imageUrl?: string;
+  researchAreas: string[];
+  labName?: string;
+  labUrl?: string;
+  bio?: string;
+  publications: Publication[];
+  lastUpdated: string;
+}
+
+export interface ProfessorData {
+  professors: Professor[];
+  lastScraped: string;
+  departments: string[];
+}
