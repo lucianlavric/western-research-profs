@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getProfessorById, getAllProfessors, getRelatedProfessors } from "@/lib/data";
+import { getDepartmentIcon } from "@/lib/department-icons";
 import ResearchTags from "@/components/ResearchTags";
 import PublicationList from "@/components/PublicationList";
 import ProfessorCardInteractive from "@/components/ProfessorCardInteractive";
@@ -96,7 +97,7 @@ export default async function ProfessorPage({ params }: Props) {
                 {professor.title}
               </p>
               <div className="inline-flex items-center gap-2 px-2 py-1 border-2 border-[#1a1a1a] bg-white font-semibold text-sm">
-                <span className="inline-block w-2 h-2 bg-[#1a1a1a]" />
+                <span className="text-base">{getDepartmentIcon(professor.department)}</span>
                 {professor.department}
               </div>
 
