@@ -198,7 +198,7 @@ export default function HomePage() {
               },
             ].map((item) => (
               <div key={item.step} className="relative">
-                <div className="text-6xl md:text-7xl font-bold text-gray-100 mb-4">
+                <div className="text-6xl md:text-7xl font-bold text-gray-300 mb-4">
                   {item.step}
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">
