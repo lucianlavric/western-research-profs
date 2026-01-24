@@ -41,7 +41,7 @@ export default function HomePage() {
               <Link
                 key={dept}
                 href={`/professors?dept=${encodeURIComponent(dept)}`}
-                className="px-3 py-1.5 bg-purple-700/50 hover:bg-purple-700 rounded-full text-sm transition"
+                className="px-3 py-1.5 bg-purple-700/50 hover:bg-purple-700 rounded-full text-sm transition-colors"
               >
                 {dept}
               </Link>
@@ -49,7 +49,7 @@ export default function HomePage() {
             {departments.length > 4 && (
               <Link
                 href="/professors"
-                className="px-3 py-1.5 bg-purple-700/50 hover:bg-purple-700 rounded-full text-sm transition"
+                className="px-3 py-1.5 bg-purple-700/50 hover:bg-purple-700 rounded-full text-sm transition-colors"
               >
                 +{departments.length - 4} more
               </Link>
@@ -63,26 +63,26 @@ export default function HomePage() {
         <div className="max-w-6xl mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4 text-center">
             <div className="bg-white p-3 md:p-4 rounded-lg md:bg-transparent">
-              <div className="text-2xl md:text-3xl font-bold text-purple-600">
+              <div className="text-2xl md:text-3xl font-bold text-purple-600 tabular-nums">
                 {professors.length || "100+"}
               </div>
               <div className="text-xs md:text-sm text-gray-600">Professors</div>
             </div>
             <div className="bg-white p-3 md:p-4 rounded-lg md:bg-transparent">
-              <div className="text-2xl md:text-3xl font-bold text-purple-600">
+              <div className="text-2xl md:text-3xl font-bold text-purple-600 tabular-nums">
                 {departments.length || 8}
               </div>
               <div className="text-xs md:text-sm text-gray-600">Departments</div>
             </div>
             <div className="bg-white p-3 md:p-4 rounded-lg md:bg-transparent">
-              <div className="text-2xl md:text-3xl font-bold text-purple-600">
+              <div className="text-2xl md:text-3xl font-bold text-purple-600 tabular-nums">
                 {professors.reduce((acc, p) => acc + p.publications.length, 0) ||
                   "500+"}
               </div>
               <div className="text-xs md:text-sm text-gray-600">Publications</div>
             </div>
             <div className="bg-white p-3 md:p-4 rounded-lg md:bg-transparent">
-              <div className="text-2xl md:text-3xl font-bold text-purple-600">1</div>
+              <div className="text-2xl md:text-3xl font-bold text-purple-600 tabular-nums">1</div>
               <div className="text-xs md:text-sm text-gray-600">Faculty</div>
             </div>
           </div>

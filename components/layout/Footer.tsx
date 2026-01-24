@@ -1,10 +1,16 @@
 import { getLastScrapedDate } from "@/lib/data";
 
+const dateFormatter = new Intl.DateTimeFormat(undefined, {
+  year: "numeric",
+  month: "short",
+  day: "numeric",
+});
+
 export default function Footer() {
   let lastUpdated: string;
   try {
     const date = getLastScrapedDate();
-    lastUpdated = date ? new Date(date).toLocaleDateString() : "Not available";
+    lastUpdated = date ? dateFormatter.format(new Date(date)) : "Not available";
   } catch {
     lastUpdated = "Not available";
   }

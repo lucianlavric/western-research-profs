@@ -10,7 +10,7 @@ export default function Header() {
     <header className="bg-purple-900 text-white shadow-lg">
       <div className="max-w-6xl mx-auto px-4 py-3 md:py-4">
         <div className="flex items-center justify-between">
-          <Link href="/" className="flex items-center gap-2 md:gap-3 hover:opacity-90 transition">
+          <Link href="/" className="flex items-center gap-2 md:gap-3 hover:opacity-90 transition-opacity">
             <div className="w-8 h-8 md:w-10 md:h-10 bg-white rounded-lg flex items-center justify-center">
               <span className="text-purple-900 font-bold text-lg md:text-xl">W</span>
             </div>
@@ -24,13 +24,13 @@ export default function Header() {
           <nav className="hidden md:flex items-center gap-6">
             <Link
               href="/professors"
-              className="text-purple-100 hover:text-white transition text-sm font-medium"
+              className="text-purple-100 hover:text-white transition-colors text-sm font-medium"
             >
               Browse Professors
             </Link>
             <Link
               href="/about"
-              className="text-purple-100 hover:text-white transition text-sm font-medium"
+              className="text-purple-100 hover:text-white transition-colors text-sm font-medium"
             >
               About
             </Link>
@@ -39,7 +39,7 @@ export default function Header() {
           {/* Mobile menu button */}
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="md:hidden p-2 rounded-lg hover:bg-purple-800 transition"
+            className="md:hidden p-2 rounded-lg hover:bg-purple-800 transition-colors"
             aria-label="Toggle menu"
           >
             {mobileMenuOpen ? (
@@ -60,14 +60,14 @@ export default function Header() {
             <Link
               href="/professors"
               onClick={() => setMobileMenuOpen(false)}
-              className="text-purple-100 hover:text-white transition font-medium py-2"
+              className="text-purple-100 hover:text-white transition-colors font-medium py-2"
             >
               Browse Professors
             </Link>
             <Link
               href="/about"
               onClick={() => setMobileMenuOpen(false)}
-              className="text-purple-100 hover:text-white transition font-medium py-2"
+              className="text-purple-100 hover:text-white transition-colors font-medium py-2"
             >
               About
             </Link>

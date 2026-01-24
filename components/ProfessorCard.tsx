@@ -15,7 +15,7 @@ export default function ProfessorCard({ professor }: ProfessorCardProps) {
 
   return (
     <Link href={`/professors/${professor.id}`} className="block group">
-      <div className="bg-white rounded-lg border border-gray-200 p-4 md:p-5 hover:shadow-lg hover:border-purple-300 transition h-full flex flex-col">
+      <div className="bg-white rounded-lg border border-gray-200 p-4 md:p-5 hover:shadow-lg hover:border-purple-300 transition-shadow h-full flex flex-col">
         <div className="flex items-start gap-3 md:gap-4">
           {/* Avatar - always use letter */}
           <div className="w-12 h-12 md:w-16 md:h-16 bg-purple-100 rounded-full flex items-center justify-center flex-shrink-0">
@@ -25,7 +25,7 @@ export default function ProfessorCard({ professor }: ProfessorCardProps) {
           </div>
 
           <div className="flex-1 min-w-0">
-            <h3 className="font-semibold text-sm md:text-base text-gray-900 group-hover:text-purple-600 transition truncate">
+            <h3 className="font-semibold text-sm md:text-base text-gray-900 group-hover:text-purple-600 transition-colors truncate">
               {professor.name}
             </h3>
             <p className="text-xs md:text-sm text-gray-600">{professor.title}</p>

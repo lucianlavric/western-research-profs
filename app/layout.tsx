@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
@@ -19,6 +19,10 @@ export const metadata: Metadata = {
   title: "Western Research Profs | Find Your Research Supervisor",
   description:
     "Discover research professors at Western University. Browse faculty profiles, research areas, and recent publications to find the perfect research supervisor.",
+};
+
+export const viewport: Viewport = {
+  themeColor: "#581c87",
 };
 
 export default function RootLayout({

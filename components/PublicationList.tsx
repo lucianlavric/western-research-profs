@@ -34,7 +34,7 @@ export default function PublicationList({ publications }: PublicationListProps) 
       {publications.map((pub, index) => (
         <div
           key={index}
-          className="bg-white border border-gray-200 rounded-lg p-3 md:p-4 hover:border-purple-200 transition"
+          className="bg-white border border-gray-200 rounded-lg p-3 md:p-4 hover:border-purple-200 transition-colors"
         >
           <div className="flex items-start justify-between gap-3 md:gap-4">
             <div className="flex-1 min-w-0">
@@ -43,7 +43,7 @@ export default function PublicationList({ publications }: PublicationListProps) 
                   href={pub.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="font-medium text-sm md:text-base text-gray-900 hover:text-purple-600 transition line-clamp-2"
+                  className="font-medium text-sm md:text-base text-gray-900 hover:text-purple-600 transition-colors line-clamp-2"
                 >
                   {pub.title}
                 </a>
@@ -66,7 +66,7 @@ export default function PublicationList({ publications }: PublicationListProps) 
 
             {pub.citationCount !== undefined && pub.citationCount > 0 && (
               <div className="flex-shrink-0 text-center">
-                <div className="text-base md:text-lg font-bold text-gray-700">
+                <div className="text-base md:text-lg font-bold text-gray-700 tabular-nums">
                   {pub.citationCount}
                 </div>
                 <div className="text-xs text-gray-400">citations</div>

@@ -26,10 +26,11 @@ export default function DepartmentFilter({
   };
 
   return (
-    <div className={`flex flex-wrap gap-2 ${className}`}>
+    <div className={`flex flex-wrap gap-2 ${className}`} role="group" aria-label="Filter by department">
       <button
         onClick={() => handleFilter("")}
-        className={`px-3 py-1.5 rounded-full text-sm font-medium transition ${
+        aria-pressed={!currentDept}
+        className={`px-3 py-1.5 rounded-full text-sm font-medium transition-colors ${
           !currentDept
             ? "bg-purple-600 text-white"
             : "bg-gray-100 text-gray-700 hover:bg-gray-200"
@@ -41,7 +42,8 @@ export default function DepartmentFilter({
         <button
           key={dept}
           onClick={() => handleFilter(dept)}
-          className={`px-3 py-1.5 rounded-full text-sm font-medium transition ${
+          aria-pressed={currentDept === dept}
+          className={`px-3 py-1.5 rounded-full text-sm font-medium transition-colors ${
             currentDept === dept
               ? "bg-purple-600 text-white"
               : "bg-gray-100 text-gray-700 hover:bg-gray-200"
