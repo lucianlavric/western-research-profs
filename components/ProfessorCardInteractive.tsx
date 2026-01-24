@@ -13,7 +13,6 @@ const ProfessorPreview = dynamic(() => import("./ProfessorPreview"), {
 
 interface ProfessorCardInteractiveProps {
   professor: Professor;
-  striped?: boolean;
 }
 
 const colors = ["#ffd93d", "#6bcb77", "#ff9f43", "#ff5c5c"];
@@ -22,7 +21,7 @@ function getColor(name: string) {
   return colors[name.charCodeAt(0) % colors.length];
 }
 
-export default function ProfessorCardInteractive({ professor, striped = false }: ProfessorCardInteractiveProps) {
+export default function ProfessorCardInteractive({ professor }: ProfessorCardInteractiveProps) {
   const [showPreview, setShowPreview] = useState(false);
 
   // Use loop instead of Math.max(...spread) for O(n) performance (js-min-max-loop)
@@ -44,7 +43,6 @@ export default function ProfessorCardInteractive({ professor, striped = false }:
       <Link href={`/professors/${professor.id}`} className="block group">
         <div 
           className="neu-card p-4 md:p-5 h-full flex flex-col relative"
-          style={{ backgroundColor: striped ? "#fff8e6" : undefined }}
         >
           {/* Accent line */}
           <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-[#1a1a1a] to-transparent opacity-20" />
@@ -62,12 +60,19 @@ export default function ProfessorCardInteractive({ professor, striped = false }:
               <h3 className="font-bold text-sm text-[#1a1a1a] group-hover:text-[#ff5c5c] truncate">
                 {professor.name}
               </h3>
-              <p className="text-xs text-[#666] truncate">{professor.department}</p>
+              <p className="text-xs text-[#1a1a1a] font-semibold truncate">{professor.department}</p>
+              <div className="mt-1 inline-flex items-center gap-2 px-2 py-0.5 border-2 border-[#1a1a1a] bg-white text-[10px] font-bold uppercase tracking-wide">
+                <span className="inline-block w-2 h-2 bg-[#1a1a1a]" />
+                {professor.university}
+              </div>
             </div>
           </div>
 
           {professor.researchAreas.length > 0 && (
-            <div className="mb-2 flex-grow">
+            <div className="mb-2 flex-grow space-y-1">
+              <div className="inline-flex items-center px-1.5 py-0.5 border border-[#1a1a1a] text-[10px] font-bold uppercase bg-[#ffd93d]">
+                Interests
+              </div>
               <ResearchTags tags={professor.researchAreas} limit={3} small />
             </div>
           )}

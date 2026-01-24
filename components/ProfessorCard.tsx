@@ -15,12 +15,12 @@ function getColor(name: string) {
 export default function ProfessorCard({ professor }: ProfessorCardProps) {
   const pubCount = professor.publications.length;
   const color = getColor(professor.name);
-  const rotation = (professor.name.charCodeAt(0) % 4 - 2) * 0.8; // -1.6 to 1.6 degrees
+  const rotation = 0;
 
   return (
     <Link href={`/professors/${professor.id}`} className="block group">
       <div 
-          className="neu-card featured p-3 h-full flex flex-col relative"
+          className="neu-card p-3 h-full flex flex-col relative"
         style={{ transform: `rotate(${rotation}deg)` }}
       >
         {/* Accent line */}

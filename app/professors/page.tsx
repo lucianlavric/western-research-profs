@@ -71,8 +71,8 @@ export default async function ProfessorsPage({ searchParams }: Props) {
         {/* Results */}
         {professors.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-5 md:gap-7">
-            {professors.map((prof, idx) => (
-              <ProfessorCardInteractive key={prof.id} professor={prof} striped={idx % 2 === 1} />
+            {professors.map((prof) => (
+              <ProfessorCardInteractive key={prof.id} professor={prof} />
             ))}
           </div>
         ) : (
