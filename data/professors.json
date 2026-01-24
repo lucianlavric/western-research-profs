@@ -52,7 +52,7 @@
       "university": "Western University"
     },
     {
-      "id": "j-rn-diedrichsen",
+      "id": "j-rn-diedrichsen-cs",
       "name": "Jörn Diedrichsen",
       "title": "Professor",
       "department": "Computer Science",
@@ -2624,7 +2624,7 @@
       "university": "Western University"
     },
     {
-      "id": "jennifer-peter",
+      "id": "jennifer-peter-bio",
       "name": "Jennifer Peter",
       "title": "Assistant Professor",
       "department": "Biology",
@@ -3776,7 +3776,7 @@
       "university": "Western University"
     },
     {
-      "id": "hristo-sendov",
+      "id": "hristo-sendov-math",
       "name": "Hristo Sendov",
       "title": "Professor",
       "department": "Mathematics",
@@ -4215,7 +4215,7 @@
       "university": "Western University"
     },
     {
-      "id": "j-rn-diedrichsen",
+      "id": "j-rn-diedrichsen-stats",
       "name": "Jörn Diedrichsen",
       "title": "Professor",
       "department": "Statistical & Actuarial Sciences",
@@ -4486,7 +4486,7 @@
       "university": "Western University"
     },
     {
-      "id": "jennifer-peter",
+      "id": "jennifer-peter-stats",
       "name": "Jennifer Peter",
       "title": "Lecturer",
       "department": "Statistical & Actuarial Sciences",
@@ -4545,7 +4545,7 @@
       "university": "Western University"
     },
     {
-      "id": "hristo-sendov",
+      "id": "hristo-sendov-stats",
       "name": "Hristo Sendov",
       "title": "Professor",
       "department": "Statistical & Actuarial Sciences",
