@@ -15,10 +15,14 @@ function getColor(name: string) {
 export default function ProfessorCard({ professor }: ProfessorCardProps) {
   const pubCount = professor.publications.length;
   const color = getColor(professor.name);
+  const rotation = (professor.name.charCodeAt(0) % 4 - 2) * 0.8; // -1.6 to 1.6 degrees
 
   return (
     <Link href={`/professors/${professor.id}`} className="block group">
-      <div className="neu-card p-3 h-full flex flex-col">
+      <div 
+        className="neu-card p-3 h-full flex flex-col"
+        style={{ transform: `rotate(${rotation}deg)` }}
+      >
         <div className="flex items-start gap-3">
           <div
             className="w-10 h-10 border-2 border-[#1a1a1a] flex items-center justify-center flex-shrink-0"

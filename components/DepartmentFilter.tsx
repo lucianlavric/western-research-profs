@@ -30,28 +30,30 @@ export default function DepartmentFilter({
       <button
         onClick={() => handleFilter("")}
         aria-pressed={!currentDept}
-        className={`px-3 py-1.5 text-sm font-bold border-2 border-[#1a1a1a] transition-colors ${
+        className={`px-3 py-1.5 text-sm font-bold border-2 border-[#1a1a1a] transition-colors relative ${
           !currentDept
             ? "bg-[#ffd93d] text-[#1a1a1a]"
             : "bg-[#fffef5] text-[#1a1a1a] hover:bg-[#ffd93d]"
         }`}
-        style={!currentDept ? { boxShadow: "2px 2px 0 #1a1a1a" } : {}}
+        style={!currentDept ? { boxShadow: "3px 4px 0 #1a1a1a", transform: "skewY(-1deg)" } : { transform: "skewY(-1deg)" }}
       >
-        All
+        <span className="relative z-10">All</span>
+        {!currentDept && <span className="absolute inset-0 border-2 border-[#1a1a1a] opacity-10 translate-x-0.5 translate-y-0.5 pointer-events-none" />}
       </button>
-      {departments.map((dept) => (
+      {departments.map((dept, idx) => (
         <button
           key={dept}
           onClick={() => handleFilter(dept)}
           aria-pressed={currentDept === dept}
-          className={`px-3 py-1.5 text-sm font-bold border-2 border-[#1a1a1a] transition-colors ${
+          className={`px-3 py-1.5 text-sm font-bold border-2 border-[#1a1a1a] transition-colors relative ${
             currentDept === dept
               ? "bg-[#ffd93d] text-[#1a1a1a]"
               : "bg-[#fffef5] text-[#1a1a1a] hover:bg-[#ffd93d]"
           }`}
-          style={currentDept === dept ? { boxShadow: "2px 2px 0 #1a1a1a" } : {}}
+          style={currentDept === dept ? { boxShadow: "3px 4px 0 #1a1a1a", transform: `skewY(-1deg) rotate(${idx % 2 === 0 ? -0.5 : 0.5}deg)` } : { transform: `skewY(-1deg) rotate(${idx % 2 === 0 ? -0.5 : 0.5}deg)` }}
         >
-          {dept}
+          <span className="relative z-10">{dept}</span>
+          {currentDept === dept && <span className="absolute inset-0 border-2 border-[#1a1a1a] opacity-10 translate-x-0.5 translate-y-0.5 pointer-events-none" />}
         </button>
       ))}
     </div>

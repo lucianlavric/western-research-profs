@@ -31,43 +31,72 @@ body {
   line-height: 1.5;
 }
 
-/* Neubrutalist card - SHARP corners */
+/* Neubrutalist card - SHARP corners with imperfect aesthetic */
 .neu-card {
   background: var(--card);
   border: 3px solid var(--border);
-  box-shadow: 4px 4px 0 var(--shadow);
+  box-shadow: 6px 8px 0 var(--shadow), 12px 16px 20px rgba(0,0,0,0.1);
+  position: relative;
+}
+
+.neu-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 3px solid var(--border);
+  opacity: 0.05;
+  transform: translate(1px, 1px);
+  pointer-events: none;
 }
 
 .neu-card:hover {
-  transform: translate(-2px, -2px);
-  box-shadow: 6px 6px 0 var(--shadow);
+  transform: translate(-3px, -4px);
+  box-shadow: 9px 12px 0 var(--shadow), 15px 20px 25px rgba(0,0,0,0.15);
 }
 
 /* Neubrutalist button */
 .neu-button {
   background: var(--accent-yellow);
   border: 2px solid var(--border);
-  box-shadow: 3px 3px 0 var(--shadow);
+  box-shadow: 4px 6px 0 var(--shadow);
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.03em;
+  position: relative;
+  transform: skewY(-1deg);
+}
+
+.neu-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px solid var(--border);
+  opacity: 0.08;
+  transform: translate(0.5px, 0.5px);
+  pointer-events: none;
 }
 
 .neu-button:hover {
-  transform: translate(-1px, -1px);
-  box-shadow: 4px 4px 0 var(--shadow);
+  transform: translate(-2px, -3px) skewY(-1deg);
+  box-shadow: 6px 8px 0 var(--shadow);
 }
 
 .neu-button:active {
-  transform: translate(1px, 1px);
-  box-shadow: 2px 2px 0 var(--shadow);
+  transform: translate(1px, 2px) skewY(-1deg);
+  box-shadow: 3px 4px 0 var(--shadow);
 }
 
 .neu-button-coral { background: var(--accent-coral); color: white; }
 .neu-button-mint { background: var(--accent-mint); }
 .neu-button-outline { background: var(--card); }
 
-/* Section label - tight */
+/* Section label - tight with imperfect aesthetic */
 .section-label {
   display: inline-block;
   background: var(--accent-yellow);
@@ -77,6 +106,22 @@ body {
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 0.05em;
+  transform: rotate(-0.5deg);
+  box-shadow: 2px 3px 0 var(--shadow);
+  position: relative;
+}
+
+.section-label::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px solid var(--border);
+  opacity: 0.06;
+  transform: translate(0.5px, 0.5px);
+  pointer-events: none;
 }
 
 /* Transitions only for interactive */
