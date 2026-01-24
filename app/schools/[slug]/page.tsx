@@ -114,7 +114,7 @@ export default async function SchoolPage({ params }: Props) {
               View all →
             </Link>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-5 md:gap-7">
             {topProfessors.map((prof) => (
               <ProfessorCard key={prof.id} professor={prof} />
             ))}
