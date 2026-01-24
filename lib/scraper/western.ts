@@ -46,6 +46,46 @@ const SCHULICH_DEPARTMENT_URLS: Record<string, string[]> = {
   ],
 };
 
+// Engineering Faculty department URLs
+const ENGINEERING_DEPARTMENT_URLS: Record<string, string> = {
+  "Electrical & Computer Engineering": "https://www.eng.uwo.ca/electrical/people/faculty.html",
+  "Mechanical & Materials Engineering": "https://www.eng.uwo.ca/mechanical/people/faculty.html",
+  "Chemical & Biochemical Engineering": "https://www.eng.uwo.ca/chemical/people/faculty.html",
+  "Civil & Environmental Engineering": "https://www.eng.uwo.ca/civil/people/faculty.html",
+};
+
+// Social Science Faculty department URLs
+const SOCIAL_SCIENCE_DEPARTMENT_URLS: Record<string, string> = {
+  "Psychology": "https://psychology.uwo.ca/people/faculty/fulltime.html",
+  "Political Science": "https://politicalscience.uwo.ca/people/faculty/full-time_faculty/index.html",
+  "History": "https://history.uwo.ca/people/faculty/full_time_faculty.html",
+  "Anthropology": "https://anthropology.uwo.ca/people/fulltime_faculty.html",
+  "Sociology": "https://sociology.uwo.ca/people/faculty/full-time-faculty.html",
+  "Geography & Environment": "https://geoenvironment.uwo.ca/people/full-time-faculty/index.html",
+};
+
+// Arts & Humanities Faculty department URLs
+const ARTS_HUMANITIES_DEPARTMENT_URLS: Record<string, string> = {
+  "English & Writing Studies": "https://www.uwo.ca/english/people/fulltime.html",
+  "Philosophy": "https://www.uwo.ca/philosophy/people/fulltime.html",
+  "French Studies": "https://www.uwo.ca/french/people/faculty/index.html",
+};
+
+// Health Sciences Faculty department URLs
+const HEALTH_SCIENCES_DEPARTMENT_URLS: Record<string, string> = {
+  "Kinesiology": "https://www.uwo.ca/fhs/kin/about/faculty/index.html",
+  "Nursing": "https://www.uwo.ca/fhs/nursing/about/faculty/index.html",
+};
+
+// Other Faculties URLs
+const OTHER_FACULTY_URLS: Record<string, string> = {
+  "Law": "https://law.uwo.ca/about_us/faculty/index.html",
+  "Education": "https://www.edu.uwo.ca/faculty-profiles/index.html",
+  "Music": "https://music.uwo.ca/about/faculty-staff-listings.html",
+  "Information & Media Studies": "https://www.fims.uwo.ca/people/faculty_full_time.html",
+  "Ivey Business School": "https://www.ivey.uwo.ca/faculty/directory/",
+};
+
 // Combined department URLs for backwards compatibility
 const DEPARTMENT_URLS: Record<string, string> = {
   ...SCIENCE_DEPARTMENT_URLS,
@@ -698,6 +738,151 @@ export async function scrapeAllDepartments(): Promise<Professor[]> {
     }
 
     // Delay between departments
+    await new Promise((r) => setTimeout(r, 1000));
+  }
+
+  // Scrape Engineering Faculty departments
+  console.log("\n=== Scraping Engineering Faculty ===");
+  for (const [department, url] of Object.entries(ENGINEERING_DEPARTMENT_URLS)) {
+    console.log(`Scraping ${department}...`);
+
+    const rawProfs = await scrapeGenericFacultyPage(department, url);
+    console.log(`  Found ${rawProfs.length} professors`);
+
+    for (const rawProf of rawProfs) {
+      allProfessors.push({
+        id: generateId(rawProf.name),
+        name: rawProf.name,
+        title: rawProf.title,
+        department: rawProf.department,
+        email: rawProf.email,
+        profileUrl: rawProf.profileUrl,
+        imageUrl: rawProf.imageUrl,
+        researchAreas: rawProf.researchAreas,
+        labName: rawProf.labName,
+        labUrl: rawProf.labUrl,
+        bio: rawProf.bio,
+        publications: [],
+        lastUpdated: new Date().toISOString(),
+      });
+    }
+
+    await new Promise((r) => setTimeout(r, 1000));
+  }
+
+  // Scrape Social Science Faculty departments
+  console.log("\n=== Scraping Social Science Faculty ===");
+  for (const [department, url] of Object.entries(SOCIAL_SCIENCE_DEPARTMENT_URLS)) {
+    console.log(`Scraping ${department}...`);
+
+    const rawProfs = await scrapeGenericFacultyPage(department, url);
+    console.log(`  Found ${rawProfs.length} professors`);
+
+    for (const rawProf of rawProfs) {
+      allProfessors.push({
+        id: generateId(rawProf.name),
+        name: rawProf.name,
+        title: rawProf.title,
+        department: rawProf.department,
+        email: rawProf.email,
+        profileUrl: rawProf.profileUrl,
+        imageUrl: rawProf.imageUrl,
+        researchAreas: rawProf.researchAreas,
+        labName: rawProf.labName,
+        labUrl: rawProf.labUrl,
+        bio: rawProf.bio,
+        publications: [],
+        lastUpdated: new Date().toISOString(),
+      });
+    }
+
+    await new Promise((r) => setTimeout(r, 1000));
+  }
+
+  // Scrape Arts & Humanities Faculty departments
+  console.log("\n=== Scraping Arts & Humanities Faculty ===");
+  for (const [department, url] of Object.entries(ARTS_HUMANITIES_DEPARTMENT_URLS)) {
+    console.log(`Scraping ${department}...`);
+
+    const rawProfs = await scrapeGenericFacultyPage(department, url);
+    console.log(`  Found ${rawProfs.length} professors`);
+
+    for (const rawProf of rawProfs) {
+      allProfessors.push({
+        id: generateId(rawProf.name),
+        name: rawProf.name,
+        title: rawProf.title,
+        department: rawProf.department,
+        email: rawProf.email,
+        profileUrl: rawProf.profileUrl,
+        imageUrl: rawProf.imageUrl,
+        researchAreas: rawProf.researchAreas,
+        labName: rawProf.labName,
+        labUrl: rawProf.labUrl,
+        bio: rawProf.bio,
+        publications: [],
+        lastUpdated: new Date().toISOString(),
+      });
+    }
+
+    await new Promise((r) => setTimeout(r, 1000));
+  }
+
+  // Scrape Health Sciences Faculty departments
+  console.log("\n=== Scraping Health Sciences Faculty ===");
+  for (const [department, url] of Object.entries(HEALTH_SCIENCES_DEPARTMENT_URLS)) {
+    console.log(`Scraping ${department}...`);
+
+    const rawProfs = await scrapeGenericFacultyPage(department, url);
+    console.log(`  Found ${rawProfs.length} professors`);
+
+    for (const rawProf of rawProfs) {
+      allProfessors.push({
+        id: generateId(rawProf.name),
+        name: rawProf.name,
+        title: rawProf.title,
+        department: rawProf.department,
+        email: rawProf.email,
+        profileUrl: rawProf.profileUrl,
+        imageUrl: rawProf.imageUrl,
+        researchAreas: rawProf.researchAreas,
+        labName: rawProf.labName,
+        labUrl: rawProf.labUrl,
+        bio: rawProf.bio,
+        publications: [],
+        lastUpdated: new Date().toISOString(),
+      });
+    }
+
+    await new Promise((r) => setTimeout(r, 1000));
+  }
+
+  // Scrape Other Faculties (Law, Education, Music, FIMS, Ivey)
+  console.log("\n=== Scraping Other Faculties ===");
+  for (const [department, url] of Object.entries(OTHER_FACULTY_URLS)) {
+    console.log(`Scraping ${department}...`);
+
+    const rawProfs = await scrapeGenericFacultyPage(department, url);
+    console.log(`  Found ${rawProfs.length} professors`);
+
+    for (const rawProf of rawProfs) {
+      allProfessors.push({
+        id: generateId(rawProf.name),
+        name: rawProf.name,
+        title: rawProf.title,
+        department: rawProf.department,
+        email: rawProf.email,
+        profileUrl: rawProf.profileUrl,
+        imageUrl: rawProf.imageUrl,
+        researchAreas: rawProf.researchAreas,
+        labName: rawProf.labName,
+        labUrl: rawProf.labUrl,
+        bio: rawProf.bio,
+        publications: [],
+        lastUpdated: new Date().toISOString(),
+      });
+    }
+
     await new Promise((r) => setTimeout(r, 1000));
   }
 
