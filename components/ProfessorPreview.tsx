@@ -3,6 +3,7 @@
 import { useEffect } from "react";
 import Link from "next/link";
 import { Professor } from "@/lib/types";
+import { getDepartmentIcon } from "@/lib/department-icons";
 import ResearchTags from "./ResearchTags";
 
 interface ProfessorPreviewProps {
@@ -89,7 +90,10 @@ export default function ProfessorPreview({
             </div>
             <div className="flex-1 min-w-0">
               <h3 className="font-bold text-[#1a1a1a]">{professor.name}</h3>
-              <p className="text-xs text-[#666]">{professor.department}</p>
+              <p className="text-xs text-[#666] flex items-center gap-1">
+                <span className="text-sm">{getDepartmentIcon(professor.department)}</span>
+                {professor.department}
+              </p>
             </div>
           </div>
 

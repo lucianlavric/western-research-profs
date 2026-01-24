@@ -4,6 +4,7 @@ import { useState } from "react";
 import dynamic from "next/dynamic";
 import Link from "next/link";
 import { Professor } from "@/lib/types";
+import { getDepartmentIcon } from "@/lib/department-icons";
 import ResearchTags from "./ResearchTags";
 
 // Dynamic import - only loads when preview is opened (bundle-dynamic-imports)
@@ -64,7 +65,10 @@ export default function ProfessorCardInteractive({ professor }: ProfessorCardInt
                 <h3 className="font-bold text-sm text-[#1a1a1a] group-hover:text-[#ff5c5c] truncate">
                   {professor.name}
                 </h3>
-                <p className="text-xs text-[#1a1a1a] font-semibold truncate">{professor.department}</p>
+                <p className="text-xs text-[#1a1a1a] font-semibold truncate flex items-center gap-1">
+                  <span className="text-sm">{getDepartmentIcon(professor.department)}</span>
+                  {professor.department}
+                </p>
               </div>
               <div
                 className="inline-flex items-center gap-2 px-2 py-0.5 border-2 border-[#1a1a1a] text-[10px] font-bold uppercase tracking-wide shrink-0"
