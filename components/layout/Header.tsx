@@ -2,50 +2,50 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="bg-purple-900 text-white shadow-lg">
-      <div className="max-w-6xl mx-auto px-4 py-3 md:py-4">
-        <div className="flex items-center justify-between">
-          <Link href="/" className="flex items-center gap-2 md:gap-3 hover:opacity-90 transition-opacity">
-            <div className="w-8 h-8 md:w-10 md:h-10 bg-white rounded-lg flex items-center justify-center">
-              <span className="text-purple-900 font-bold text-lg md:text-xl">W</span>
-            </div>
-            <div>
-              <h1 className="font-bold text-base md:text-lg leading-tight">Western Research Profs</h1>
-              <p className="text-purple-200 text-xs hidden sm:block">Find your research supervisor</p>
-            </div>
+    <header className="sticky top-0 z-50 bg-[#2d2013] border-b-4 border-[#4a3728]">
+      <div className="max-w-6xl mx-auto px-6">
+        <div className="flex items-center justify-between h-16">
+          <Link href="/" className="flex items-center gap-3 hover:opacity-90 transition-opacity focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#cf6a32] focus-visible:ring-offset-2 focus-visible:ring-offset-[#2d2013] rounded">
+            <Image
+              src="/logo.svg"
+              alt="ResearchProfs"
+              width={40}
+              height={40}
+              className="border-2 border-[#4a3728] shadow-[2px_2px_0_#1a1209] rounded-lg"
+            />
+            <span className="font-bold text-[#f5e6d3] text-xl hidden sm:block uppercase tracking-wide" style={{ fontFamily: 'Teko, sans-serif' }}>
+              ResearchProfs
+            </span>
           </Link>
 
           {/* Desktop nav */}
-          <nav className="hidden md:flex items-center gap-6">
-            <Link
-              href="/professors"
-              className="text-purple-100 hover:text-white transition-colors text-sm font-medium"
-            >
-              Professors
-            </Link>
-            <Link
-              href="/research-areas"
-              className="text-purple-100 hover:text-white transition-colors text-sm font-medium"
-            >
-              Research Areas
-            </Link>
-            <Link
-              href="/about"
-              className="text-purple-100 hover:text-white transition-colors text-sm font-medium"
-            >
-              About
-            </Link>
+          <nav className="hidden md:flex items-center gap-1">
+            {[
+              { href: "/schools", label: "Schools" },
+              { href: "/research-areas", label: "Research Areas" },
+              { href: "/about", label: "About" },
+            ].map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                className="px-4 py-2 text-[#e8d5b7] hover:text-white hover:bg-[#4a3728] transition-colors text-sm font-bold uppercase tracking-wide focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#cf6a32] focus-visible:ring-inset"
+                style={{ fontFamily: 'Teko, sans-serif', fontSize: '1.1rem' }}
+              >
+                {item.label}
+              </Link>
+            ))}
           </nav>
 
           {/* Mobile menu button */}
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="md:hidden p-3 -mr-2 rounded-lg hover:bg-purple-800 transition-colors min-w-[44px] min-h-[44px] flex items-center justify-center"
+            className="md:hidden p-2 text-[#e8d5b7] hover:text-white hover:bg-[#4a3728] transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#cf6a32] focus-visible:ring-inset"
             aria-label="Toggle menu"
           >
             {mobileMenuOpen ? (
@@ -62,28 +62,22 @@ export default function Header() {
 
         {/* Mobile nav */}
         {mobileMenuOpen && (
-          <nav className="md:hidden mt-4 pt-4 border-t border-purple-700 flex flex-col gap-3">
-            <Link
-              href="/professors"
-              onClick={() => setMobileMenuOpen(false)}
-              className="text-purple-100 hover:text-white transition-colors font-medium py-2"
-            >
-              Professors
-            </Link>
-            <Link
-              href="/research-areas"
-              onClick={() => setMobileMenuOpen(false)}
-              className="text-purple-100 hover:text-white transition-colors font-medium py-2"
-            >
-              Research Areas
-            </Link>
-            <Link
-              href="/about"
-              onClick={() => setMobileMenuOpen(false)}
-              className="text-purple-100 hover:text-white transition-colors font-medium py-2"
-            >
-              About
-            </Link>
+          <nav className="md:hidden py-2 border-t-2 border-[#4a3728] flex flex-col">
+            {[
+              { href: "/schools", label: "Schools" },
+              { href: "/research-areas", label: "Research Areas" },
+              { href: "/about", label: "About" },
+            ].map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                onClick={() => setMobileMenuOpen(false)}
+                className="px-4 py-3 text-[#e8d5b7] hover:text-white hover:bg-[#4a3728] transition-colors font-bold uppercase tracking-wide focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#cf6a32] focus-visible:ring-inset"
+                style={{ fontFamily: 'Teko, sans-serif', fontSize: '1.1rem' }}
+              >
+                {item.label}
+              </Link>
+            ))}
           </nav>
         )}
       </div>

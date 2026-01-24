@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180">
+  <!-- Notion style: warm off-white background, warm black R, rounded corners -->
+  <rect width="180" height="180" rx="35" fill="#f7f6f3"/>
+  <!-- Warm black R -->
+  <text x="90" y="125" font-family="system-ui, -apple-system, sans-serif" font-size="110" font-weight="600" fill="#37352f" text-anchor="middle">R</text>
+</svg>
