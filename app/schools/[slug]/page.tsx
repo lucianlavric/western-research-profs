@@ -1,7 +1,17 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import Image from "next/image";
 import { getAllProfessors, getAllUniversities } from "@/lib/data";
 import ProfessorCard from "@/components/ProfessorCard";
+
+// University logo mapping
+const universityLogos: Record<string, string> = {
+  "Western University": "/universities/western.svg",
+};
+
+function getUniversityLogo(name: string): string | null {
+  return universityLogos[name] || null;
+}
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -72,11 +82,23 @@ export default async function SchoolPage({ params }: Props) {
 
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-6">
             <div className="flex items-center gap-5">
-              <div className="w-20 h-20 md:w-24 md:h-24 bg-[#b8383b] border-3 border-[#4a3728] shadow-[4px_4px_0_#1a1209] flex items-center justify-center">
-                <span className="tf-heading text-4xl md:text-5xl text-white">
-                  {university.charAt(0)}
-                </span>
-              </div>
+              {getUniversityLogo(university) ? (
+                <div className="w-20 h-20 md:w-24 md:h-24 bg-white border-3 border-[#4a3728] shadow-[4px_4px_0_#1a1209] flex items-center justify-center p-2">
+                  <Image
+                    src={getUniversityLogo(university)!}
+                    alt={`${university} logo`}
+                    width={80}
+                    height={80}
+                    className="object-contain w-full h-full"
+                  />
+                </div>
+              ) : (
+                <div className="w-20 h-20 md:w-24 md:h-24 bg-[#b8383b] border-3 border-[#4a3728] shadow-[4px_4px_0_#1a1209] flex items-center justify-center">
+                  <span className="tf-heading text-4xl md:text-5xl text-white">
+                    {university.charAt(0)}
+                  </span>
+                </div>
+              )}
               <div>
                 <h1 className="tf-heading text-3xl md:text-5xl text-[#f5e6d3] mb-1">
                   {university}
