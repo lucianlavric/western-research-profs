@@ -16,9 +16,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Western Research Profs | Find Your Research Supervisor",
+  title: "ResearchProfs | Find Your Research Supervisor",
   description:
-    "Discover research professors at Western University. Browse faculty profiles, research areas, and recent publications to find the perfect research supervisor.",
+    "Discover research professors at top universities. Browse faculty profiles, research areas, and recent publications to find the perfect research supervisor.",
 };
 
 export const viewport: Viewport = {

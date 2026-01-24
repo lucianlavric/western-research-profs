@@ -17,8 +17,8 @@ export default function ResearchTags({
       {displayTags.map((tag) => (
         <span
           key={tag}
-          className={`inline-block bg-purple-50 text-purple-700 rounded-full font-medium ${
-            small ? "px-2 py-0.5 text-xs" : "px-3 py-1 text-sm"
+          className={`inline-block bg-[#eff6ff] text-[#3b82f6] font-medium rounded-full transition-colors ${
+            small ? "px-2.5 py-0.5 text-[11px]" : "px-3 py-1 text-xs"
           }`}
         >
           {tag}
@@ -26,8 +26,8 @@ export default function ResearchTags({
       ))}
       {remaining > 0 && (
         <span
-          className={`inline-block bg-gray-100 text-gray-500 rounded-full ${
-            small ? "px-2 py-0.5 text-xs" : "px-3 py-1 text-sm"
+          className={`inline-block bg-[#f1f5f9] text-[#64748b] rounded-full ${
+            small ? "px-2.5 py-0.5 text-[11px]" : "px-3 py-1 text-xs"
           }`}
         >
           +{remaining} more

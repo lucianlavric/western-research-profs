@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+  <!-- Background with soft gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6"/>
+      <stop offset="100%" style="stop-color:#2563eb"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rounded background -->
+  <rect width="40" height="40" rx="10" fill="url(#bgGradient)"/>
+
+  <!-- Abstract book/research icon -->
+  <g fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Open book shape -->
+    <path d="M20 12 L20 30" />
+    <path d="M20 12 C16 12 10 11 8 10 L8 28 C10 29 16 30 20 30" />
+    <path d="M20 12 C24 12 30 11 32 10 L32 28 C30 29 24 30 20 30" />
+
+    <!-- Magnifying glass accent -->
+    <circle cx="28" cy="15" r="4" stroke-width="1.5" />
+    <line x1="31" y1="18" x2="34" y2="21" stroke-width="1.5" />
+  </g>
+</svg>

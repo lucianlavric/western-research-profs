@@ -2,58 +2,57 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="bg-purple-900 text-white shadow-lg">
-      <div className="max-w-6xl mx-auto px-4 py-3 md:py-4">
-        <div className="flex items-center justify-between">
-          <Link href="/" className="flex items-center gap-2 md:gap-3 hover:opacity-90 transition-opacity">
-            <div className="w-8 h-8 md:w-10 md:h-10 bg-white rounded-lg flex items-center justify-center">
-              <span className="text-purple-900 font-bold text-lg md:text-xl">W</span>
-            </div>
-            <div>
-              <h1 className="font-bold text-base md:text-lg leading-tight">Western Research Profs</h1>
-              <p className="text-purple-200 text-xs hidden sm:block">Find your research supervisor</p>
-            </div>
+    <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-[#e2e8f0]">
+      <div className="max-w-5xl mx-auto px-6">
+        <div className="flex items-center justify-between h-16">
+          <Link href="/" className="flex items-center gap-2.5 hover:opacity-80 transition-opacity focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#3b82f6] focus-visible:ring-offset-2 rounded-lg">
+            <Image
+              src="/logo.svg"
+              alt="ResearchProfs"
+              width={36}
+              height={36}
+              className="rounded-lg"
+            />
+            <span className="font-semibold text-[#1a1a2e] text-lg hidden sm:block">
+              ResearchProfs
+            </span>
           </Link>
 
           {/* Desktop nav */}
-          <nav className="hidden md:flex items-center gap-6">
-            <Link
-              href="/professors"
-              className="text-purple-100 hover:text-white transition-colors text-sm font-medium"
-            >
-              Professors
-            </Link>
-            <Link
-              href="/research-areas"
-              className="text-purple-100 hover:text-white transition-colors text-sm font-medium"
-            >
-              Research Areas
-            </Link>
-            <Link
-              href="/about"
-              className="text-purple-100 hover:text-white transition-colors text-sm font-medium"
-            >
-              About
-            </Link>
+          <nav className="hidden md:flex items-center gap-1">
+            {[
+              { href: "/schools", label: "Schools" },
+              { href: "/research-areas", label: "Research Areas" },
+              { href: "/about", label: "About" },
+            ].map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                className="px-4 py-2 text-[#64748b] hover:text-[#1a1a2e] hover:bg-[#f1f5f9] rounded-lg transition-all text-sm font-medium focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#3b82f6] focus-visible:ring-inset"
+              >
+                {item.label}
+              </Link>
+            ))}
           </nav>
 
           {/* Mobile menu button */}
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="md:hidden p-3 -mr-2 rounded-lg hover:bg-purple-800 transition-colors min-w-[44px] min-h-[44px] flex items-center justify-center"
+            className="md:hidden p-2 text-[#64748b] hover:text-[#1a1a2e] hover:bg-[#f1f5f9] rounded-lg transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#3b82f6] focus-visible:ring-inset"
             aria-label="Toggle menu"
           >
             {mobileMenuOpen ? (
-              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
               </svg>
             ) : (
-              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
               </svg>
             )}
@@ -62,28 +61,21 @@ export default function Header() {
 
         {/* Mobile nav */}
         {mobileMenuOpen && (
-          <nav className="md:hidden mt-4 pt-4 border-t border-purple-700 flex flex-col gap-3">
-            <Link
-              href="/professors"
-              onClick={() => setMobileMenuOpen(false)}
-              className="text-purple-100 hover:text-white transition-colors font-medium py-2"
-            >
-              Professors
-            </Link>
-            <Link
-              href="/research-areas"
-              onClick={() => setMobileMenuOpen(false)}
-              className="text-purple-100 hover:text-white transition-colors font-medium py-2"
-            >
-              Research Areas
-            </Link>
-            <Link
-              href="/about"
-              onClick={() => setMobileMenuOpen(false)}
-              className="text-purple-100 hover:text-white transition-colors font-medium py-2"
-            >
-              About
-            </Link>
+          <nav className="md:hidden py-3 border-t border-[#e2e8f0] flex flex-col gap-1">
+            {[
+              { href: "/schools", label: "Schools" },
+              { href: "/research-areas", label: "Research Areas" },
+              { href: "/about", label: "About" },
+            ].map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                onClick={() => setMobileMenuOpen(false)}
+                className="px-4 py-2.5 text-[#64748b] hover:text-[#1a1a2e] hover:bg-[#f1f5f9] rounded-lg transition-colors font-medium focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#3b82f6] focus-visible:ring-inset"
+              >
+                {item.label}
+              </Link>
+            ))}
           </nav>
         )}
       </div>
