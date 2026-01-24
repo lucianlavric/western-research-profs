@@ -20,7 +20,7 @@ export const departmentIcons: Record<string, string> = {
   // Medical Sciences
   "Medicine": "✦",
   "Pathology & Laboratory Medicine": "⚗",
-  "Physiology & Pharmacology": "◈",
+  "Physiology & Pharmacology": "◆",
   "Anatomy & Cell Biology": "◈",
   "Epidemiology & Biostatistics": "⊜",
   
