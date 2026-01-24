@@ -2,8 +2,8 @@
 export const departmentIcons: Record<string, string> = {
   // Sciences
   "Mathematics": "∑",
-  "Statistics": "⊕",
-  "Computer Science": "◆",
+  "Statistics": "⊞",
+  "Computer Science": "⌨",
   "Physics & Astronomy": "◎",
   "Chemistry": "⚛",
   "Biology": "◉",
@@ -19,8 +19,8 @@ export const departmentIcons: Record<string, string> = {
   
   // Medical Sciences
   "Medicine": "✦",
-  "Pathology & Laboratory Medicine": "⊗",
-  "Physiology & Pharmacology": "⊙",
+  "Pathology & Laboratory Medicine": "⚗",
+  "Physiology & Pharmacology": "◈",
   "Anatomy & Cell Biology": "◈",
   "Epidemiology & Biostatistics": "⊜",
   
