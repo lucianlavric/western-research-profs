@@ -36,7 +36,7 @@ export default function HomePage() {
               </p>
               <div className="flex gap-3 mt-6">
                 <Link
-                  href="#schools"
+                  href="/schools"
                   className="neu-button px-5 py-2.5 text-[#1a1a1a] text-sm font-bold"
                 >
                   Explore →
