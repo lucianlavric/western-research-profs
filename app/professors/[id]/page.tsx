@@ -1,8 +1,9 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { getProfessorById, getAllProfessors } from "@/lib/data";
+import { getProfessorById, getAllProfessors, getRelatedProfessors } from "@/lib/data";
 import ResearchTags from "@/components/ResearchTags";
 import PublicationList from "@/components/PublicationList";
+import ProfessorCard from "@/components/ProfessorCard";
 
 interface Props {
   params: Promise<{ id: string }>;
@@ -25,6 +26,8 @@ export default async function ProfessorPage({ params }: Props) {
     (acc, pub) => acc + (pub.citationCount || 0),
     0
   );
+
+  const relatedProfessors = getRelatedProfessors(professor, 4);
 
   return (
     <div className="py-6 md:py-8 px-4">
@@ -197,6 +200,20 @@ export default async function ProfessorPage({ params }: Props) {
           </h2>
           <PublicationList publications={professor.publications} />
         </div>
+
+        {/* Related Professors */}
+        {relatedProfessors.length > 0 && (
+          <div className="mt-6 md:mt-8">
+            <h2 className="text-base md:text-lg font-semibold text-gray-900 mb-3 md:mb-4">
+              Related Professors
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              {relatedProfessors.map((prof) => (
+                <ProfessorCard key={prof.id} professor={prof} />
+              ))}
+            </div>
+          </div>
+        )}
 
         {/* Last Updated */}
         <p className="text-center text-xs md:text-sm text-gray-400 mt-4 md:mt-6">

@@ -26,7 +26,13 @@ export default function Header() {
               href="/professors"
               className="text-purple-100 hover:text-white transition-colors text-sm font-medium"
             >
-              Browse Professors
+              Professors
+            </Link>
+            <Link
+              href="/research-areas"
+              className="text-purple-100 hover:text-white transition-colors text-sm font-medium"
+            >
+              Research Areas
             </Link>
             <Link
               href="/about"
@@ -39,7 +45,7 @@ export default function Header() {
           {/* Mobile menu button */}
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="md:hidden p-2 rounded-lg hover:bg-purple-800 transition-colors"
+            className="md:hidden p-3 -mr-2 rounded-lg hover:bg-purple-800 transition-colors min-w-[44px] min-h-[44px] flex items-center justify-center"
             aria-label="Toggle menu"
           >
             {mobileMenuOpen ? (
@@ -62,7 +68,14 @@ export default function Header() {
               onClick={() => setMobileMenuOpen(false)}
               className="text-purple-100 hover:text-white transition-colors font-medium py-2"
             >
-              Browse Professors
+              Professors
+            </Link>
+            <Link
+              href="/research-areas"
+              onClick={() => setMobileMenuOpen(false)}
+              className="text-purple-100 hover:text-white transition-colors font-medium py-2"
+            >
+              Research Areas
             </Link>
             <Link
               href="/about"

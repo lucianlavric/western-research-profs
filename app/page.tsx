@@ -1,7 +1,7 @@
 import { Suspense } from "react";
 import Link from "next/link";
 import SearchBar from "@/components/SearchBar";
-import ProfessorCard from "@/components/ProfessorCard";
+import ProfessorCardInteractive from "@/components/ProfessorCardInteractive";
 import { getAllProfessors, getAllDepartments } from "@/lib/data";
 
 export default function HomePage() {
@@ -23,25 +23,43 @@ export default function HomePage() {
       {/* Hero Section */}
       <section className="bg-gradient-to-b from-purple-900 to-purple-800 text-white py-10 md:py-16 px-4">
         <div className="max-w-4xl mx-auto text-center">
+          <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-purple-700/50 rounded-full text-sm text-purple-100 mb-4">
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+            </svg>
+            For prospective graduate students
+          </div>
           <h1 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
             Find Your Research Supervisor
           </h1>
           <p className="text-purple-200 text-base md:text-lg mb-6 md:mb-8 max-w-2xl mx-auto px-2">
-            Discover professors at Western University&apos;s Faculty of Science.
-            Browse research areas, recent publications, and find the perfect
-            mentor for your research journey.
+            Explore {professors.length || "400+"}  professors across {departments.length || 8} departments at Western University.
+            Browse their publications, research areas, and find the right mentor for your graduate studies.
           </p>
 
           <Suspense fallback={<div className="h-14" />}>
-            <SearchBar large className="max-w-2xl mx-auto" />
+            <SearchBar large className="max-w-2xl mx-auto" professors={professors} />
           </Suspense>
 
-          <div className="mt-5 md:mt-6 flex flex-wrap justify-center gap-2">
+          {/* Mobile CTA Button */}
+          <div className="mt-4 md:hidden">
+            <Link
+              href="/professors"
+              className="inline-flex items-center justify-center w-full max-w-2xl mx-auto px-6 py-3.5 bg-white text-purple-700 font-semibold rounded-lg shadow-md hover:bg-purple-50 transition-colors"
+            >
+              <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+              </svg>
+              Browse All {professors.length} Professors
+            </Link>
+          </div>
+
+          <div className="mt-4 md:mt-6 flex flex-wrap justify-center gap-2 md:gap-2">
             {departments.slice(0, 4).map((dept) => (
               <Link
                 key={dept}
                 href={`/professors?dept=${encodeURIComponent(dept)}`}
-                className="px-3 py-1.5 bg-purple-700/50 hover:bg-purple-700 rounded-full text-sm transition-colors"
+                className="px-4 py-2.5 md:px-3 md:py-1.5 bg-purple-700/50 hover:bg-purple-700 rounded-full text-sm transition-colors min-h-[44px] md:min-h-0 flex items-center"
               >
                 {dept}
               </Link>
@@ -49,7 +67,7 @@ export default function HomePage() {
             {departments.length > 4 && (
               <Link
                 href="/professors"
-                className="px-3 py-1.5 bg-purple-700/50 hover:bg-purple-700 rounded-full text-sm transition-colors"
+                className="px-4 py-2.5 md:px-3 md:py-1.5 bg-purple-700/50 hover:bg-purple-700 rounded-full text-sm transition-colors min-h-[44px] md:min-h-0 flex items-center"
               >
                 +{departments.length - 4} more
               </Link>
@@ -107,8 +125,60 @@ export default function HomePage() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
               {featuredProfs.map((prof) => (
-                <ProfessorCard key={prof.id} professor={prof} />
+                <ProfessorCardInteractive key={prof.id} professor={prof} />
               ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Browse by Department */}
+      {departments.length > 0 && (
+        <section className="py-8 md:py-12 px-4 bg-gray-50">
+          <div className="max-w-6xl mx-auto">
+            <div className="flex items-center justify-between mb-4 md:mb-6">
+              <h2 className="text-xl md:text-2xl font-bold text-gray-900">
+                Browse by Department
+              </h2>
+              <Link
+                href="/research-areas"
+                className="text-purple-600 hover:text-purple-700 font-medium text-sm"
+              >
+                View research areas &rarr;
+              </Link>
+            </div>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              {departments.map((dept) => {
+                const deptProfessors = professors.filter((p) => p.department === dept);
+                const totalPubs = deptProfessors.reduce((acc, p) => acc + p.publications.length, 0);
+                return (
+                  <Link
+                    key={dept}
+                    href={`/professors?dept=${encodeURIComponent(dept)}`}
+                    className="group bg-white rounded-lg border border-gray-200 p-4 md:p-5 hover:shadow-lg hover:border-purple-300 transition-all"
+                  >
+                    <div className="flex items-start justify-between">
+                      <div>
+                        <h3 className="font-semibold text-gray-900 group-hover:text-purple-600 transition-colors">
+                          {dept}
+                        </h3>
+                        <p className="text-sm text-gray-500 mt-1">
+                          {deptProfessors.length} professor{deptProfessors.length !== 1 ? "s" : ""}
+                        </p>
+                      </div>
+                      <div className="flex-shrink-0 w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center group-hover:bg-purple-200 transition-colors">
+                        <svg className="w-5 h-5 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                        </svg>
+                      </div>
+                    </div>
+                    <div className="mt-3 flex items-center gap-4 text-xs text-gray-400">
+                      <span>{totalPubs} publications</span>
+                    </div>
+                  </Link>
+                );
+              })}
             </div>
           </div>
         </section>
@@ -189,6 +259,50 @@ export default function HomePage() {
                 Use the contact information to send a thoughtful email
                 expressing your interest in their research.
               </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Pro Tips for Reaching Out */}
+      <section className="py-8 md:py-12 px-4">
+        <div className="max-w-4xl mx-auto">
+          <div className="bg-purple-50 border border-purple-100 rounded-xl p-5 md:p-8">
+            <div className="flex items-start gap-4">
+              <div className="flex-shrink-0 w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center">
+                <svg className="w-5 h-5 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                </svg>
+              </div>
+              <div>
+                <h3 className="font-semibold text-gray-900 mb-3">Tips for Contacting Professors</h3>
+                <ul className="space-y-2 text-sm text-gray-600">
+                  <li className="flex items-start gap-2">
+                    <svg className="w-4 h-4 text-purple-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                    <span>Read 2-3 of their recent papers before reaching out</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <svg className="w-4 h-4 text-purple-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                    <span>Explain specifically why their research interests you</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <svg className="w-4 h-4 text-purple-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                    <span>Attach your CV and a brief statement of research interests</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <svg className="w-4 h-4 text-purple-500 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                    <span>Keep your initial email concise (under 300 words)</span>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
