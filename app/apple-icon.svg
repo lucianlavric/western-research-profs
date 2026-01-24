@@ -1,12 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180">
-  <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#7c3aed"/>
-      <stop offset="100%" style="stop-color:#581c87"/>
-    </linearGradient>
-  </defs>
-  <!-- Background rounded square for iOS -->
-  <rect width="180" height="180" rx="40" fill="url(#bg)"/>
-  <!-- Letter R -->
-  <text x="90" y="125" font-family="system-ui, -apple-system, sans-serif" font-size="110" font-weight="700" fill="white" text-anchor="middle">R</text>
+  <!-- Pentagram editorial style: white background, black serif R, minimal border -->
+  <rect width="180" height="180" rx="0" fill="#fff" stroke="#000" stroke-width="3"/>
+  <!-- Black R in serif font (Georgia) -->
+  <text x="90" y="128" font-family="Georgia, 'Times New Roman', serif" font-size="120" font-weight="400" fill="#000" text-anchor="middle">R</text>
 </svg>
