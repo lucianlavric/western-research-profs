@@ -31,9 +31,9 @@ export default function PublicationList({ publications }: PublicationListProps) 
 
   return (
     <div className="space-y-3">
-      {publications.map((pub, index) => (
+      {publications.map((pub) => (
         <div
-          key={index}
+          key={`${pub.title}-${pub.year}`}
           className="neu-card p-3 relative hover:-translate-y-1 hover:shadow-[5px_6px_0_var(--shadow),_9px_11px_13px_rgba(0,0,0,0.1)] transition-all"
         >
           {/* Corner accent */}

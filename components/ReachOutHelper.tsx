@@ -76,7 +76,7 @@ export default function ReachOutHelper({
               <ul className="space-y-2">
                 {talkingPoints.map((point, index) => (
                   <li
-                    key={index}
+                    key={point}
                     className="flex items-start gap-2 text-xs text-[#1a1a1a] bg-[#fffef5] border-2 border-[#1a1a1a] p-3 group"
                   >
                     <span className="w-5 h-5 bg-[#ffd93d] border border-[#1a1a1a] flex items-center justify-center shrink-0 text-xs font-bold mt-0">
