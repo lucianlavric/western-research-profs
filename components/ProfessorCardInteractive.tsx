@@ -59,13 +59,15 @@ export default function ProfessorCardInteractive({ professor }: ProfessorCardInt
               {/* Small accent corner */}
               <div className="absolute -top-1 -right-1 w-2 h-2 bg-[#1a1a1a] border border-[#1a1a1a]" />
             </div>
-            <div className="flex-1 min-w-0">
-              <h3 className="font-bold text-sm text-[#1a1a1a] group-hover:text-[#ff5c5c] truncate">
-                {professor.name}
-              </h3>
-              <p className="text-xs text-[#1a1a1a] font-semibold truncate">{professor.department}</p>
+            <div className="flex-1 min-w-0 flex items-start justify-between gap-3">
+              <div className="min-w-0">
+                <h3 className="font-bold text-sm text-[#1a1a1a] group-hover:text-[#ff5c5c] truncate">
+                  {professor.name}
+                </h3>
+                <p className="text-xs text-[#1a1a1a] font-semibold truncate">{professor.department}</p>
+              </div>
               <div
-                className="mt-1 inline-flex items-center gap-2 px-2 py-0.5 border-2 border-[#1a1a1a] text-[10px] font-bold uppercase tracking-wide"
+                className="inline-flex items-center gap-2 px-2 py-0.5 border-2 border-[#1a1a1a] text-[10px] font-bold uppercase tracking-wide flex-shrink-0"
                 style={{ backgroundColor: uniColor }}
               >
                 <span className="inline-block w-2 h-2 bg-[#1a1a1a]" />
