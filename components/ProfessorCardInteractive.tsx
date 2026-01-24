@@ -45,7 +45,7 @@ export default function ProfessorCardInteractive({ professor }: ProfessorCardInt
     <>
       <Link href={`/professors/${professor.id}`} className="block group">
         <div 
-          className="neu-card p-4 md:p-5 h-full flex flex-col relative"
+          className="neu-card p-4 md:p-5 h-full flex flex-col relative hover:-translate-y-1 hover:shadow-[5px_6px_0_var(--shadow),_9px_11px_13px_rgba(0,0,0,0.1)] transition-all"
         >
           {/* Accent line */}
           <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-[#1a1a1a] to-transparent opacity-20" />

@@ -34,7 +34,7 @@ export default function PublicationList({ publications }: PublicationListProps) 
       {publications.map((pub, index) => (
         <div
           key={index}
-          className="neu-card p-3 relative"
+          className="neu-card p-3 relative hover:-translate-y-1 hover:shadow-[5px_6px_0_var(--shadow),_9px_11px_13px_rgba(0,0,0,0.1)] transition-all"
         >
           {/* Corner accent */}
           <div className="absolute top-2 right-2 w-3 h-3 border-t-2 border-r-2 border-[#1a1a1a]" />
