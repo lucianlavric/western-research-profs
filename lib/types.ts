@@ -20,6 +20,8 @@ export interface Professor {
   bio?: string;
   publications: Publication[];
   lastUpdated: string;
+  researchSummary?: string;      // AI-generated research summary
+  talkingPoints?: string[];      // Suggested questions/topics for outreach
 }
 
 export interface ProfessorData {
