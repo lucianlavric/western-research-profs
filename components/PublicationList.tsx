@@ -68,7 +68,7 @@ export default function PublicationList({ publications }: PublicationListProps) 
             </div>
 
             {pub.citationCount !== undefined && pub.citationCount > 0 && (
-              <div className="flex-shrink-0 text-center">
+              <div className="shrink-0 text-center">
                 <div className="text-base font-bold text-[#1a1a1a] tabular-nums">
                   {pub.citationCount}
                 </div>

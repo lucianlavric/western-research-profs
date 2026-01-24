@@ -12,7 +12,7 @@ export default function AboutPage() {
         <div className="max-w-3xl mx-auto px-4 space-y-4">
           <div className="neu-card p-4">
             <div className="flex items-start gap-3">
-              <div className="w-8 h-8 bg-[#ffd93d] border-2 border-[#1a1a1a] flex items-center justify-center flex-shrink-0 text-sm">⚡</div>
+              <div className="w-8 h-8 bg-[#ffd93d] border-2 border-[#1a1a1a] flex items-center justify-center shrink-0 text-sm">⚡</div>
               <div>
                 <h2 className="font-bold text-[#1a1a1a]">Mission</h2>
                 <p className="text-sm text-[#666] mt-1">Help students find research mentors by aggregating professor info and publications.</p>
@@ -22,7 +22,7 @@ export default function AboutPage() {
 
           <div className="neu-card p-4">
             <div className="flex items-start gap-3">
-              <div className="w-8 h-8 bg-[#6bcb77] border-2 border-[#1a1a1a] flex items-center justify-center flex-shrink-0 text-sm">⚙</div>
+              <div className="w-8 h-8 bg-[#6bcb77] border-2 border-[#1a1a1a] flex items-center justify-center shrink-0 text-sm">⚙</div>
               <div>
                 <h2 className="font-bold text-[#1a1a1a]">How it works</h2>
                 <p className="text-sm text-[#666] mt-1">We scrape public faculty pages and enrich with publication data from OpenAlex.</p>
@@ -32,7 +32,7 @@ export default function AboutPage() {
 
           <div className="neu-card p-4">
             <div className="flex items-start gap-3">
-              <div className="w-8 h-8 bg-[#ff9f43] border-2 border-[#1a1a1a] flex items-center justify-center flex-shrink-0 text-sm">📊</div>
+              <div className="w-8 h-8 bg-[#ff9f43] border-2 border-[#1a1a1a] flex items-center justify-center shrink-0 text-sm">📊</div>
               <div>
                 <h2 className="font-bold text-[#1a1a1a]">Data sources</h2>
                 <ul className="text-sm text-[#666] mt-1 space-y-0.5">
@@ -46,7 +46,7 @@ export default function AboutPage() {
 
           <div className="neu-card p-4">
             <div className="flex items-start gap-3">
-              <div className="w-8 h-8 bg-[#ff5c5c] border-2 border-[#1a1a1a] flex items-center justify-center flex-shrink-0 text-sm text-white">💡</div>
+              <div className="w-8 h-8 bg-[#ff5c5c] border-2 border-[#1a1a1a] flex items-center justify-center shrink-0 text-sm text-white">💡</div>
               <div>
                 <h2 className="font-bold text-[#1a1a1a]">Tips for cold emails</h2>
                 <ol className="text-sm text-[#666] mt-1 space-y-0.5 list-decimal list-inside">

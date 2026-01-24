@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getProfessorById, getAllProfessors, getRelatedProfessors } from "@/lib/data";
+import { getDepartmentIcon } from "@/lib/department-icons";
 import ResearchTags from "@/components/ResearchTags";
 import PublicationList from "@/components/PublicationList";
 import ProfessorCardInteractive from "@/components/ProfessorCardInteractive";
@@ -70,7 +71,7 @@ export default async function ProfessorPage({ params }: Props) {
         <div className="neu-card p-4 md:p-6 relative overflow-hidden">
           <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-[#1a1a1a] to-transparent opacity-30" />
           <div className="flex flex-col md:flex-row gap-5 md:gap-6">
-            <div className="flex-shrink-0 flex justify-center md:justify-start">
+            <div className="shrink-0 flex justify-center md:justify-start">
               <div
                 className="w-24 h-24 md:w-32 md:h-32 border-[3px] border-[#1a1a1a] flex items-center justify-center relative"
                 style={{ backgroundColor: accent }}
@@ -96,7 +97,7 @@ export default async function ProfessorPage({ params }: Props) {
                 {professor.title}
               </p>
               <div className="inline-flex items-center gap-2 px-2 py-1 border-2 border-[#1a1a1a] bg-white font-semibold text-sm">
-                <span className="inline-block w-2 h-2 bg-[#1a1a1a]" />
+                <span className="text-base">{getDepartmentIcon(professor.department)}</span>
                 {professor.department}
               </div>
 
@@ -145,7 +146,7 @@ export default async function ProfessorPage({ params }: Props) {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-4">
+        <div className="grid grid-cols-3 gap-2 md:gap-4">
           {[
             {
               label: "Publications",
@@ -166,15 +167,15 @@ export default async function ProfessorPage({ params }: Props) {
               hint: "Year",
             },
           ].map((item) => (
-            <div key={item.label} className="neu-card p-3 md:p-4 text-center relative">
-              <div className="absolute top-2 right-2 w-3 h-3 border-t-2 border-r-2 border-[#1a1a1a]" />
-              <div className="text-2xl md:text-3xl font-black text-[#1a1a1a] tabular-nums leading-none">
+            <div key={item.label} className="neu-card p-2 md:p-4 text-center relative">
+              <div className="absolute top-1 right-1 md:top-2 md:right-2 w-2 h-2 md:w-3 md:h-3 border-t-2 border-r-2 border-[#1a1a1a]" />
+              <div className="text-xl md:text-3xl font-black text-[#1a1a1a] tabular-nums leading-none">
                 {item.value}
               </div>
-              <div className="text-xs md:text-sm text-[#1a1a1a] font-semibold mt-2 uppercase tracking-wide">
+              <div className="text-[10px] md:text-sm text-[#1a1a1a] font-semibold mt-1 md:mt-2 uppercase tracking-wide">
                 {item.label}
               </div>
-              <div className="text-[11px] text-[#666] mt-1">{item.hint}</div>
+              <div className="text-[9px] md:text-[11px] text-[#666] mt-0.5 md:mt-1">{item.hint}</div>
             </div>
           ))}
         </div>
@@ -185,13 +186,6 @@ export default async function ProfessorPage({ params }: Props) {
             talkingPoints={professor.talkingPoints}
             professorName={professor.name}
           />
-        )}
-
-        {professor.researchAreas.length > 0 && (
-          <div className="neu-card p-4 md:p-6">
-            <div className="section-label mb-3">Research Areas</div>
-            <ResearchTags tags={professor.researchAreas} />
-          </div>
         )}
 
         {professor.bio && (

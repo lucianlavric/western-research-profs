@@ -3,6 +3,7 @@
 import { useEffect } from "react";
 import Link from "next/link";
 import { Professor } from "@/lib/types";
+import { getDepartmentIcon } from "@/lib/department-icons";
 import ResearchTags from "./ResearchTags";
 
 interface ProfessorPreviewProps {
@@ -80,7 +81,7 @@ export default function ProfessorPreview({
           {/* Profile header */}
           <div className="flex items-start gap-3">
             <div
-              className="w-12 h-12 border-2 border-[#1a1a1a] flex items-center justify-center flex-shrink-0"
+              className="w-12 h-12 border-2 border-[#1a1a1a] flex items-center justify-center shrink-0"
               style={{ backgroundColor: color }}
             >
               <span className="text-[#1a1a1a] font-bold text-lg">
@@ -89,7 +90,10 @@ export default function ProfessorPreview({
             </div>
             <div className="flex-1 min-w-0">
               <h3 className="font-bold text-[#1a1a1a]">{professor.name}</h3>
-              <p className="text-xs text-[#666]">{professor.department}</p>
+              <p className="text-xs text-[#666] flex items-center gap-1">
+                <span className="text-sm">{getDepartmentIcon(professor.department)}</span>
+                {professor.department}
+              </p>
             </div>
           </div>
 
@@ -138,7 +142,7 @@ export default function ProfessorPreview({
             {professor.email && (
               <a
                 href={`mailto:${professor.email}`}
-                className="flex-1 px-3 py-2 bg-[#ff5c5c] text-white font-bold text-xs border-2 border-[#1a1a1a] hover:translate-x-[-1px] hover:translate-y-[-1px]"
+                className="flex-1 px-3 py-2 bg-[#ff5c5c] text-white font-bold text-xs border-2 border-[#1a1a1a] hover:-translate-x-px hover:-translate-y-px"
                 style={{
                   boxShadow: '2px 2px 0 #1a1a1a'
                 }}
@@ -149,7 +153,7 @@ export default function ProfessorPreview({
             <Link
               href={`/professors/${professor.id}`}
               onClick={onClose}
-              className="flex-1 px-3 py-2 bg-[#ffd93d] text-[#1a1a1a] font-bold text-xs border-2 border-[#1a1a1a] hover:translate-x-[-1px] hover:translate-y-[-1px]"
+              className="flex-1 px-3 py-2 bg-[#ffd93d] text-[#1a1a1a] font-bold text-xs border-2 border-[#1a1a1a] hover:-translate-x-px hover:-translate-y-px"
               style={{
                 boxShadow: '2px 2px 0 #1a1a1a'
               }}

@@ -4,6 +4,7 @@ import { useState } from "react";
 import dynamic from "next/dynamic";
 import Link from "next/link";
 import { Professor } from "@/lib/types";
+import { getDepartmentIcon } from "@/lib/department-icons";
 import ResearchTags from "./ResearchTags";
 
 // Dynamic import - only loads when preview is opened (bundle-dynamic-imports)
@@ -45,14 +46,14 @@ export default function ProfessorCardInteractive({ professor }: ProfessorCardInt
     <>
       <Link href={`/professors/${professor.id}`} className="block group">
         <div 
-          className="neu-card p-4 md:p-5 h-full flex flex-col relative hover:-translate-y-1 hover:shadow-[5px_6px_0_var(--shadow),_9px_11px_13px_rgba(0,0,0,0.1)] transition-all"
+          className="neu-card p-4 md:p-5 h-full flex flex-col relative hover:-translate-y-1 hover:shadow-[5px_6px_0_var(--shadow),9px_11px_13px_rgba(0,0,0,0.1)] transition-all"
         >
           {/* Accent line */}
           <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-[#1a1a1a] to-transparent opacity-20" />
           
           <div className="flex items-start gap-3 mb-2">
             <div
-              className="w-10 h-10 border-2 border-[#1a1a1a] flex items-center justify-center flex-shrink-0 relative"
+              className="w-10 h-10 border-2 border-[#1a1a1a] flex items-center justify-center shrink-0 relative"
               style={{ backgroundColor: avatarColor }}
             >
               <span className="text-[#1a1a1a] font-bold">{professor.name.charAt(0)}</span>
@@ -64,10 +65,13 @@ export default function ProfessorCardInteractive({ professor }: ProfessorCardInt
                 <h3 className="font-bold text-sm text-[#1a1a1a] group-hover:text-[#ff5c5c] truncate">
                   {professor.name}
                 </h3>
-                <p className="text-xs text-[#1a1a1a] font-semibold truncate">{professor.department}</p>
+                <p className="text-xs text-[#1a1a1a] font-semibold truncate flex items-center gap-1">
+                  <span className="text-sm">{getDepartmentIcon(professor.department)}</span>
+                  {professor.department}
+                </p>
               </div>
               <div
-                className="inline-flex items-center gap-2 px-2 py-0.5 border-2 border-[#1a1a1a] text-[10px] font-bold uppercase tracking-wide flex-shrink-0"
+                className="inline-flex items-center gap-2 px-2 py-0.5 border-2 border-[#1a1a1a] text-[10px] font-bold uppercase tracking-wide shrink-0"
                 style={{ backgroundColor: uniColor }}
               >
                 <span className="inline-block w-2 h-2 bg-[#1a1a1a]" />
@@ -77,7 +81,7 @@ export default function ProfessorCardInteractive({ professor }: ProfessorCardInt
           </div>
 
           {professor.researchAreas.length > 0 && (
-            <div className="mb-2 flex-grow space-y-1">
+            <div className="mb-2 grow space-y-1">
               <div className="inline-flex items-center px-1.5 py-0.5 border border-[#1a1a1a] text-[10px] font-bold uppercase bg-[#ffd93d]">
                 Interests
               </div>

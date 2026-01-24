@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Professor } from "@/lib/types";
+import { getDepartmentIcon } from "@/lib/department-icons";
 import ResearchTags from "./ResearchTags";
 
 interface ProfessorCardProps {
@@ -31,7 +32,7 @@ export default function ProfessorCard({ professor }: ProfessorCardProps) {
         
         <div className="flex items-start gap-3 mb-2">
           <div
-            className="w-10 h-10 border-2 border-[#1a1a1a] flex items-center justify-center flex-shrink-0 relative"
+            className="w-10 h-10 border-2 border-[#1a1a1a] flex items-center justify-center shrink-0 relative"
               style={{ backgroundColor: avatarColor }}
           >
             <span className="text-[#1a1a1a] font-bold">{professor.name.charAt(0)}</span>
@@ -46,7 +47,7 @@ export default function ProfessorCard({ professor }: ProfessorCardProps) {
               <p className="text-xs text-[#1a1a1a] font-semibold truncate">{professor.department}</p>
             </div>
             <div
-              className="inline-flex items-center gap-2 px-2 py-0.5 border-2 border-[#1a1a1a] text-[10px] font-bold uppercase tracking-wide flex-shrink-0"
+              className="inline-flex items-center gap-2 px-2 py-0.5 border-2 border-[#1a1a1a] text-[10px] font-bold uppercase tracking-wide shrink-0"
               style={{ backgroundColor: uniColor }}
             >
               <span className="inline-block w-2 h-2 bg-[#1a1a1a]" />
@@ -56,7 +57,7 @@ export default function ProfessorCard({ professor }: ProfessorCardProps) {
         </div>
 
         {professor.researchAreas.length > 0 && (
-          <div className="mb-2 flex-grow space-y-1">
+          <div className="mb-2 grow space-y-1">
             <div className="inline-flex items-center px-1.5 py-0.5 border border-[#1a1a1a] text-[10px] font-bold uppercase bg-[#ffd93d]">
               Interests
             </div>

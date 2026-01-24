@@ -26,11 +26,11 @@ export default function DepartmentFilter({
   };
 
   return (
-    <div className={`flex flex-wrap gap-2 ${className}`} role="group" aria-label="Filter by department">
+    <div className={`flex flex-wrap gap-1.5 md:gap-2 ${className}`} role="group" aria-label="Filter by department">
       <button
         onClick={() => handleFilter("")}
         aria-pressed={!currentDept}
-        className={`px-3 py-1.5 text-sm font-bold border-2 border-[#1a1a1a] transition-colors relative ${
+        className={`px-2 py-1 md:px-3 md:py-1.5 text-xs md:text-sm font-bold border-2 border-[#1a1a1a] transition-colors relative ${
           !currentDept
             ? "bg-[#ffd93d] text-[#1a1a1a]"
             : "bg-[#fffef5] text-[#1a1a1a] hover:bg-[#ffd93d]"
@@ -45,7 +45,7 @@ export default function DepartmentFilter({
           key={dept}
           onClick={() => handleFilter(dept)}
           aria-pressed={currentDept === dept}
-          className={`px-3 py-1.5 text-sm font-bold border-2 border-[#1a1a1a] transition-colors relative ${
+          className={`px-2 py-1 md:px-3 md:py-1.5 text-xs md:text-sm font-bold border-2 border-[#1a1a1a] transition-colors relative ${
             currentDept === dept
               ? "bg-[#ffd93d] text-[#1a1a1a]"
               : "bg-[#fffef5] text-[#1a1a1a] hover:bg-[#ffd93d]"

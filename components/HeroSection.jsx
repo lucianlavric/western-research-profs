@@ -1,4 +1,5 @@
 import React, { useLayoutEffect, useRef } from 'react';
+import Image from 'next/image';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
@@ -120,7 +121,7 @@ const HeroSection = () => {
                 <div className="card card--one">
                   <div className="card__column">
                     <div className="card__avatar">
-                      <img src="https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/526.jpg" alt="" />
+                      <Image src="https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/526.jpg" alt="Avatar" width={100} height={100} unoptimized />
                     </div>
                   </div>
                   <div className="card__content">
@@ -153,10 +154,10 @@ const HeroSection = () => {
         </div>
 
         <div className="ring ring--under">
-          <img src="https://assets.codepen.io/605876/portal-ring.png" alt="" />
+          <Image src="https://assets.codepen.io/605876/portal-ring.png" alt="Portal ring" width={500} height={500} unoptimized />
         </div>
         <div className="ring ring--over">
-          <img src="https://assets.codepen.io/605876/portal-ring.png" alt="" />
+          <Image src="https://assets.codepen.io/605876/portal-ring.png" alt="Portal ring" width={500} height={500} unoptimized />
         </div>
       </header>
 

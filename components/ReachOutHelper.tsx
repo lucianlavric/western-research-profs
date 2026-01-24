@@ -42,7 +42,7 @@ export default function ReachOutHelper({
       >
         <div className="flex items-center gap-3">
           <div
-            className="w-8 h-8 border-2 border-[#1a1a1a] flex items-center justify-center flex-shrink-0"
+            className="w-8 h-8 border-2 border-[#1a1a1a] flex items-center justify-center shrink-0"
             style={{ backgroundColor: "#6bcb77" }}
           >
             <span className="text-[#1a1a1a] font-bold text-sm">?</span>
@@ -79,7 +79,7 @@ export default function ReachOutHelper({
                     key={index}
                     className="flex items-start gap-2 text-xs text-[#1a1a1a] bg-[#fffef5] border-2 border-[#1a1a1a] p-3 group"
                   >
-                    <span className="w-5 h-5 bg-[#ffd93d] border border-[#1a1a1a] flex items-center justify-center flex-shrink-0 text-xs font-bold mt-0">
+                    <span className="w-5 h-5 bg-[#ffd93d] border border-[#1a1a1a] flex items-center justify-center shrink-0 text-xs font-bold mt-0">
                       {index + 1}
                     </span>
                     <span className="flex-1">{point}</span>

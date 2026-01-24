@@ -36,7 +36,7 @@ export default function Marquee() {
         }}
       >
         {[...Array(4)].map((_, i) => (
-          <div key={i} className="flex items-center gap-8 mr-8 flex-shrink-0">
+          <div key={i} className="flex items-center gap-8 mr-8 shrink-0">
             {topics.map((topic) => (
               <span key={`${i}-${topic}`} className="text-white text-sm font-medium flex items-center gap-2">
                 <span className="w-2 h-2 bg-[#ffd93d]" />

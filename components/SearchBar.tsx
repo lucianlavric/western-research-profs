@@ -121,7 +121,7 @@ export default function SearchBar({
         <button
           type="submit"
           aria-label="Search"
-          className={`absolute right-2 top-1/2 -translate-y-1/2 bg-[#ff5c5c] hover:translate-y-[calc(-50%-1px)] hover:translate-x-[-1px] text-white font-bold border border-[#1a1a1a] transition-colors ${
+          className={`absolute right-2 top-1/2 -translate-y-1/2 bg-[#ff5c5c] hover:translate-y-[calc(-50%-1px)] hover:-translate-x-px text-white font-bold border border-[#1a1a1a] transition-colors ${
             large ? "p-2.5 md:px-6 md:py-2" : "p-2 md:px-4 md:py-1.5 text-sm"
           }`}
           style={{
@@ -158,7 +158,7 @@ export default function SearchBar({
                   className={`flex items-center gap-3 px-4 py-3 hover:bg-[#ffd93d] transition-colors`}
                 >
                   <div
-                    className="flex-shrink-0 w-8 h-8 text-white font-bold border border-[#1a1a1a] flex items-center justify-center"
+                    className="shrink-0 w-8 h-8 text-white font-bold border border-[#1a1a1a] flex items-center justify-center"
                     style={{
                       backgroundColor: ["#ffd93d", "#6bcb77", "#ff9f43", "#ff5c5c"][prof.name.charCodeAt(0) % 4],
                       color: "#1a1a1a"
@@ -170,7 +170,7 @@ export default function SearchBar({
                     <p className="font-bold text-[#1a1a1a] truncate">{prof.name}</p>
                     <p className="text-xs text-[#666] truncate">{prof.department}</p>
                   </div>
-                  <div className="flex-shrink-0 text-xs text-[#666] font-bold">
+                  <div className="shrink-0 text-xs text-[#666] font-bold">
                     {prof.publications.length}
                   </div>
                 </Link>

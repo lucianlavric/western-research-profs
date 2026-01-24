@@ -33,7 +33,7 @@ export default function ResearchAreasPage() {
               <a
                 key={letter}
                 href={`#section-${letter}`}
-                className="w-7 h-7 flex items-center justify-center border-2 border-[#1a1a1a] text-[#1a1a1a] font-bold text-xs shadow-[2px_2px_0_#1a1a1a] hover:shadow-[3px_3px_0_#1a1a1a] hover:translate-x-[-1px] hover:translate-y-[-1px]"
+                className="w-7 h-7 flex items-center justify-center border-2 border-[#1a1a1a] text-[#1a1a1a] font-bold text-xs shadow-[2px_2px_0_#1a1a1a] hover:shadow-[3px_3px_0_#1a1a1a] hover:-translate-x-px hover:-translate-y-px"
                 style={{ backgroundColor: colors[i % colors.length] }}
               >
                 {letter}
@@ -58,7 +58,7 @@ export default function ResearchAreasPage() {
                     <Link
                       key={area}
                       href={`/professors?q=${encodeURIComponent(area)}`}
-                      className="inline-flex items-center gap-1.5 px-2.5 py-1.5 bg-white border-2 border-[#1a1a1a] shadow-[2px_2px_0_#1a1a1a] hover:shadow-[3px_3px_0_#1a1a1a] hover:translate-x-[-1px] hover:translate-y-[-1px] text-sm"
+                      className="inline-flex items-center gap-1.5 px-2.5 py-1.5 bg-white border-2 border-[#1a1a1a] shadow-[2px_2px_0_#1a1a1a] hover:shadow-[3px_3px_0_#1a1a1a] hover:-translate-x-px hover:-translate-y-px text-sm"
                     >
                       <span className="text-[#1a1a1a]">{area}</span>
                       <span

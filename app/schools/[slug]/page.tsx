@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
 import { getAllProfessors, getAllUniversities } from "@/lib/data";
+import { getDepartmentIcon } from "@/lib/department-icons";
 import ProfessorCard from "@/components/ProfessorCard";
 
 const universityLogos: Record<string, string> = {
@@ -85,12 +86,15 @@ export default async function SchoolPage({ params }: Props) {
                   href={`/professors?university=${encodeURIComponent(university)}&dept=${encodeURIComponent(dept)}`}
                   className="group neu-card p-3 flex items-center justify-between"
                 >
-                  <div className="min-w-0">
-                    <h3 className="font-bold text-sm text-[#1a1a1a] group-hover:text-[#ff5c5c] truncate">{dept}</h3>
-                    <p className="text-[10px] text-[#666]">{deptProfs.length} profs</p>
+                  <div className="min-w-0 flex items-center gap-2">
+                    <span className="text-lg shrink-0">{getDepartmentIcon(dept)}</span>
+                    <div>
+                      <h3 className="font-bold text-sm text-[#1a1a1a] group-hover:text-[#ff5c5c] truncate">{dept}</h3>
+                      <p className="text-[10px] text-[#666]">{deptProfs.length} profs</p>
+                    </div>
                   </div>
                   <div
-                    className="w-6 h-6 border-2 border-[#1a1a1a] flex items-center justify-center text-xs flex-shrink-0 ml-2"
+                    className="w-6 h-6 border-2 border-[#1a1a1a] flex items-center justify-center text-xs shrink-0 ml-2"
                     style={{ backgroundColor: colors[i % colors.length] }}
                   >
                     →
@@ -109,7 +113,7 @@ export default async function SchoolPage({ params }: Props) {
             <h2 className="text-xl font-bold text-[#1a1a1a]">Top Researchers</h2>
             <Link
               href={`/professors?university=${encodeURIComponent(university)}`}
-              className="text-sm font-medium px-3 py-1 border-2 border-[#1a1a1a] bg-[#ffd93d] shadow-[2px_2px_0_#1a1a1a] hover:shadow-[3px_3px_0_#1a1a1a] hover:translate-x-[-1px] hover:translate-y-[-1px]"
+              className="text-sm font-medium px-3 py-1 border-2 border-[#1a1a1a] bg-[#ffd93d] shadow-[2px_2px_0_#1a1a1a] hover:shadow-[3px_3px_0_#1a1a1a] hover:-translate-x-px hover:-translate-y-px"
             >
               View all →
             </Link>

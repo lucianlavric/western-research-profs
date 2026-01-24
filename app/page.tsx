@@ -120,7 +120,7 @@ export default function HomePage() {
                       <div className="text-lg font-bold text-[#6bcb77]">{uniPubs > 1000 ? `${(uniPubs / 1000).toFixed(1)}k` : uniPubs}</div>
                       <div className="text-[10px] text-[#666] uppercase">Pubs</div>
                     </div>
-                    <div className="w-8 h-8 bg-[#ffd93d] border-2 border-[#1a1a1a] flex items-center justify-center shadow-[2px_2px_0_#1a1a1a] group-hover:shadow-[3px_3px_0_#1a1a1a] group-hover:translate-x-[-1px] group-hover:translate-y-[-1px]">
+                    <div className="w-8 h-8 bg-[#ffd93d] border-2 border-[#1a1a1a] flex items-center justify-center shadow-[2px_2px_0_#1a1a1a] group-hover:shadow-[3px_3px_0_#1a1a1a] group-hover:-translate-x-px group-hover:-translate-y-px">
                       <span className="text-[#1a1a1a]">→</span>
                     </div>
                   </div>
@@ -163,7 +163,7 @@ export default function HomePage() {
           <h2 className="text-3xl font-bold text-white mb-4">Ready to start?</h2>
           <Link
             href="#schools"
-            className="inline-block px-6 py-3 bg-[#ffd93d] text-[#1a1a1a] font-bold border-3 border-[#1a1a1a] shadow-[4px_4px_0_#1a1a1a] hover:shadow-[6px_6px_0_#1a1a1a] hover:translate-x-[-2px] hover:translate-y-[-2px] uppercase text-sm"
+            className="inline-block px-6 py-3 bg-[#ffd93d] text-[#1a1a1a] font-bold border-3 border-[#1a1a1a] shadow-[4px_4px_0_#1a1a1a] hover:shadow-[6px_6px_0_#1a1a1a] hover:-translate-x-0.5 hover:-translate-y-0.5 uppercase text-sm"
           >
             Get Started →
           </Link>

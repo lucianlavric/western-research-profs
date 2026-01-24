@@ -55,7 +55,7 @@ export default function SchoolsPage() {
                       <div className="text-lg font-bold text-[#6bcb77]">{uniPubs > 1000 ? `${(uniPubs / 1000).toFixed(1)}k` : uniPubs}</div>
                       <div className="text-[10px] text-[#666] uppercase">Pubs</div>
                     </div>
-                    <div className="w-8 h-8 bg-[#ffd93d] border-2 border-[#1a1a1a] flex items-center justify-center shadow-[2px_2px_0_#1a1a1a] group-hover:shadow-[3px_3px_0_#1a1a1a] group-hover:translate-x-[-1px] group-hover:translate-y-[-1px]">
+                    <div className="w-8 h-8 bg-[#ffd93d] border-2 border-[#1a1a1a] flex items-center justify-center shadow-[2px_2px_0_#1a1a1a] group-hover:shadow-[3px_3px_0_#1a1a1a] group-hover:-translate-x-px group-hover:-translate-y-px">
                       →
                     </div>
                   </div>
