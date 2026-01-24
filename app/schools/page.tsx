@@ -1,5 +1,15 @@
 import Link from "next/link";
+import Image from "next/image";
 import { getAllProfessors, getAllUniversities } from "@/lib/data";
+
+// University logo mapping
+const universityLogos: Record<string, string> = {
+  "Western University": "/universities/western.svg",
+};
+
+function getUniversityLogo(name: string): string | null {
+  return universityLogos[name] || null;
+}
 
 export default function SchoolsPage() {
   const professors = getAllProfessors();
@@ -45,6 +55,8 @@ export default function SchoolsPage() {
               const uniPubs = uniProfessors.reduce((acc, p) => acc + p.publications.length, 0);
               const slug = uni.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 
+              const logo = getUniversityLogo(uni);
+
               return (
                 <Link
                   key={uni}
@@ -53,11 +65,23 @@ export default function SchoolsPage() {
                 >
                   <div className="flex flex-col md:flex-row md:items-center justify-between gap-6">
                     <div className="flex items-center gap-5">
-                      <div className="w-16 h-16 md:w-20 md:h-20 bg-[#b8383b] border-3 border-[#4a3728] shadow-[3px_3px_0_#4a3728] flex items-center justify-center flex-shrink-0">
-                        <span className="tf-heading text-3xl md:text-4xl text-white">
-                          {uni.charAt(0)}
-                        </span>
-                      </div>
+                      {logo ? (
+                        <div className="w-16 h-16 md:w-20 md:h-20 bg-white border-3 border-[#4a3728] shadow-[3px_3px_0_#4a3728] flex items-center justify-center flex-shrink-0 p-2">
+                          <Image
+                            src={logo}
+                            alt={`${uni} logo`}
+                            width={64}
+                            height={64}
+                            className="object-contain w-full h-full"
+                          />
+                        </div>
+                      ) : (
+                        <div className="w-16 h-16 md:w-20 md:h-20 bg-[#b8383b] border-3 border-[#4a3728] shadow-[3px_3px_0_#4a3728] flex items-center justify-center flex-shrink-0">
+                          <span className="tf-heading text-3xl md:text-4xl text-white">
+                            {uni.charAt(0)}
+                          </span>
+                        </div>
+                      )}
                       <div>
                         <h2 className="tf-heading text-2xl md:text-3xl text-[#2d2013] group-hover:text-[#b8383b] transition-colors">
                           {uni}
