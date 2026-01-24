@@ -42,7 +42,7 @@ export default function ProfessorCardInteractive({ professor }: ProfessorCardInt
     <>
       <Link href={`/professors/${professor.id}`} className="block group">
         <div className="neu-card p-3 h-full flex flex-col">
-          <div className="flex items-start gap-3">
+          <div className="flex items-start gap-3 mb-2">
             <div
               className="w-10 h-10 border-2 border-[#1a1a1a] flex items-center justify-center flex-shrink-0"
               style={{ backgroundColor: color }}
@@ -58,12 +58,12 @@ export default function ProfessorCardInteractive({ professor }: ProfessorCardInt
           </div>
 
           {professor.researchAreas.length > 0 && (
-            <div className="mt-2">
-              <ResearchTags tags={professor.researchAreas} limit={2} small />
+            <div className="mb-2 flex-grow">
+              <ResearchTags tags={professor.researchAreas} limit={3} small />
             </div>
           )}
 
-          <div className="mt-auto pt-2 flex items-center gap-2 text-xs text-[#666] border-t-2 border-[#1a1a1a]">
+          <div className="pt-2 flex items-center gap-2 text-xs text-[#666] border-t-2 border-[#1a1a1a]">
             <span className="inline-flex items-center justify-center w-5 h-5 bg-[#ffd93d] border border-[#1a1a1a] text-[10px] font-bold text-[#1a1a1a] mt-2">
               {pubCount}
             </span>

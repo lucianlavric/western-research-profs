@@ -35,8 +35,8 @@ export default function ProfessorCard({ professor }: ProfessorCardProps) {
         </div>
 
         {professor.researchAreas.length > 0 && (
-          <div className="mt-2">
-            <ResearchTags tags={professor.researchAreas} limit={2} small />
+          <div className="mb-2 flex-grow">
+            <ResearchTags tags={professor.researchAreas} limit={3} small />
           </div>
         )}
 
