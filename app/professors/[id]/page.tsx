@@ -4,6 +4,7 @@ import { getProfessorById, getAllProfessors, getRelatedProfessors } from "@/lib/
 import ResearchTags from "@/components/ResearchTags";
 import PublicationList from "@/components/PublicationList";
 import ProfessorCard from "@/components/ProfessorCard";
+import ReachOutHelper from "@/components/ReachOutHelper";
 
 interface Props {
   params: Promise<{ id: string }>;
@@ -71,8 +72,11 @@ export default async function ProfessorPage({ params }: Props) {
                 {professor.name}
               </h1>
               <p className="text-base md:text-lg text-gray-600 mb-1">{professor.title}</p>
-              <p className="text-purple-600 font-medium mb-3 md:mb-4">
+              <p className="text-purple-600 font-medium">
                 {professor.department}
+              </p>
+              <p className="text-gray-500 text-sm mb-3 md:mb-4">
+                {professor.university}
               </p>
 
               {/* Contact */}
@@ -174,6 +178,15 @@ export default async function ProfessorPage({ params }: Props) {
             <div className="text-xs md:text-sm text-gray-600">Latest Paper</div>
           </div>
         </div>
+
+        {/* Help Me Reach Out */}
+        {professor.researchSummary && (
+          <ReachOutHelper
+            summary={professor.researchSummary}
+            talkingPoints={professor.talkingPoints}
+            professorName={professor.name}
+          />
+        )}
 
         {/* Research Areas */}
         {professor.researchAreas.length > 0 && (

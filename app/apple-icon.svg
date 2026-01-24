@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180">
+  <!-- JKane style: near black background, orange R, minimal and sophisticated -->
+  <rect width="180" height="180" rx="0" fill="#0a0a0a"/>
+  <!-- Orange R -->
+  <text x="90" y="125" font-family="system-ui, -apple-system, sans-serif" font-size="115" font-weight="600" fill="#ff6b35" text-anchor="middle">R</text>
+</svg>
