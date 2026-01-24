@@ -21,12 +21,12 @@ export default function HomePage() {
   return (
     <div>
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-purple-900 to-purple-800 text-white py-16 px-4">
+      <section className="bg-gradient-to-b from-purple-900 to-purple-800 text-white py-10 md:py-16 px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">
+          <h1 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
             Find Your Research Supervisor
           </h1>
-          <p className="text-purple-200 text-lg mb-8 max-w-2xl mx-auto">
+          <p className="text-purple-200 text-base md:text-lg mb-6 md:mb-8 max-w-2xl mx-auto px-2">
             Discover professors at Western University&apos;s Faculty of Science.
             Browse research areas, recent publications, and find the perfect
             mentor for your research journey.
@@ -36,7 +36,7 @@ export default function HomePage() {
             <SearchBar large className="max-w-2xl mx-auto" />
           </Suspense>
 
-          <div className="mt-6 flex flex-wrap justify-center gap-2">
+          <div className="mt-5 md:mt-6 flex flex-wrap justify-center gap-2">
             {departments.slice(0, 4).map((dept) => (
               <Link
                 key={dept}
@@ -59,31 +59,31 @@ export default function HomePage() {
       </section>
 
       {/* Stats Section */}
-      <section className="py-8 bg-gray-50 border-b">
+      <section className="py-6 md:py-8 bg-gray-50 border-b">
         <div className="max-w-6xl mx-auto px-4">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
-            <div>
-              <div className="text-3xl font-bold text-purple-600">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4 text-center">
+            <div className="bg-white p-3 md:p-4 rounded-lg md:bg-transparent">
+              <div className="text-2xl md:text-3xl font-bold text-purple-600">
                 {professors.length || "100+"}
               </div>
-              <div className="text-sm text-gray-600">Professors</div>
+              <div className="text-xs md:text-sm text-gray-600">Professors</div>
             </div>
-            <div>
-              <div className="text-3xl font-bold text-purple-600">
+            <div className="bg-white p-3 md:p-4 rounded-lg md:bg-transparent">
+              <div className="text-2xl md:text-3xl font-bold text-purple-600">
                 {departments.length || 8}
               </div>
-              <div className="text-sm text-gray-600">Departments</div>
+              <div className="text-xs md:text-sm text-gray-600">Departments</div>
             </div>
-            <div>
-              <div className="text-3xl font-bold text-purple-600">
+            <div className="bg-white p-3 md:p-4 rounded-lg md:bg-transparent">
+              <div className="text-2xl md:text-3xl font-bold text-purple-600">
                 {professors.reduce((acc, p) => acc + p.publications.length, 0) ||
                   "500+"}
               </div>
-              <div className="text-sm text-gray-600">Publications</div>
+              <div className="text-xs md:text-sm text-gray-600">Publications</div>
             </div>
-            <div>
-              <div className="text-3xl font-bold text-purple-600">1</div>
-              <div className="text-sm text-gray-600">Faculty</div>
+            <div className="bg-white p-3 md:p-4 rounded-lg md:bg-transparent">
+              <div className="text-2xl md:text-3xl font-bold text-purple-600">1</div>
+              <div className="text-xs md:text-sm text-gray-600">Faculty</div>
             </div>
           </div>
         </div>
@@ -91,10 +91,10 @@ export default function HomePage() {
 
       {/* Featured Professors */}
       {featuredProfs.length > 0 && (
-        <section className="py-12 px-4">
+        <section className="py-8 md:py-12 px-4">
           <div className="max-w-6xl mx-auto">
-            <div className="flex items-center justify-between mb-6">
-              <h2 className="text-2xl font-bold text-gray-900">
+            <div className="flex items-center justify-between mb-4 md:mb-6">
+              <h2 className="text-xl md:text-2xl font-bold text-gray-900">
                 Featured Professors
               </h2>
               <Link
@@ -105,7 +105,7 @@ export default function HomePage() {
               </Link>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
               {featuredProfs.map((prof) => (
                 <ProfessorCard key={prof.id} professor={prof} />
               ))}
@@ -147,16 +147,16 @@ export default function HomePage() {
       )}
 
       {/* How It Works */}
-      <section className="py-12 px-4 bg-gray-50">
+      <section className="py-8 md:py-12 px-4 bg-gray-50">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl font-bold text-gray-900 text-center mb-8">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 text-center mb-6 md:mb-8">
             How to Find a Research Supervisor
           </h2>
 
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
             <div className="text-center">
-              <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-purple-600 font-bold text-lg">1</span>
+              <div className="w-10 h-10 md:w-12 md:h-12 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-3 md:mb-4">
+                <span className="text-purple-600 font-bold text-base md:text-lg">1</span>
               </div>
               <h3 className="font-semibold text-gray-900 mb-2">
                 Browse Professors
@@ -168,8 +168,8 @@ export default function HomePage() {
             </div>
 
             <div className="text-center">
-              <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-purple-600 font-bold text-lg">2</span>
+              <div className="w-10 h-10 md:w-12 md:h-12 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-3 md:mb-4">
+                <span className="text-purple-600 font-bold text-base md:text-lg">2</span>
               </div>
               <h3 className="font-semibold text-gray-900 mb-2">
                 Review Publications
@@ -181,8 +181,8 @@ export default function HomePage() {
             </div>
 
             <div className="text-center">
-              <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-purple-600 font-bold text-lg">3</span>
+              <div className="w-10 h-10 md:w-12 md:h-12 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-3 md:mb-4">
+                <span className="text-purple-600 font-bold text-base md:text-lg">3</span>
               </div>
               <h3 className="font-semibold text-gray-900 mb-2">Reach Out</h3>
               <p className="text-sm text-gray-600">

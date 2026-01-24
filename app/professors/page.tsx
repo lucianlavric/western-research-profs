@@ -34,14 +34,14 @@ export default async function ProfessorsPage({ searchParams }: Props) {
   professors = professors.sort((a, b) => a.name.localeCompare(b.name));
 
   return (
-    <div className="py-8 px-4">
+    <div className="py-6 md:py-8 px-4">
       <div className="max-w-6xl mx-auto">
         {/* Header */}
-        <div className="mb-8">
-          <h1 className="text-3xl font-bold text-gray-900 mb-2">
+        <div className="mb-5 md:mb-8">
+          <h1 className="text-2xl md:text-3xl font-bold text-gray-900 mb-1 md:mb-2">
             Browse Professors
           </h1>
-          <p className="text-gray-600">
+          <p className="text-sm md:text-base text-gray-600">
             {professors.length} professor{professors.length !== 1 ? "s" : ""}{" "}
             {query && `matching "${query}"`}
             {department && ` in ${department}`}
@@ -49,7 +49,7 @@ export default async function ProfessorsPage({ searchParams }: Props) {
         </div>
 
         {/* Search and Filters */}
-        <div className="mb-8 space-y-4">
+        <div className="mb-5 md:mb-8 space-y-3 md:space-y-4">
           <Suspense fallback={<div className="h-12" />}>
             <SearchBar />
           </Suspense>
@@ -61,7 +61,7 @@ export default async function ProfessorsPage({ searchParams }: Props) {
 
         {/* Results */}
         {professors.length > 0 ? (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
             {professors.map((prof) => (
               <ProfessorCard key={prof.id} professor={prof} />
             ))}

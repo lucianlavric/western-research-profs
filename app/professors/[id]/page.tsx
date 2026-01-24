@@ -27,12 +27,12 @@ export default async function ProfessorPage({ params }: Props) {
   );
 
   return (
-    <div className="py-8 px-4">
+    <div className="py-6 md:py-8 px-4">
       <div className="max-w-4xl mx-auto">
         {/* Back Link */}
         <Link
           href="/professors"
-          className="inline-flex items-center text-purple-600 hover:text-purple-700 mb-6 text-sm"
+          className="inline-flex items-center text-purple-600 hover:text-purple-700 mb-4 md:mb-6 text-sm"
         >
           <svg
             className="w-4 h-4 mr-1"
@@ -51,33 +51,33 @@ export default async function ProfessorPage({ params }: Props) {
         </Link>
 
         {/* Profile Header */}
-        <div className="bg-white rounded-lg border border-gray-200 p-6 mb-6">
-          <div className="flex flex-col md:flex-row gap-6">
+        <div className="bg-white rounded-lg border border-gray-200 p-4 md:p-6 mb-4 md:mb-6">
+          <div className="flex flex-col md:flex-row gap-4 md:gap-6">
             {/* Avatar - always use letter */}
-            <div className="flex-shrink-0">
-              <div className="w-24 h-24 md:w-32 md:h-32 bg-purple-100 rounded-full flex items-center justify-center">
-                <span className="text-purple-600 font-bold text-4xl">
+            <div className="flex-shrink-0 flex justify-center md:justify-start">
+              <div className="w-20 h-20 md:w-32 md:h-32 bg-purple-100 rounded-full flex items-center justify-center">
+                <span className="text-purple-600 font-bold text-3xl md:text-4xl">
                   {professor.name.charAt(0)}
                 </span>
               </div>
             </div>
 
             {/* Info */}
-            <div className="flex-1">
-              <h1 className="text-2xl md:text-3xl font-bold text-gray-900 mb-1">
+            <div className="flex-1 text-center md:text-left">
+              <h1 className="text-xl md:text-3xl font-bold text-gray-900 mb-1">
                 {professor.name}
               </h1>
-              <p className="text-lg text-gray-600 mb-1">{professor.title}</p>
-              <p className="text-purple-600 font-medium mb-4">
+              <p className="text-base md:text-lg text-gray-600 mb-1">{professor.title}</p>
+              <p className="text-purple-600 font-medium mb-3 md:mb-4">
                 {professor.department}
               </p>
 
               {/* Contact */}
-              <div className="flex flex-wrap gap-4">
+              <div className="flex flex-wrap justify-center md:justify-start gap-3 md:gap-4">
                 {professor.email && (
                   <a
                     href={`mailto:${professor.email}`}
-                    className="inline-flex items-center text-sm text-gray-600 hover:text-purple-600 transition"
+                    className="inline-flex items-center text-xs md:text-sm text-gray-600 hover:text-purple-600 transition"
                   >
                     <svg
                       className="w-4 h-4 mr-2"
@@ -101,7 +101,7 @@ export default async function ProfessorPage({ params }: Props) {
                     href={professor.profileUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center text-sm text-gray-600 hover:text-purple-600 transition"
+                    className="inline-flex items-center text-xs md:text-sm text-gray-600 hover:text-purple-600 transition"
                   >
                     <svg
                       className="w-4 h-4 mr-2"
@@ -125,7 +125,7 @@ export default async function ProfessorPage({ params }: Props) {
                     href={professor.labUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center text-sm text-gray-600 hover:text-purple-600 transition"
+                    className="inline-flex items-center text-xs md:text-sm text-gray-600 hover:text-purple-600 transition"
                   >
                     <svg
                       className="w-4 h-4 mr-2"
@@ -149,33 +149,33 @@ export default async function ProfessorPage({ params }: Props) {
         </div>
 
         {/* Stats */}
-        <div className="grid grid-cols-3 gap-4 mb-6">
-          <div className="bg-white rounded-lg border border-gray-200 p-4 text-center">
-            <div className="text-2xl font-bold text-purple-600">
+        <div className="grid grid-cols-3 gap-2 md:gap-4 mb-4 md:mb-6">
+          <div className="bg-white rounded-lg border border-gray-200 p-3 md:p-4 text-center">
+            <div className="text-xl md:text-2xl font-bold text-purple-600">
               {professor.publications.length}
             </div>
-            <div className="text-sm text-gray-600">Publications</div>
+            <div className="text-xs md:text-sm text-gray-600">Publications</div>
           </div>
-          <div className="bg-white rounded-lg border border-gray-200 p-4 text-center">
-            <div className="text-2xl font-bold text-purple-600">
+          <div className="bg-white rounded-lg border border-gray-200 p-3 md:p-4 text-center">
+            <div className="text-xl md:text-2xl font-bold text-purple-600">
               {totalCitations}
             </div>
-            <div className="text-sm text-gray-600">Citations</div>
+            <div className="text-xs md:text-sm text-gray-600">Citations</div>
           </div>
-          <div className="bg-white rounded-lg border border-gray-200 p-4 text-center">
-            <div className="text-2xl font-bold text-purple-600">
+          <div className="bg-white rounded-lg border border-gray-200 p-3 md:p-4 text-center">
+            <div className="text-xl md:text-2xl font-bold text-purple-600">
               {professor.publications.length > 0
                 ? Math.max(...professor.publications.map((p) => p.year))
                 : "-"}
             </div>
-            <div className="text-sm text-gray-600">Latest Paper</div>
+            <div className="text-xs md:text-sm text-gray-600">Latest Paper</div>
           </div>
         </div>
 
         {/* Research Areas */}
         {professor.researchAreas.length > 0 && (
-          <div className="bg-white rounded-lg border border-gray-200 p-6 mb-6">
-            <h2 className="text-lg font-semibold text-gray-900 mb-4">
+          <div className="bg-white rounded-lg border border-gray-200 p-4 md:p-6 mb-4 md:mb-6">
+            <h2 className="text-base md:text-lg font-semibold text-gray-900 mb-3 md:mb-4">
               Research Areas
             </h2>
             <ResearchTags tags={professor.researchAreas} />
@@ -184,22 +184,22 @@ export default async function ProfessorPage({ params }: Props) {
 
         {/* Bio */}
         {professor.bio && (
-          <div className="bg-white rounded-lg border border-gray-200 p-6 mb-6">
-            <h2 className="text-lg font-semibold text-gray-900 mb-4">About</h2>
-            <p className="text-gray-600 whitespace-pre-wrap">{professor.bio}</p>
+          <div className="bg-white rounded-lg border border-gray-200 p-4 md:p-6 mb-4 md:mb-6">
+            <h2 className="text-base md:text-lg font-semibold text-gray-900 mb-3 md:mb-4">About</h2>
+            <p className="text-sm md:text-base text-gray-600 whitespace-pre-wrap">{professor.bio}</p>
           </div>
         )}
 
         {/* Publications */}
-        <div className="bg-white rounded-lg border border-gray-200 p-6">
-          <h2 className="text-lg font-semibold text-gray-900 mb-4">
+        <div className="bg-white rounded-lg border border-gray-200 p-4 md:p-6">
+          <h2 className="text-base md:text-lg font-semibold text-gray-900 mb-3 md:mb-4">
             Recent Publications
           </h2>
           <PublicationList publications={professor.publications} />
         </div>
 
         {/* Last Updated */}
-        <p className="text-center text-sm text-gray-400 mt-6">
+        <p className="text-center text-xs md:text-sm text-gray-400 mt-4 md:mt-6">
           Last updated: {new Date(professor.lastUpdated).toLocaleDateString()}
         </p>
       </div>
