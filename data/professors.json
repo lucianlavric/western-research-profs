@@ -3209,7 +3209,7 @@
       "university": "Western University"
     },
     {
-      "id": "matt-davison",
+      "id": "matt-davison-math",
       "name": "Matt Davison",
       "title": "Professor",
       "department": "Mathematics",
@@ -4121,7 +4121,7 @@
       "university": "Western University"
     },
     {
-      "id": "matt-davison",
+      "id": "matt-davison-stats",
       "name": "Matt Davison",
       "title": "Professor",
       "department": "Statistical & Actuarial Sciences",
@@ -5256,10 +5256,7 @@
       "university": "Western University"
     },
     {
-      "id": "mikko-karttunen",
-      "name": "Mikko Karttunen",
-      "title": "Professor",
-      "department": "Physics & Astronomy",
+      "id": "mikko-karttunen-phys",
       "email": "",
       "profileUrl": "https://physics.uwo.ca/people/faculty/index.html",
       "researchAreas": [],
@@ -6305,7 +6302,7 @@
       "university": "Western University"
     },
     {
-      "id": "mikko-karttunen",
+      "id": "mikko-karttunen-chem",
       "name": "Mikko Karttunen",
       "title": "Assistant Professor",
       "department": "Chemistry",
@@ -6553,7 +6550,7 @@
       "university": "Western University"
     },
     {
-      "id": "patrick-o-donoghue",
+      "id": "patrick-o-donoghue-chem",
       "name": "Patrick O'Donoghue",
       "title": "Assistant Professor",
       "department": "Chemistry",
@@ -6931,7 +6928,7 @@
       "university": "Western University"
     },
     {
-      "id": "ken-yeung",
+      "id": "ken-yeung-chem",
       "name": "Ken Yeung",
       "title": "Assistant Professor",
       "department": "Chemistry",
@@ -8273,10 +8270,7 @@
       "university": "Western University"
     },
     {
-      "id": "marco-prado",
-      "name": "Marco Prado",
-      "title": "Professor",
-      "department": "Physiology & Pharmacology",
+      "id": "marco-prado-phys",
       "email": "",
       "profileUrl": "https://www.schulich.uwo.ca/physpharm/people/faculty/core%20faculty.html",
       "researchAreas": [],
@@ -8321,7 +8315,7 @@
       "university": "Western University"
     },
     {
-      "id": "vania-prado",
+      "id": "vania-prado-phys",
       "name": "Vania Prado",
       "title": "Professor",
       "department": "Physiology & Pharmacology",
@@ -9581,10 +9575,7 @@
       "university": "Western University"
     },
     {
-      "id": "patrick-o-donoghue",
-      "name": "Patrick O'Donoghue",
-      "title": "Professor",
-      "department": "Biochemistry",
+      "id": "patrick-o-donoghue-biochem",
       "email": "",
       "profileUrl": "https://www.schulich.uwo.ca/biochem/people/faculty_primary.html",
       "researchAreas": [],
@@ -9770,10 +9761,7 @@
       "university": "Western University"
     },
     {
-      "id": "ken-yeung",
-      "name": "Ken Yeung",
-      "title": "Professor",
-      "department": "Biochemistry",
+      "id": "ken-yeung-biochem",
       "email": "",
       "profileUrl": "https://www.schulich.uwo.ca/biochem/people/faculty_primary.html",
       "researchAreas": [],
@@ -11159,10 +11147,7 @@
       "university": "Western University"
     },
     {
-      "id": "marco-prado",
-      "name": "Marco Prado",
-      "title": "Professor",
-      "department": "Anatomy & Cell Biology",
+      "id": "marco-prado-anat",
       "email": "",
       "profileUrl": "https://www.schulich.uwo.ca/anatomy/people/faculty.html",
       "researchAreas": [],
@@ -11207,7 +11192,7 @@
       "university": "Western University"
     },
     {
-      "id": "vania-prado",
+      "id": "vania-prado-anat",
       "name": "Vania Prado",
       "title": "Professor",
       "department": "Anatomy & Cell Biology",
@@ -12101,7 +12086,7 @@
       "university": "Western University"
     },
     {
-      "id": "lisa-cameron",
+      "id": "lisa-cameron-micro",
       "name": "Lisa Cameron",
       "title": "Associate Professor",
       "department": "Microbiology & Immunology",
@@ -14703,10 +14688,7 @@
       "university": "Western University"
     },
     {
-      "id": "lisa-cameron",
-      "name": "Lisa Cameron",
-      "title": "Professor",
-      "department": "Pathology & Laboratory Medicine",
+      "id": "lisa-cameron-pathology",
       "email": "",
       "profileUrl": "https://www.schulich.uwo.ca/pathol/people/faculty/cameron_lisa.html",
       "researchAreas": [],
