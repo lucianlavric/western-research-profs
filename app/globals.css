@@ -67,7 +67,18 @@ body {
               0 20px 0 -8px radial-gradient(circle at 30% 30%, #e0e0e0, #1a1a1a 70%);
   pointer-events: none;
 }
-
+/* Featured card variant - for landing page only */
+.neu-card.featured::after {
+  content: '✕ — ✕ — ✕';
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: var(--border);
+  pointer-events: none;
+}
 .neu-card:hover {
   transform: translate(-3px, -4px);
   box-shadow: 6px 7px 0 var(--shadow), 10px 12px 14px rgba(0,0,0,0.1);

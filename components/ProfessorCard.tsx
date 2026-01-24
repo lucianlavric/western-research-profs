@@ -20,7 +20,7 @@ export default function ProfessorCard({ professor }: ProfessorCardProps) {
   return (
     <Link href={`/professors/${professor.id}`} className="block group">
       <div 
-        className="neu-card p-3 h-full flex flex-col relative"
+          className="neu-card featured p-3 h-full flex flex-col relative"
         style={{ transform: `rotate(${rotation}deg)` }}
       >
         {/* Accent line */}
@@ -45,7 +45,7 @@ export default function ProfessorCard({ professor }: ProfessorCardProps) {
 
         {professor.researchAreas.length > 0 && (
           <div className="mb-2 flex-grow">
-            <ResearchTags tags={professor.researchAreas} limit={3} small />
+            <ResearchTags tags={professor.researchAreas} limit={3} small featured />
           </div>
         )}
 
