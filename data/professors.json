@@ -5257,6 +5257,9 @@
     },
     {
       "id": "mikko-karttunen-phys",
+      "name": "Mikko Karttunen",
+      "title": "Professor",
+      "department": "Physics & Astronomy",
       "email": "",
       "profileUrl": "https://physics.uwo.ca/people/faculty/index.html",
       "researchAreas": [],
@@ -8271,6 +8274,9 @@
     },
     {
       "id": "marco-prado-phys",
+      "name": "Marco Prado",
+      "title": "Professor",
+      "department": "Physiology & Pharmacology",
       "email": "",
       "profileUrl": "https://www.schulich.uwo.ca/physpharm/people/faculty/core%20faculty.html",
       "researchAreas": [],
@@ -9576,6 +9582,9 @@
     },
     {
       "id": "patrick-o-donoghue-biochem",
+      "name": "Patrick O'Donoghue",
+      "title": "Professor",
+      "department": "Biochemistry",
       "email": "",
       "profileUrl": "https://www.schulich.uwo.ca/biochem/people/faculty_primary.html",
       "researchAreas": [],
@@ -9762,6 +9771,9 @@
     },
     {
       "id": "ken-yeung-biochem",
+      "name": "Ken Yeung",
+      "title": "Professor",
+      "department": "Biochemistry",
       "email": "",
       "profileUrl": "https://www.schulich.uwo.ca/biochem/people/faculty_primary.html",
       "researchAreas": [],
@@ -11148,6 +11160,9 @@
     },
     {
       "id": "marco-prado-anat",
+      "name": "Marco Prado",
+      "title": "Professor",
+      "department": "Anatomy & Cell Biology",
       "email": "",
       "profileUrl": "https://www.schulich.uwo.ca/anatomy/people/faculty.html",
       "researchAreas": [],
@@ -14689,6 +14704,9 @@
     },
     {
       "id": "lisa-cameron-pathology",
+      "name": "Lisa Cameron",
+      "title": "Professor",
+      "department": "Pathology & Laboratory Medicine",
       "email": "",
       "profileUrl": "https://www.schulich.uwo.ca/pathol/people/faculty/cameron_lisa.html",
       "researchAreas": [],
