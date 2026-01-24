@@ -1,47 +1,9 @@
-// Department/Faculty icons mapping
+// Department/Faculty color mapping - uses simple colored squares for consistency
 export const departmentIcons: Record<string, string> = {
-  // Sciences
-  "Mathematics": "∑",
-  "Statistics": "📊",
-  "Computer Science": "💻",
-  "Physics & Astronomy": "🔭",
-  "Chemistry": "⚗️",
-  "Biology": "🧬",
-  "Biochemistry": "🧪",
-  "Microbiology & Immunology": "🦠",
-  
-  // Engineering
-  "Engineering": "⚙️",
-  "Electrical & Computer Engineering": "⚡",
-  "Mechanical & Materials Engineering": "🔧",
-  "Civil & Environmental Engineering": "🏗️",
-  "Chemical & Biochemical Engineering": "🏭",
-  
-  // Medical Sciences
-  "Medicine": "⚕️",
-  "Pathology & Laboratory Medicine": "🔬",
-  "Physiology & Pharmacology": "💊",
-  "Anatomy & Cell Biology": "🫀",
-  "Epidemiology & Biostatistics": "📈",
-  
-  // Social Sciences
-  "Psychology": "🧠",
-  "Sociology": "👥",
-  "Economics": "💰",
-  "Political Science": "🏛️",
-  "Anthropology": "🗿",
-  
-  // Arts & Humanities
-  "English": "📚",
-  "History": "📜",
-  "Philosophy": "💭",
-  "Music": "🎵",
-  "Art": "🎨",
-  
-  // Default fallback
-  "default": "🏫"
+  // All departments use a simple square indicator
+  "default": "■"
 };
 
 export function getDepartmentIcon(department: string): string {
-  return departmentIcons[department] || departmentIcons.default;
+  return departmentIcons.default;
 }

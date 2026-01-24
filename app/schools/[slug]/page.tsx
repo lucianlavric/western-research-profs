@@ -2,7 +2,6 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
 import { getAllProfessors, getAllUniversities } from "@/lib/data";
-import { getDepartmentIcon } from "@/lib/department-icons";
 import ProfessorCard from "@/components/ProfessorCard";
 
 const universityLogos: Record<string, string> = {
@@ -84,12 +83,15 @@ export default async function SchoolPage({ params }: Props) {
                 <Link
                   key={dept}
                   href={`/professors?university=${encodeURIComponent(university)}&dept=${encodeURIComponent(dept)}`}
-                  className="group neu-card p-3 flex items-center justify-between"
+                  className="group neu-card p-2 flex items-center justify-between"
                 >
                   <div className="min-w-0 flex items-center gap-2 flex-1">
-                    <span className="text-lg shrink-0">{getDepartmentIcon(dept)}</span>
+                    <div
+                      className="w-3 h-3 shrink-0 border border-[#1a1a1a]"
+                      style={{ backgroundColor: colors[i % colors.length] }}
+                    />
                     <div className="min-w-0">
-                      <h3 className="font-bold text-sm text-[#1a1a1a] group-hover:text-[#ff5c5c]">{dept}</h3>
+                      <h3 className="font-bold text-xs text-[#1a1a1a] group-hover:text-[#ff5c5c] leading-tight">{dept}</h3>
                       <p className="text-[10px] text-[#666]">{deptProfs.length} profs</p>
                     </div>
                   </div>

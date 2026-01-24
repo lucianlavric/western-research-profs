@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { Professor } from "@/lib/types";
-import { getDepartmentIcon } from "@/lib/department-icons";
 import ResearchTags from "./ResearchTags";
 
 interface ProfessorCardProps {
