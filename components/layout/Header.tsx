@@ -8,18 +8,17 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 bg-[#2d2013] border-b-4 border-[#4a3728]">
-      <div className="max-w-6xl mx-auto px-6">
-        <div className="flex items-center justify-between h-16">
-          <Link href="/" className="flex items-center gap-3 hover:opacity-90 transition-opacity focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#cf6a32] focus-visible:ring-offset-2 focus-visible:ring-offset-[#2d2013] rounded">
+    <header className="sticky top-0 z-50 bg-black/80 backdrop-blur-sm border-b border-[#222]">
+      <div className="max-w-5xl mx-auto px-6">
+        <div className="flex items-center justify-between h-14">
+          <Link href="/" className="flex items-center gap-3 hover:opacity-70 transition-opacity">
             <Image
               src="/logo.svg"
               alt="ResearchProfs"
-              width={40}
-              height={40}
-              className="border-2 border-[#4a3728] shadow-[2px_2px_0_#1a1209] rounded-lg"
+              width={24}
+              height={24}
             />
-            <span className="font-bold text-[#f5e6d3] text-xl hidden sm:block uppercase tracking-wide" style={{ fontFamily: 'Teko, sans-serif' }}>
+            <span className="text-white text-sm font-medium hidden sm:block">
               ResearchProfs
             </span>
           </Link>
@@ -28,14 +27,13 @@ export default function Header() {
           <nav className="hidden md:flex items-center gap-1">
             {[
               { href: "/schools", label: "Schools" },
-              { href: "/research-areas", label: "Research Areas" },
+              { href: "/research-areas", label: "Research" },
               { href: "/about", label: "About" },
             ].map((item) => (
               <Link
                 key={item.href}
                 href={item.href}
-                className="px-4 py-2 text-[#e8d5b7] hover:text-white hover:bg-[#4a3728] transition-colors text-sm font-bold uppercase tracking-wide focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#cf6a32] focus-visible:ring-inset"
-                style={{ fontFamily: 'Teko, sans-serif', fontSize: '1.1rem' }}
+                className="px-3 py-2 text-[#888] hover:text-white text-sm transition-colors"
               >
                 {item.label}
               </Link>
@@ -45,16 +43,16 @@ export default function Header() {
           {/* Mobile menu button */}
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="md:hidden p-2 text-[#e8d5b7] hover:text-white hover:bg-[#4a3728] transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#cf6a32] focus-visible:ring-inset"
+            className="md:hidden p-2 text-[#888] hover:text-white transition-colors"
             aria-label="Toggle menu"
           >
             {mobileMenuOpen ? (
-              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M6 18L18 6M6 6l12 12" />
               </svg>
             ) : (
-              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 6h16M4 12h16M4 18h16" />
               </svg>
             )}
           </button>
@@ -62,7 +60,7 @@ export default function Header() {
 
         {/* Mobile nav */}
         {mobileMenuOpen && (
-          <nav className="md:hidden py-2 border-t-2 border-[#4a3728] flex flex-col">
+          <nav className="md:hidden py-4 border-t border-[#222] flex flex-col">
             {[
               { href: "/schools", label: "Schools" },
               { href: "/research-areas", label: "Research Areas" },
@@ -72,8 +70,7 @@ export default function Header() {
                 key={item.href}
                 href={item.href}
                 onClick={() => setMobileMenuOpen(false)}
-                className="px-4 py-3 text-[#e8d5b7] hover:text-white hover:bg-[#4a3728] transition-colors font-bold uppercase tracking-wide focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#cf6a32] focus-visible:ring-inset"
-                style={{ fontFamily: 'Teko, sans-serif', fontSize: '1.1rem' }}
+                className="px-0 py-3 text-[#888] hover:text-white text-sm transition-colors"
               >
                 {item.label}
               </Link>
