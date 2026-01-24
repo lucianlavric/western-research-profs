@@ -32,6 +32,9 @@ export default function ProfessorCard({ professor }: ProfessorCardProps) {
             <p className="text-xs md:text-sm text-purple-600 font-medium">
               {professor.department}
             </p>
+            <p className="text-xs text-gray-400">
+              {professor.university}
+            </p>
           </div>
         </div>
 

@@ -11,6 +11,7 @@ export interface Professor {
   name: string;
   title: string;
   department: string;
+  university: string;            // University/school name
   email: string;
   profileUrl: string;
   imageUrl?: string;
@@ -28,4 +29,5 @@ export interface ProfessorData {
   professors: Professor[];
   lastScraped: string;
   departments: string[];
+  universities: string[];        // List of universities in the data
 }

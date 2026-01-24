@@ -205,10 +205,13 @@ async function main() {
   // Step 3: Generate output
   const departments = [...new Set(professors.map((p) => p.department))].sort();
 
+  const universities = [...new Set(professors.map((p) => p.university))].sort();
+
   const data: ProfessorData = {
     professors,
     lastScraped: new Date().toISOString(),
     departments,
+    universities,
   };
 
   const outputPath = path.join(process.cwd(), "data", "professors.json");

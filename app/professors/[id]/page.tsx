@@ -72,8 +72,11 @@ export default async function ProfessorPage({ params }: Props) {
                 {professor.name}
               </h1>
               <p className="text-base md:text-lg text-gray-600 mb-1">{professor.title}</p>
-              <p className="text-purple-600 font-medium mb-3 md:mb-4">
+              <p className="text-purple-600 font-medium">
                 {professor.department}
+              </p>
+              <p className="text-gray-500 text-sm mb-3 md:mb-4">
+                {professor.university}
               </p>
 
               {/* Contact */}

@@ -26,6 +26,7 @@ const SCIENCE_DEPARTMENT_URLS: Record<string, string> = {
 
 // Schulich Medicine & Dentistry department URLs
 const SCHULICH_DEPARTMENT_URLS: Record<string, string[]> = {
+  // Basic Medical Sciences
   "Physiology & Pharmacology": [
     "https://www.schulich.uwo.ca/physpharm/people/faculty/core%20faculty.html",
   ],
@@ -43,6 +44,31 @@ const SCHULICH_DEPARTMENT_URLS: Record<string, string[]> = {
   ],
   "Pathology & Laboratory Medicine": [
     "https://www.schulich.uwo.ca/pathol/people/faculty/index.html",
+  ],
+  "Medical Biophysics": [
+    "https://www.schulich.uwo.ca/biophysics/people/faculty/Core%20Faculty.html",
+  ],
+  // Clinical Departments
+  "Dentistry": [
+    "https://www.schulich.uwo.ca/dentistry/about-us/people/faculty/index.html",
+  ],
+  "Family Medicine": [
+    "https://www.schulich.uwo.ca/familymedicine/people/ft_faculty/index.html",
+  ],
+  "Oncology": [
+    "https://www.schulich.uwo.ca/oncology/people/Faculty.html",
+  ],
+  "Ophthalmology": [
+    "https://www.schulich.uwo.ca/ophthalmology/people/faculty/index.html",
+  ],
+  "Paediatrics": [
+    "https://www.schulich.uwo.ca/paediatrics/about_us/people/faculty/index.html",
+  ],
+  "Psychiatry": [
+    "https://www.schulich.uwo.ca/psychiatry/people/faculty.html",
+  ],
+  "Surgery": [
+    "https://www.schulich.uwo.ca/surgery/people/faculty/index.html",
   ],
 };
 
@@ -695,6 +721,7 @@ export async function scrapeAllDepartments(): Promise<Professor[]> {
         name: rawProf.name,
         title: rawProf.title,
         department: rawProf.department,
+        university: "Western University",
         email: rawProf.email,
         profileUrl: rawProf.profileUrl,
         imageUrl: rawProf.imageUrl,
@@ -725,6 +752,7 @@ export async function scrapeAllDepartments(): Promise<Professor[]> {
         name: rawProf.name,
         title: rawProf.title,
         department: rawProf.department,
+        university: "Western University",
         email: rawProf.email,
         profileUrl: rawProf.profileUrl,
         imageUrl: rawProf.imageUrl,
@@ -755,6 +783,7 @@ export async function scrapeAllDepartments(): Promise<Professor[]> {
         name: rawProf.name,
         title: rawProf.title,
         department: rawProf.department,
+        university: "Western University",
         email: rawProf.email,
         profileUrl: rawProf.profileUrl,
         imageUrl: rawProf.imageUrl,
@@ -784,6 +813,7 @@ export async function scrapeAllDepartments(): Promise<Professor[]> {
         name: rawProf.name,
         title: rawProf.title,
         department: rawProf.department,
+        university: "Western University",
         email: rawProf.email,
         profileUrl: rawProf.profileUrl,
         imageUrl: rawProf.imageUrl,
@@ -813,6 +843,7 @@ export async function scrapeAllDepartments(): Promise<Professor[]> {
         name: rawProf.name,
         title: rawProf.title,
         department: rawProf.department,
+        university: "Western University",
         email: rawProf.email,
         profileUrl: rawProf.profileUrl,
         imageUrl: rawProf.imageUrl,
@@ -842,6 +873,7 @@ export async function scrapeAllDepartments(): Promise<Professor[]> {
         name: rawProf.name,
         title: rawProf.title,
         department: rawProf.department,
+        university: "Western University",
         email: rawProf.email,
         profileUrl: rawProf.profileUrl,
         imageUrl: rawProf.imageUrl,
@@ -871,6 +903,7 @@ export async function scrapeAllDepartments(): Promise<Professor[]> {
         name: rawProf.name,
         title: rawProf.title,
         department: rawProf.department,
+        university: "Western University",
         email: rawProf.email,
         profileUrl: rawProf.profileUrl,
         imageUrl: rawProf.imageUrl,
@@ -903,6 +936,7 @@ export async function scrapeDepartment(department: string): Promise<Professor[]>
     name: rawProf.name,
     title: rawProf.title,
     department: rawProf.department,
+    university: "Western University",
     email: rawProf.email,
     profileUrl: rawProf.profileUrl,
     imageUrl: rawProf.imageUrl,
