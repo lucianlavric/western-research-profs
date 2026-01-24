@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { getLastScrapedDate } from "@/lib/data";
 
 export default function Footer() {
@@ -23,9 +24,13 @@ export default function Footer() {
           {/* Brand */}
           <div className="col-span-2 md:col-span-1">
             <Link href="/" className="flex items-center gap-3 mb-4 w-fit focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#cf6a32] focus-visible:ring-offset-2 focus-visible:ring-offset-[#2d2013] rounded">
-              <div className="w-10 h-10 bg-[#b8383b] border-2 border-[#4a3728] shadow-[2px_2px_0_#1a1209] flex items-center justify-center">
-                <span className="text-white font-bold text-xl" style={{ fontFamily: 'Teko, sans-serif' }}>R</span>
-              </div>
+              <Image
+                src="/logo.svg"
+                alt="ResearchProfs"
+                width={40}
+                height={40}
+                className="border-2 border-[#4a3728] shadow-[2px_2px_0_#1a1209] rounded-lg"
+              />
               <span className="font-bold text-[#f5e6d3] text-xl uppercase tracking-wide" style={{ fontFamily: 'Teko, sans-serif' }}>
                 ResearchProfs
               </span>
