@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Pentagram editorial style: white background, black serif R, minimal border -->
+  <rect width="512" height="512" rx="0" fill="#fff" stroke="#000" stroke-width="8"/>
+  <!-- Black R in serif font (Georgia) -->
+  <text x="256" y="360" font-family="Georgia, 'Times New Roman', serif" font-size="340" font-weight="400" fill="#000" text-anchor="middle">R</text>
+</svg>

@@ -3,7 +3,10 @@ import professorsData from "@/data/professors.json";
 
 const data = professorsData as ProfessorData;
 
-export function getAllProfessors(): Professor[] {
+export function getAllProfessors(university?: string): Professor[] {
+  if (university) {
+    return data.professors.filter((prof) => prof.university === university);
+  }
   return data.professors;
 }
 
@@ -11,22 +14,43 @@ export function getProfessorById(id: string): Professor | undefined {
   return data.professors.find((prof) => prof.id === id);
 }
 
-export function getProfessorsByDepartment(department: string): Professor[] {
-  return data.professors.filter((prof) => prof.department === department);
-}
-
-export function searchProfessors(query: string): Professor[] {
-  const lowerQuery = query.toLowerCase();
-  return data.professors.filter(
-    (prof) =>
-      prof.name.toLowerCase().includes(lowerQuery) ||
-      prof.department.toLowerCase().includes(lowerQuery) ||
-      prof.researchAreas.some((area) => area.toLowerCase().includes(lowerQuery))
+export function getProfessorsByDepartment(department: string, university?: string): Professor[] {
+  return data.professors.filter((prof) =>
+    prof.department === department &&
+    (!university || prof.university === university)
   );
 }
 
-export function getAllDepartments(): string[] {
+export function getProfessorsByUniversity(university: string): Professor[] {
+  return data.professors.filter((prof) => prof.university === university);
+}
+
+export function searchProfessors(query: string, university?: string): Professor[] {
+  const lowerQuery = query.toLowerCase();
+  return data.professors.filter(
+    (prof) =>
+      (!university || prof.university === university) &&
+      (prof.name.toLowerCase().includes(lowerQuery) ||
+      prof.department.toLowerCase().includes(lowerQuery) ||
+      prof.university.toLowerCase().includes(lowerQuery) ||
+      prof.researchAreas.some((area) => area.toLowerCase().includes(lowerQuery)))
+  );
+}
+
+export function getAllDepartments(university?: string): string[] {
+  if (university) {
+    const depts = new Set(
+      data.professors
+        .filter((prof) => prof.university === university)
+        .map((prof) => prof.department)
+    );
+    return Array.from(depts).sort();
+  }
   return data.departments;
+}
+
+export function getAllUniversities(): string[] {
+  return data.universities || ["Western University"];
 }
 
 export function getAllResearchAreas(): { area: string; count: number }[] {
