@@ -17,33 +17,37 @@ export default function Footer() {
   }
 
   return (
-    <footer className="bg-gray-50 border-t border-gray-100">
+    <footer className="bg-[#2d2013] border-t-4 border-[#4a3728]">
       <div className="max-w-6xl mx-auto px-6 py-12 md:py-16">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12">
           {/* Brand */}
           <div className="col-span-2 md:col-span-1">
-            <Link href="/" className="flex items-center gap-3 mb-4 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-purple-600 focus-visible:ring-offset-2 rounded-lg w-fit">
-              <div className="w-9 h-9 bg-gray-900 rounded-xl flex items-center justify-center">
-                <span className="text-white font-bold text-lg">R</span>
+            <Link href="/" className="flex items-center gap-3 mb-4 w-fit focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#cf6a32] focus-visible:ring-offset-2 focus-visible:ring-offset-[#2d2013] rounded">
+              <div className="w-10 h-10 bg-[#b8383b] border-2 border-[#4a3728] shadow-[2px_2px_0_#1a1209] flex items-center justify-center">
+                <span className="text-white font-bold text-xl" style={{ fontFamily: 'Teko, sans-serif' }}>R</span>
               </div>
-              <span className="font-semibold text-gray-900">ResearchProfs</span>
+              <span className="font-bold text-[#f5e6d3] text-xl uppercase tracking-wide" style={{ fontFamily: 'Teko, sans-serif' }}>
+                ResearchProfs
+              </span>
             </Link>
-            <p className="text-sm text-gray-500">
+            <p className="text-sm text-[#a89a82]">
               Helping students find their research mentors.
             </p>
           </div>
 
           {/* Navigation */}
           <div>
-            <h4 className="font-medium text-gray-900 mb-4">Browse</h4>
+            <h4 className="font-bold text-[#f5e6d3] mb-4 uppercase tracking-wide" style={{ fontFamily: 'Teko, sans-serif', fontSize: '1.1rem' }}>
+              Browse
+            </h4>
             <ul className="space-y-3 text-sm">
               <li>
-                <Link href="/schools" className="text-gray-500 hover:text-gray-900 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-purple-600 focus-visible:ring-offset-2 rounded-md">
+                <Link href="/schools" className="text-[#a89a82] hover:text-[#cf6a32] transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#cf6a32] rounded">
                   Schools
                 </Link>
               </li>
               <li>
-                <Link href="/research-areas" className="text-gray-500 hover:text-gray-900 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-purple-600 focus-visible:ring-offset-2 rounded-md">
+                <Link href="/research-areas" className="text-[#a89a82] hover:text-[#cf6a32] transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#cf6a32] rounded">
                   Research Areas
                 </Link>
               </li>
@@ -52,10 +56,12 @@ export default function Footer() {
 
           {/* Company */}
           <div>
-            <h4 className="font-medium text-gray-900 mb-4">Company</h4>
+            <h4 className="font-bold text-[#f5e6d3] mb-4 uppercase tracking-wide" style={{ fontFamily: 'Teko, sans-serif', fontSize: '1.1rem' }}>
+              Company
+            </h4>
             <ul className="space-y-3 text-sm">
               <li>
-                <Link href="/about" className="text-gray-500 hover:text-gray-900 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-purple-600 focus-visible:ring-offset-2 rounded-md">
+                <Link href="/about" className="text-[#a89a82] hover:text-[#cf6a32] transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#cf6a32] rounded">
                   About
                 </Link>
               </li>
@@ -64,15 +70,17 @@ export default function Footer() {
 
           {/* Data */}
           <div>
-            <h4 className="font-medium text-gray-900 mb-4">Data</h4>
-            <ul className="space-y-3 text-sm text-gray-500">
+            <h4 className="font-bold text-[#f5e6d3] mb-4 uppercase tracking-wide" style={{ fontFamily: 'Teko, sans-serif', fontSize: '1.1rem' }}>
+              Data
+            </h4>
+            <ul className="space-y-3 text-sm text-[#a89a82]">
               <li>Last updated: {lastUpdated}</li>
               <li>Publications via OpenAlex</li>
             </ul>
           </div>
         </div>
 
-        <div className="mt-12 pt-8 border-t border-gray-200 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-500">
+        <div className="mt-12 pt-8 border-t-2 border-[#4a3728] flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-[#a89a82]">
           <p>Independent project — not affiliated with any university</p>
           <p>Made for students, by students</p>
         </div>
