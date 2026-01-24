@@ -30,11 +30,12 @@ export default function DepartmentFilter({
       <button
         onClick={() => handleFilter("")}
         aria-pressed={!currentDept}
-        className={`px-3 py-1.5 rounded-full text-sm font-medium transition-colors ${
+        className={`px-3 py-1.5 text-sm font-bold border-2 border-[#1a1a1a] transition-colors ${
           !currentDept
-            ? "bg-purple-600 text-white"
-            : "bg-gray-100 text-gray-700 hover:bg-gray-200"
+            ? "bg-[#ffd93d] text-[#1a1a1a]"
+            : "bg-[#fffef5] text-[#1a1a1a] hover:bg-[#ffd93d]"
         }`}
+        style={!currentDept ? { boxShadow: "2px 2px 0 #1a1a1a" } : {}}
       >
         All
       </button>
@@ -43,11 +44,12 @@ export default function DepartmentFilter({
           key={dept}
           onClick={() => handleFilter(dept)}
           aria-pressed={currentDept === dept}
-          className={`px-3 py-1.5 rounded-full text-sm font-medium transition-colors ${
+          className={`px-3 py-1.5 text-sm font-bold border-2 border-[#1a1a1a] transition-colors ${
             currentDept === dept
-              ? "bg-purple-600 text-white"
-              : "bg-gray-100 text-gray-700 hover:bg-gray-200"
+              ? "bg-[#ffd93d] text-[#1a1a1a]"
+              : "bg-[#fffef5] text-[#1a1a1a] hover:bg-[#ffd93d]"
           }`}
+          style={currentDept === dept ? { boxShadow: "2px 2px 0 #1a1a1a" } : {}}
         >
           {dept}
         </button>

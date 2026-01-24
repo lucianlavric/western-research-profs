@@ -38,131 +38,123 @@ export default function ProfessorPreview({
     0
   );
 
+  const color = ["#ffd93d", "#6bcb77", "#ff9f43", "#ff5c5c"][professor.name.charCodeAt(0) % 4];
+
   return (
     <>
       {/* Backdrop */}
       <div
-        className="fixed inset-0 bg-black/50 z-40 transition-opacity"
+        className="fixed inset-0 bg-[#1a1a1a]/50 z-40"
         onClick={onClose}
         aria-hidden="true"
       />
 
       {/* Drawer */}
       <div
-        className="fixed inset-x-0 bottom-0 z-50 bg-white rounded-t-2xl shadow-2xl max-h-[85vh] overflow-y-auto animate-slide-up"
+        className="fixed inset-x-0 bottom-0 z-50 bg-[#fffef5] border-t-4 border-l-4 border-[#1a1a1a] max-h-[85vh] overflow-y-auto"
         role="dialog"
         aria-modal="true"
         aria-labelledby="preview-title"
+        style={{
+          boxShadow: '6px -6px 0 #1a1a1a'
+        }}
       >
         {/* Handle */}
-        <div className="sticky top-0 bg-white pt-3 pb-2 px-4 border-b border-gray-100">
-          <div className="w-10 h-1 bg-gray-300 rounded-full mx-auto mb-3" />
+        <div className="sticky top-0 bg-[#fffef5] pt-3 pb-2 px-4 border-b-2 border-[#1a1a1a]">
+          <div className="w-8 h-1 bg-[#1a1a1a] mx-auto mb-3" />
           <div className="flex items-center justify-between">
-            <h2 id="preview-title" className="font-semibold text-gray-900">
-              Quick Preview
+            <h2 id="preview-title" className="font-bold text-[#1a1a1a]">
+              Profile
             </h2>
             <button
               onClick={onClose}
-              className="p-2 -mr-2 text-gray-400 hover:text-gray-600 transition-colors"
+              className="p-2 text-[#1a1a1a] font-bold hover:bg-[#ffd93d]"
               aria-label="Close preview"
             >
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-              </svg>
+              ✕
             </button>
           </div>
         </div>
 
         <div className="p-4 space-y-4">
           {/* Profile header */}
-          <div className="flex items-start gap-4">
-            <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center flex-shrink-0">
-              <span className="text-purple-600 font-bold text-2xl">
+          <div className="flex items-start gap-3">
+            <div
+              className="w-12 h-12 border-2 border-[#1a1a1a] flex items-center justify-center flex-shrink-0"
+              style={{ backgroundColor: color }}
+            >
+              <span className="text-[#1a1a1a] font-bold text-lg">
                 {professor.name.charAt(0)}
               </span>
             </div>
             <div className="flex-1 min-w-0">
-              <h3 className="font-bold text-lg text-gray-900">{professor.name}</h3>
-              <p className="text-sm text-gray-600">{professor.title}</p>
-              <p className="text-sm text-purple-600 font-medium">{professor.department}</p>
+              <h3 className="font-bold text-[#1a1a1a]">{professor.name}</h3>
+              <p className="text-xs text-[#666]">{professor.department}</p>
             </div>
           </div>
 
           {/* Quick stats */}
           <div className="grid grid-cols-3 gap-2">
-            <div className="bg-gray-50 rounded-lg p-3 text-center">
-              <div className="text-lg font-bold text-purple-600 tabular-nums">
+            <div className="border-2 border-[#1a1a1a] bg-[#fffef5] p-3 text-center">
+              <div className="text-lg font-bold text-[#1a1a1a] tabular-nums">
                 {professor.publications.length}
               </div>
-              <div className="text-xs text-gray-500">Publications</div>
+              <div className="text-xs text-[#666] font-bold">Publications</div>
             </div>
-            <div className="bg-gray-50 rounded-lg p-3 text-center">
-              <div className="text-lg font-bold text-purple-600 tabular-nums">
+            <div className="border-2 border-[#1a1a1a] bg-[#fffef5] p-3 text-center">
+              <div className="text-lg font-bold text-[#1a1a1a] tabular-nums">
                 {totalCitations}
               </div>
-              <div className="text-xs text-gray-500">Citations</div>
+              <div className="text-xs text-[#666] font-bold">Citations</div>
             </div>
-            <div className="bg-gray-50 rounded-lg p-3 text-center">
-              <div className="text-lg font-bold text-purple-600 tabular-nums">
+            <div className="border-2 border-[#1a1a1a] bg-[#fffef5] p-3 text-center">
+              <div className="text-lg font-bold text-[#1a1a1a] tabular-nums">
                 {professor.researchAreas.length}
               </div>
-              <div className="text-xs text-gray-500">Areas</div>
+              <div className="text-xs text-[#666] font-bold">Areas</div>
             </div>
           </div>
 
           {/* Research areas */}
           {professor.researchAreas.length > 0 && (
             <div>
-              <h4 className="text-sm font-medium text-gray-700 mb-2">Research Areas</h4>
+              <h4 className="text-xs font-bold text-[#1a1a1a] mb-2 uppercase tracking-wider">Research Areas</h4>
               <ResearchTags tags={professor.researchAreas} limit={5} small />
             </div>
           )}
 
           {/* Research Summary (condensed) */}
           {professor.researchSummary && (
-            <div className="bg-purple-50 rounded-lg p-3 border border-purple-100">
-              <h4 className="text-sm font-medium text-purple-700 mb-1 flex items-center gap-1.5">
-                <svg
-                  className="w-4 h-4"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
-                  />
-                </svg>
+            <div className="border-2 border-[#1a1a1a] bg-[#fffef5] p-3">
+              <h4 className="text-xs font-bold text-[#1a1a1a] mb-2 uppercase tracking-wider">
                 Research Focus
               </h4>
-              <p className="text-xs text-gray-600 line-clamp-3">{professor.researchSummary}</p>
+              <p className="text-xs text-[#666] line-clamp-3">{professor.researchSummary}</p>
             </div>
           )}
 
           {/* Actions */}
-          <div className="flex gap-3 pt-2">
+          <div className="flex gap-2 pt-2">
             {professor.email && (
               <a
                 href={`mailto:${professor.email}`}
-                className="flex-1 flex items-center justify-center gap-2 px-4 py-3 bg-purple-600 text-white font-medium rounded-lg hover:bg-purple-700 transition-colors"
+                className="flex-1 px-3 py-2 bg-[#ff5c5c] text-white font-bold text-xs border-2 border-[#1a1a1a] hover:translate-x-[-1px] hover:translate-y-[-1px]"
+                style={{
+                  boxShadow: '2px 2px 0 #1a1a1a'
+                }}
               >
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                </svg>
                 Email
               </a>
             )}
             <Link
               href={`/professors/${professor.id}`}
               onClick={onClose}
-              className="flex-1 flex items-center justify-center gap-2 px-4 py-3 bg-gray-100 text-gray-700 font-medium rounded-lg hover:bg-gray-200 transition-colors"
+              className="flex-1 px-3 py-2 bg-[#ffd93d] text-[#1a1a1a] font-bold text-xs border-2 border-[#1a1a1a] hover:translate-x-[-1px] hover:translate-y-[-1px]"
+              style={{
+                boxShadow: '2px 2px 0 #1a1a1a'
+              }}
             >
-              View Full Profile
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-              </svg>
+              View Profile
             </Link>
           </div>
         </div>
