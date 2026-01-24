@@ -64,10 +64,6 @@ body {
   color: var(--border);
   pointer-events: none;
 }
-.neu-card:hover {
-  transform: translate(-3px, -4px);
-  box-shadow: 6px 7px 0 var(--shadow), 10px 12px 14px rgba(0,0,0,0.1);
-}
 
 /* Neubrutalist button */
 .neu-button {
