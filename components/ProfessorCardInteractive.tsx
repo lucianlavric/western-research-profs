@@ -1,10 +1,15 @@
 "use client";
 
 import { useState } from "react";
+import dynamic from "next/dynamic";
 import Link from "next/link";
 import { Professor } from "@/lib/types";
 import ResearchTags from "./ResearchTags";
-import ProfessorPreview from "./ProfessorPreview";
+
+// Dynamic import - only loads when preview is opened (bundle-dynamic-imports)
+const ProfessorPreview = dynamic(() => import("./ProfessorPreview"), {
+  ssr: false,
+});
 
 interface ProfessorCardInteractiveProps {
   professor: Professor;
@@ -13,9 +18,16 @@ interface ProfessorCardInteractiveProps {
 export default function ProfessorCardInteractive({ professor }: ProfessorCardInteractiveProps) {
   const [showPreview, setShowPreview] = useState(false);
 
-  const recentYear = professor.publications.length > 0
-    ? Math.max(...professor.publications.map((p) => p.year))
-    : null;
+  // Use loop instead of Math.max(...spread) for O(n) performance (js-min-max-loop)
+  const recentYear = (() => {
+    const pubs = professor.publications;
+    if (pubs.length === 0) return null;
+    let max = pubs[0].year;
+    for (let i = 1; i < pubs.length; i++) {
+      if (pubs[i].year > max) max = pubs[i].year;
+    }
+    return max;
+  })();
 
   const pubCount = professor.publications.length;
 

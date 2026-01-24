@@ -78,7 +78,8 @@ export default function SearchBar({
 
     if (e.key === "ArrowDown") {
       e.preventDefault();
-      setSelectedIndex((prev) => (prev < suggestions.length - 1 ? prev + 1 : prev));
+      const maxIndex = suggestions.length - 1;
+      setSelectedIndex((prev) => (prev < maxIndex ? prev + 1 : prev));
     } else if (e.key === "ArrowUp") {
       e.preventDefault();
       setSelectedIndex((prev) => (prev > 0 ? prev - 1 : -1));

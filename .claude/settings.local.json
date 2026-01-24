@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /Users/lukalavric/repos/western-research-profs log --oneline -10)",
+      "Bash(npm run build:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push)",
+      "Bash(npx skills add:*)",
+      "Skill(vercel-react-best-practices)"
+    ]
+  }
+}
