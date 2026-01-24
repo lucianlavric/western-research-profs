@@ -1294,7 +1294,7 @@
       "university": "Western University"
     },
     {
-      "id": "grace-yi",
+      "id": "grace-yi-cs",
       "name": "Grace Yi",
       "title": "Professor",
       "department": "Computer Science",
@@ -4710,7 +4710,7 @@
       "university": "Western University"
     },
     {
-      "id": "grace-yi",
+      "id": "grace-yi-stats",
       "name": "Grace Yi",
       "title": "Professor",
       "department": "Statistical & Actuarial Sciences",
@@ -16318,7 +16318,7 @@
       "university": "Western University"
     },
     {
-      "id": "art-poon",
+      "id": "art-poon-pathology",
       "name": "Art Poon",
       "title": "Professor",
       "department": "Pathology & Laboratory Medicine",
