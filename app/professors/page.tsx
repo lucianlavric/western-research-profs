@@ -6,25 +6,32 @@ import ProfessorCardInteractive from "@/components/ProfessorCardInteractive";
 import {
   getAllProfessors,
   getAllDepartments,
+  getAllUniversities,
   searchProfessors,
   getProfessorsByDepartment,
 } from "@/lib/data";
 
 interface Props {
-  searchParams: Promise<{ q?: string; dept?: string }>;
+  searchParams: Promise<{ q?: string; dept?: string; university?: string }>;
 }
 
 export default async function ProfessorsPage({ searchParams }: Props) {
   const params = await searchParams;
   const query = params.q || "";
   const department = params.dept || "";
+  const university = params.university || "";
 
   let professors = getAllProfessors();
   const departments = getAllDepartments();
+  const universities = getAllUniversities();
 
   // Apply filters
   if (query) {
     professors = searchProfessors(query);
+  }
+
+  if (university) {
+    professors = professors.filter((p) => p.university === university);
   }
 
   if (department) {
@@ -45,6 +52,7 @@ export default async function ProfessorsPage({ searchParams }: Props) {
           <p className="text-sm md:text-base text-gray-600">
             {professors.length} professor{professors.length !== 1 ? "s" : ""}{" "}
             {query && `matching "${query}"`}
+            {university && ` at ${university}`}
             {department && ` in ${department}`}
           </p>
         </div>
