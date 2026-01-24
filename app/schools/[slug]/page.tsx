@@ -86,10 +86,10 @@ export default async function SchoolPage({ params }: Props) {
                   href={`/professors?university=${encodeURIComponent(university)}&dept=${encodeURIComponent(dept)}`}
                   className="group neu-card p-3 flex items-center justify-between"
                 >
-                  <div className="min-w-0 flex items-center gap-2">
+                  <div className="min-w-0 flex items-center gap-2 flex-1">
                     <span className="text-lg shrink-0">{getDepartmentIcon(dept)}</span>
-                    <div>
-                      <h3 className="font-bold text-sm text-[#1a1a1a] group-hover:text-[#ff5c5c] truncate">{dept}</h3>
+                    <div className="min-w-0">
+                      <h3 className="font-bold text-sm text-[#1a1a1a] group-hover:text-[#ff5c5c]">{dept}</h3>
                       <p className="text-[10px] text-[#666]">{deptProfs.length} profs</p>
                     </div>
                   </div>
