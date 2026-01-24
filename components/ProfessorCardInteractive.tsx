@@ -37,21 +37,24 @@ export default function ProfessorCardInteractive({ professor }: ProfessorCardInt
 
   const pubCount = professor.publications.length;
   const color = getColor(professor.name);
-  const rotation = (professor.name.charCodeAt(0) % 4 - 2) * 0.8; // -1.6 to 1.6 degrees
 
   return (
     <>
       <Link href={`/professors/${professor.id}`} className="block group">
         <div 
-          className="neu-card p-3 h-full flex flex-col"
-          style={{ transform: `rotate(${rotation}deg)` }}
+          className="neu-card p-3 h-full flex flex-col relative"
         >
+          {/* Accent line */}
+          <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-[#1a1a1a] to-transparent opacity-20" />
+          
           <div className="flex items-start gap-3 mb-2">
             <div
-              className="w-10 h-10 border-2 border-[#1a1a1a] flex items-center justify-center flex-shrink-0"
+              className="w-10 h-10 border-2 border-[#1a1a1a] flex items-center justify-center flex-shrink-0 relative"
               style={{ backgroundColor: color }}
             >
               <span className="text-[#1a1a1a] font-bold">{professor.name.charAt(0)}</span>
+              {/* Small accent corner */}
+              <div className="absolute -top-1 -right-1 w-2 h-2 bg-[#1a1a1a] border border-[#1a1a1a]" />
             </div>
             <div className="flex-1 min-w-0">
               <h3 className="font-bold text-sm text-[#1a1a1a] group-hover:text-[#ff5c5c] truncate">

@@ -34,8 +34,11 @@ export default function PublicationList({ publications }: PublicationListProps) 
       {publications.map((pub, index) => (
         <div
           key={index}
-          className="neu-card p-3"
+          className="neu-card p-3 relative"
         >
+          {/* Corner accent */}
+          <div className="absolute top-2 right-2 w-3 h-3 border-t-2 border-r-2 border-[#1a1a1a]" />
+          
           <div className="flex items-start justify-between gap-3">
             <div className="flex-1 min-w-0">
               {pub.url ? (
