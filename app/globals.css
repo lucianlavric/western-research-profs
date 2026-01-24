@@ -52,21 +52,6 @@ body {
   pointer-events: none;
 }
 
-.neu-card::after {
-  content: '';
-  position: absolute;
-  top: 8px;
-  right: 8px;
-  width: 12px;
-  height: 12px;
-  background: radial-gradient(circle at 30% 30%, #e0e0e0, #1a1a1a 70%);
-  border: 2px solid var(--border);
-  border-radius: 50%;
-  box-shadow: -20px 0 0 -8px radial-gradient(circle at 30% 30%, #e0e0e0, #1a1a1a 70%), 
-              -40px 0 0 -8px radial-gradient(circle at 30% 30%, #e0e0e0, #1a1a1a 70%),
-              0 20px 0 -8px radial-gradient(circle at 30% 30%, #e0e0e0, #1a1a1a 70%);
-  pointer-events: none;
-}
 /* Featured card variant - for landing page only */
 .neu-card.featured::after {
   content: '✕ — ✕ — ✕';

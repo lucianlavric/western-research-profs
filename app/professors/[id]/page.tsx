@@ -3,11 +3,17 @@ import Link from "next/link";
 import { getProfessorById, getAllProfessors, getRelatedProfessors } from "@/lib/data";
 import ResearchTags from "@/components/ResearchTags";
 import PublicationList from "@/components/PublicationList";
-import ProfessorCard from "@/components/ProfessorCard";
+import ProfessorCardInteractive from "@/components/ProfessorCardInteractive";
 import ReachOutHelper from "@/components/ReachOutHelper";
 
 interface Props {
   params: Promise<{ id: string }>;
+}
+
+const accentPalette = ["#ffd93d", "#6bcb77", "#ff9f43", "#ff5c5c"];
+
+function getAccent(name: string) {
+  return accentPalette[name.charCodeAt(0) % accentPalette.length];
 }
 
 export async function generateStaticParams() {
@@ -30,75 +36,71 @@ export default async function ProfessorPage({ params }: Props) {
 
   const relatedProfessors = getRelatedProfessors(professor, 4);
 
+  const accent = getAccent(professor.name);
+
   return (
-    <div className="py-6 md:py-8 px-4">
-      <div className="max-w-4xl mx-auto">
-        {/* Back Link */}
+    <div className="py-6 md:py-10 px-4">
+      <div className="max-w-5xl mx-auto space-y-5 md:space-y-6">
         <Link
           href="/professors"
-          className="inline-flex items-center text-purple-600 hover:text-purple-700 mb-4 md:mb-6 text-sm"
+          className="inline-flex items-center gap-2 text-sm font-semibold text-[#1a1a1a] hover:text-[#ff5c5c]"
         >
-          <svg
-            className="w-4 h-4 mr-1"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M15 19l-7-7 7-7"
-            />
-          </svg>
+          <span className="inline-flex h-6 w-6 items-center justify-center border-2 border-[#1a1a1a] bg-[#ffd93d] leading-none">
+            <svg
+              className="w-4 h-4"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+            </svg>
+          </span>
           Back to all professors
         </Link>
 
-        {/* Profile Header */}
-        <div className="bg-white rounded-lg border border-gray-200 p-4 md:p-6 mb-4 md:mb-6">
-          <div className="flex flex-col md:flex-row gap-4 md:gap-6">
-            {/* Avatar - always use letter */}
+        <div className="neu-card p-4 md:p-6 relative overflow-hidden">
+          <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-[#1a1a1a] to-transparent opacity-30" />
+          <div className="flex flex-col md:flex-row gap-5 md:gap-6">
             <div className="flex-shrink-0 flex justify-center md:justify-start">
-              <div className="w-20 h-20 md:w-32 md:h-32 bg-purple-100 rounded-full flex items-center justify-center">
-                <span className="text-purple-600 font-bold text-3xl md:text-4xl">
+              <div
+                className="w-24 h-24 md:w-32 md:h-32 border-[3px] border-[#1a1a1a] flex items-center justify-center relative"
+                style={{ backgroundColor: accent }}
+              >
+                <span className="text-3xl md:text-4xl font-bold text-[#1a1a1a]">
                   {professor.name.charAt(0)}
                 </span>
+                <div className="absolute -top-1 -right-1 w-3 h-3 bg-[#1a1a1a] border border-[#1a1a1a]" />
               </div>
             </div>
 
-            {/* Info */}
-            <div className="flex-1 text-center md:text-left">
-              <h1 className="text-xl md:text-3xl font-bold text-gray-900 mb-1">
+            <div className="flex-1 text-center md:text-left space-y-2">
+              <div className="inline-flex items-center gap-2 px-2 py-1 bg-[#ffd93d] border-2 border-[#1a1a1a] text-xs font-bold uppercase tracking-wide">
+                {professor.university}
+              </div>
+              <h1 className="text-2xl md:text-3xl font-bold text-[#1a1a1a] leading-tight">
                 {professor.name}
               </h1>
-              <p className="text-base md:text-lg text-gray-600 mb-1">{professor.title}</p>
-              <p className="text-purple-600 font-medium">
+              <p className="text-base md:text-lg text-[#1a1a1a] font-semibold">
+                {professor.title}
+              </p>
+              <div className="inline-flex items-center gap-2 px-2 py-1 border-2 border-[#1a1a1a] bg-white font-semibold text-sm">
+                <span className="inline-block w-2 h-2 bg-[#1a1a1a]" />
                 {professor.department}
-              </p>
-              <p className="text-gray-500 text-sm mb-3 md:mb-4">
-                {professor.university}
-              </p>
+              </div>
 
-              {/* Contact */}
-              <div className="flex flex-wrap justify-center md:justify-start gap-3 md:gap-4">
+              {professor.researchAreas.length > 0 && (
+                <div className="pt-1">
+                  <ResearchTags tags={professor.researchAreas} limit={5} featured />
+                </div>
+              )}
+
+              <div className="flex flex-wrap justify-center md:justify-start gap-2 md:gap-3 pt-1">
                 {professor.email && (
                   <a
                     href={`mailto:${professor.email}`}
-                    className="inline-flex items-center text-xs md:text-sm text-gray-600 hover:text-purple-600 transition-colors"
+                    className="inline-flex items-center gap-2 px-3 py-2 bg-white border-2 border-[#1a1a1a] shadow-[3px_3px_0_#1a1a1a] text-xs md:text-sm font-semibold hover:-translate-y-0.5 transition-transform"
                   >
-                    <svg
-                      className="w-4 h-4 mr-2"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-                      />
-                    </svg>
+                    <span className="text-[#ff5c5c] font-bold">Email</span>
                     {professor.email}
                   </a>
                 )}
@@ -108,21 +110,9 @@ export default async function ProfessorPage({ params }: Props) {
                     href={professor.profileUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center text-xs md:text-sm text-gray-600 hover:text-purple-600 transition-colors"
+                    className="inline-flex items-center gap-2 px-3 py-2 bg-[#ffd93d] border-2 border-[#1a1a1a] shadow-[3px_3px_0_#1a1a1a] text-xs md:text-sm font-semibold hover:-translate-y-0.5 transition-transform"
                   >
-                    <svg
-                      className="w-4 h-4 mr-2"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                      />
-                    </svg>
+                    <span className="font-bold">Visit</span>
                     Official Profile
                   </a>
                 )}
@@ -132,22 +122,10 @@ export default async function ProfessorPage({ params }: Props) {
                     href={professor.labUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center text-xs md:text-sm text-gray-600 hover:text-purple-600 transition-colors"
+                    className="inline-flex items-center gap-2 px-3 py-2 bg-[#6bcb77] border-2 border-[#1a1a1a] shadow-[3px_3px_0_#1a1a1a] text-xs md:text-sm font-semibold hover:-translate-y-0.5 transition-transform"
                   >
-                    <svg
-                      className="w-4 h-4 mr-2"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"
-                      />
-                    </svg>
-                    {professor.labName || "Lab Website"}
+                    <span className="font-bold">Lab</span>
+                    {professor.labName || "Website"}
                   </a>
                 )}
               </div>
@@ -155,31 +133,40 @@ export default async function ProfessorPage({ params }: Props) {
           </div>
         </div>
 
-        {/* Stats */}
-        <div className="grid grid-cols-3 gap-2 md:gap-4 mb-4 md:mb-6">
-          <div className="bg-white rounded-lg border border-gray-200 p-3 md:p-4 text-center">
-            <div className="text-xl md:text-2xl font-bold text-purple-600 tabular-nums">
-              {professor.publications.length}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-4">
+          {[
+            {
+              label: "Publications",
+              value: professor.publications.length,
+              hint: "Count",
+            },
+            {
+              label: "Citations",
+              value: totalCitations,
+              hint: "Total",
+            },
+            {
+              label: "Latest Paper",
+              value:
+                professor.publications.length > 0
+                  ? Math.max(...professor.publications.map((p) => p.year))
+                  : "-",
+              hint: "Year",
+            },
+          ].map((item) => (
+            <div key={item.label} className="neu-card p-3 md:p-4 text-center relative">
+              <div className="absolute top-2 right-2 w-3 h-3 border-t-2 border-r-2 border-[#1a1a1a]" />
+              <div className="text-2xl md:text-3xl font-black text-[#1a1a1a] tabular-nums leading-none">
+                {item.value}
+              </div>
+              <div className="text-xs md:text-sm text-[#1a1a1a] font-semibold mt-2 uppercase tracking-wide">
+                {item.label}
+              </div>
+              <div className="text-[11px] text-[#666] mt-1">{item.hint}</div>
             </div>
-            <div className="text-xs md:text-sm text-gray-600">Publications</div>
-          </div>
-          <div className="bg-white rounded-lg border border-gray-200 p-3 md:p-4 text-center">
-            <div className="text-xl md:text-2xl font-bold text-purple-600 tabular-nums">
-              {totalCitations}
-            </div>
-            <div className="text-xs md:text-sm text-gray-600">Citations</div>
-          </div>
-          <div className="bg-white rounded-lg border border-gray-200 p-3 md:p-4 text-center">
-            <div className="text-xl md:text-2xl font-bold text-purple-600 tabular-nums">
-              {professor.publications.length > 0
-                ? Math.max(...professor.publications.map((p) => p.year))
-                : "-"}
-            </div>
-            <div className="text-xs md:text-sm text-gray-600">Latest Paper</div>
-          </div>
+          ))}
         </div>
 
-        {/* Help Me Reach Out */}
         {professor.researchSummary && (
           <ReachOutHelper
             summary={professor.researchSummary}
@@ -188,49 +175,40 @@ export default async function ProfessorPage({ params }: Props) {
           />
         )}
 
-        {/* Research Areas */}
         {professor.researchAreas.length > 0 && (
-          <div className="bg-white rounded-lg border border-gray-200 p-4 md:p-6 mb-4 md:mb-6">
-            <h2 className="text-base md:text-lg font-semibold text-gray-900 mb-3 md:mb-4">
-              Research Areas
-            </h2>
+          <div className="neu-card p-4 md:p-6">
+            <div className="section-label mb-3">Research Areas</div>
             <ResearchTags tags={professor.researchAreas} />
           </div>
         )}
 
-        {/* Bio */}
         {professor.bio && (
-          <div className="bg-white rounded-lg border border-gray-200 p-4 md:p-6 mb-4 md:mb-6">
-            <h2 className="text-base md:text-lg font-semibold text-gray-900 mb-3 md:mb-4">About</h2>
-            <p className="text-sm md:text-base text-gray-600 whitespace-pre-wrap">{professor.bio}</p>
+          <div className="neu-card p-4 md:p-6">
+            <div className="section-label mb-3">About</div>
+            <p className="text-sm md:text-base text-[#1a1a1a] whitespace-pre-wrap leading-relaxed">
+              {professor.bio}
+            </p>
           </div>
         )}
 
-        {/* Publications */}
-        <div className="bg-white rounded-lg border border-gray-200 p-4 md:p-6">
-          <h2 className="text-base md:text-lg font-semibold text-gray-900 mb-3 md:mb-4">
-            Recent Publications
-          </h2>
+        <div className="neu-card p-4 md:p-6">
+          <div className="section-label mb-3">Recent Publications</div>
           <PublicationList publications={professor.publications} />
         </div>
 
-        {/* Related Professors */}
         {relatedProfessors.length > 0 && (
-          <div className="mt-6 md:mt-8">
-            <h2 className="text-base md:text-lg font-semibold text-gray-900 mb-3 md:mb-4">
-              Related Professors
-            </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="mt-4 md:mt-6">
+            <div className="section-label mb-3">Related Professors</div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4">
               {relatedProfessors.map((prof) => (
-                <ProfessorCard key={prof.id} professor={prof} />
+                <ProfessorCardInteractive key={prof.id} professor={prof} />
               ))}
             </div>
           </div>
         )}
 
-        {/* Last Updated */}
-        <p className="text-center text-xs md:text-sm text-gray-400 mt-4 md:mt-6">
-          Last updated:{" "}
+        <p className="text-center text-xs md:text-sm text-[#666]">
+          Last updated: {" "}
           {new Intl.DateTimeFormat(undefined, {
             year: "numeric",
             month: "short",

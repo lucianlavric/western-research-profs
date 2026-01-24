@@ -18,7 +18,7 @@ export default function ResearchTags({ tags, limit, small = false, featured = fa
           key={tag}
           style={{ 
             backgroundColor: colors[i % colors.length],
-            transform: featured ? `rotate(${(i * 7) % 3 - 1}deg)` : "rotate(0deg)"
+            transform: "rotate(0deg)"
           }}
           className={`inline-block border-2 border-[#1a1a1a] font-semibold text-[#1a1a1a] relative ${
             small ? "px-1.5 py-0.5 text-[9px]" : "px-2 py-0.5 text-xs"
@@ -32,7 +32,7 @@ export default function ResearchTags({ tags, limit, small = false, featured = fa
         <span className={`inline-block bg-white border-2 border-[#1a1a1a] font-semibold text-[#1a1a1a] relative ${
           small ? "px-1.5 py-0.5 text-[9px]" : "px-2 py-0.5 text-xs"
         }`}
-          style={{ transform: featured ? "rotate(-1deg)" : "rotate(0deg)" }}
+          style={{ transform: "rotate(0deg)" }}
         >
           +{remaining}
           <span className="absolute inset-0 border-2 border-[#1a1a1a] opacity-10 translate-x-0.5 translate-y-0.5 pointer-events-none" />

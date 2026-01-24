@@ -13,6 +13,7 @@ const ProfessorPreview = dynamic(() => import("./ProfessorPreview"), {
 
 interface ProfessorCardInteractiveProps {
   professor: Professor;
+  striped?: boolean;
 }
 
 const colors = ["#ffd93d", "#6bcb77", "#ff9f43", "#ff5c5c"];
@@ -21,7 +22,7 @@ function getColor(name: string) {
   return colors[name.charCodeAt(0) % colors.length];
 }
 
-export default function ProfessorCardInteractive({ professor }: ProfessorCardInteractiveProps) {
+export default function ProfessorCardInteractive({ professor, striped = false }: ProfessorCardInteractiveProps) {
   const [showPreview, setShowPreview] = useState(false);
 
   // Use loop instead of Math.max(...spread) for O(n) performance (js-min-max-loop)
@@ -42,7 +43,8 @@ export default function ProfessorCardInteractive({ professor }: ProfessorCardInt
     <>
       <Link href={`/professors/${professor.id}`} className="block group">
         <div 
-          className="neu-card p-3 h-full flex flex-col relative"
+          className="neu-card p-4 md:p-5 h-full flex flex-col relative"
+          style={{ backgroundColor: striped ? "#fff8e6" : undefined }}
         >
           {/* Accent line */}
           <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-[#1a1a1a] to-transparent opacity-20" />

@@ -43,13 +43,13 @@ export default async function ProfessorsPage({ searchParams }: Props) {
 
   return (
     <div className="py-6 md:py-8 px-4">
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-5xl mx-auto space-y-6 md:space-y-8">
         {/* Header */}
-        <div className="mb-5 md:mb-8">
-          <h1 className="text-2xl md:text-3xl font-bold text-gray-900 mb-1 md:mb-2">
+        <div className="mb-2 md:mb-4">
+          <h1 className="text-2xl md:text-3xl font-bold text-[#1a1a1a] mb-1 md:mb-2">
             Browse Professors
           </h1>
-          <p className="text-sm md:text-base text-gray-600">
+          <p className="text-sm md:text-base text-[#1a1a1a]">
             {professors.length} professor{professors.length !== 1 ? "s" : ""}{" "}
             {query && `matching "${query}"`}
             {university && ` at ${university}`}
@@ -58,7 +58,7 @@ export default async function ProfessorsPage({ searchParams }: Props) {
         </div>
 
         {/* Search and Filters */}
-        <div className="mb-5 md:mb-8 space-y-3 md:space-y-4">
+        <div className="space-y-3 md:space-y-4">
           <Suspense fallback={<div className="h-12" />}>
             <SearchBar professors={getAllProfessors()} />
           </Suspense>
@@ -70,9 +70,9 @@ export default async function ProfessorsPage({ searchParams }: Props) {
 
         {/* Results */}
         {professors.length > 0 ? (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
-            {professors.map((prof) => (
-              <ProfessorCardInteractive key={prof.id} professor={prof} />
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-5 md:gap-7">
+            {professors.map((prof, idx) => (
+              <ProfessorCardInteractive key={prof.id} professor={prof} striped={idx % 2 === 1} />
             ))}
           </div>
         ) : (
