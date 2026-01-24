@@ -107,7 +107,7 @@ export default function SearchBar({
           onFocus={() => setShowSuggestions(true)}
           onKeyDown={handleKeyDown}
           placeholder={placeholder}
-          className={`w-full border-2 border-[#1a1a1a] focus:ring-0 focus:border-[#1a1a1a] transition-colors bg-[#fffef5] text-[#1a1a1a] placeholder-[#666] ${
+          className={`w-full border-2 border-[#1a1a1a] focus:ring-0 focus:border-[#1a1a1a] transition-colors bg-white text-[#1a1a1a] placeholder-[#666] ${
             large ? "px-4 py-3 md:px-5 md:py-4 text-base md:text-lg pr-14 md:pr-24" : "px-4 py-3 pr-12 md:pr-20"
           }`}
           role="combobox"
@@ -139,7 +139,7 @@ export default function SearchBar({
           <ul
             id="search-suggestions"
             role="listbox"
-            className="absolute z-50 w-full mt-1 bg-[#fffef5] border-2 border-[#1a1a1a] max-h-80 overflow-y-auto"
+            className="absolute z-50 w-full mt-1 bg-white border-2 border-[#1a1a1a] max-h-80 overflow-y-auto"
             style={{
               boxShadow: "3px 3px 0 #1a1a1a"
             }}

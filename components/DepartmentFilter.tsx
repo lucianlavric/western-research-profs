@@ -33,7 +33,7 @@ export default function DepartmentFilter({
         className={`px-2 py-1 md:px-3 md:py-1.5 text-xs md:text-sm font-bold border-2 border-[#1a1a1a] transition-colors relative ${
           !currentDept
             ? "bg-[#ffd93d] text-[#1a1a1a]"
-            : "bg-[#fffef5] text-[#1a1a1a] hover:bg-[#ffd93d]"
+            : "bg-white text-[#1a1a1a] hover:bg-[#ffd93d]"
         }`}
         style={!currentDept ? { boxShadow: "3px 4px 0 #1a1a1a", transform: "skewY(-1deg)" } : { transform: "skewY(-1deg)" }}
       >
@@ -48,7 +48,7 @@ export default function DepartmentFilter({
           className={`px-2 py-1 md:px-3 md:py-1.5 text-xs md:text-sm font-bold border-2 border-[#1a1a1a] transition-colors relative ${
             currentDept === dept
               ? "bg-[#ffd93d] text-[#1a1a1a]"
-              : "bg-[#fffef5] text-[#1a1a1a] hover:bg-[#ffd93d]"
+              : "bg-white text-[#1a1a1a] hover:bg-[#ffd93d]"
           }`}
           style={currentDept === dept ? { boxShadow: "3px 4px 0 #1a1a1a", transform: `skewY(-1deg) rotate(${idx % 2 === 0 ? -0.5 : 0.5}deg)` } : { transform: `skewY(-1deg) rotate(${idx % 2 === 0 ? -0.5 : 0.5}deg)` }}
         >
