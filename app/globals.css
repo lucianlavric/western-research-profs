@@ -1,22 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Teko:wght@400;500;600;700&family=Roboto+Condensed:wght@400;700&display=swap');
 @import "tailwindcss";
 
 :root {
-  --background: #f5e6d3;
-  --foreground: #2d2013;
-  --tf-red: #b8383b;
-  --tf-red-dark: #8f2b2d;
-  --tf-orange: #cf6a32;
-  --tf-cream: #f5e6d3;
-  --tf-tan: #e8d5b7;
-  --tf-brown: #4a3728;
-  --tf-brown-dark: #2d2013;
+  --background: #0a0a0a;
+  --foreground: #fafafa;
+  --accent: #ff6b35;
+  --muted: #888;
+  --border: #222;
+  --card: #111;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: 'Roboto Condensed', var(--font-geist-sans);
+  --font-sans: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   --font-mono: var(--font-geist-mono);
 }
 
@@ -26,88 +22,82 @@ html, body {
 
 /* Hide scrollbar while maintaining scroll functionality */
 html {
-  scrollbar-width: none;
-  -ms-overflow-style: none;
+  scrollbar-width: thin;
+  scrollbar-color: #333 #0a0a0a;
 }
 
 html::-webkit-scrollbar {
-  display: none;
+  width: 6px;
+}
+
+html::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 3px;
 }
 
 body {
-  background: var(--tf-cream);
-  color: var(--tf-brown-dark);
-  font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-/* TF2 style heading font */
-.tf-heading {
-  font-family: 'Teko', sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 0.02em;
+/* Selection styling */
+::selection {
+  background: var(--accent);
+  color: #0a0a0a;
 }
 
-/* Vintage paper texture overlay */
-.tf-paper {
-  background-image:
-    radial-gradient(ellipse at center, transparent 0%, rgba(0,0,0,0.03) 100%),
-    linear-gradient(90deg, transparent 50%, rgba(0,0,0,0.02) 50%);
-  background-size: 100% 100%, 4px 4px;
+/* Subtle link hover transition */
+a {
+  transition: color 0.2s ease, opacity 0.2s ease;
 }
 
-/* Bold TF2 button style */
-.tf-button {
-  background: linear-gradient(180deg, var(--tf-red) 0%, var(--tf-red-dark) 100%);
-  border: 3px solid var(--tf-brown-dark);
-  box-shadow:
-    0 4px 0 var(--tf-brown-dark),
-    inset 0 1px 0 rgba(255,255,255,0.2);
-  text-transform: uppercase;
-  font-family: 'Teko', sans-serif;
-  font-weight: 600;
-  letter-spacing: 0.05em;
-  transition: all 0.1s ease;
+/* Smooth focus states */
+:focus-visible {
+  outline: 1px solid var(--accent);
+  outline-offset: 2px;
 }
 
-.tf-button:hover {
-  transform: translateY(2px);
-  box-shadow:
-    0 2px 0 var(--tf-brown-dark),
-    inset 0 1px 0 rgba(255,255,255,0.2);
+/* Card hover effect */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.tf-button:active {
-  transform: translateY(4px);
-  box-shadow:
-    0 0 0 var(--tf-brown-dark),
-    inset 0 1px 0 rgba(255,255,255,0.2);
+.card-hover:hover {
+  transform: translateY(-2px);
 }
 
-/* Card with vintage poster feel */
-.tf-card {
-  background: linear-gradient(180deg, #faf3e8 0%, #ede0c8 100%);
-  border: 3px solid var(--tf-brown);
-  box-shadow:
-    4px 4px 0 var(--tf-brown-dark),
-    inset 0 0 20px rgba(0,0,0,0.05);
-}
-
-.tf-card:hover {
-  transform: translate(-2px, -2px);
-  box-shadow:
-    6px 6px 0 var(--tf-brown-dark),
-    inset 0 0 20px rgba(0,0,0,0.05);
-}
-
-@keyframes slide-up {
+/* Fade in animation */
+@keyframes fade-in {
   from {
-    transform: translateY(100%);
+    opacity: 0;
+    transform: translateY(10px);
   }
   to {
+    opacity: 1;
     transform: translateY(0);
   }
 }
 
-.animate-slide-up {
-  animation: slide-up 0.3s ease-out;
+.animate-fade-in {
+  animation: fade-in 0.5s ease-out forwards;
 }
+
+/* Stagger children animation */
+.stagger-children > * {
+  opacity: 0;
+  animation: fade-in 0.5s ease-out forwards;
+}
+
+.stagger-children > *:nth-child(1) { animation-delay: 0.05s; }
+.stagger-children > *:nth-child(2) { animation-delay: 0.1s; }
+.stagger-children > *:nth-child(3) { animation-delay: 0.15s; }
+.stagger-children > *:nth-child(4) { animation-delay: 0.2s; }
+.stagger-children > *:nth-child(5) { animation-delay: 0.25s; }
+.stagger-children > *:nth-child(6) { animation-delay: 0.3s; }

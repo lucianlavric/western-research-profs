@@ -1,103 +1,113 @@
 export default function AboutPage() {
   return (
-    <div className="py-8 md:py-12 px-4">
-      <div className="max-w-3xl mx-auto">
-        <h1 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4 md:mb-6">
-          About Western Research Profs
-        </h1>
+    <div className="min-h-screen">
+      {/* Hero */}
+      <section className="py-16 md:py-24 px-6 border-b border-[#222]">
+        <div className="max-w-3xl mx-auto">
+          <p className="text-[#ff6b35] text-sm tracking-widest uppercase mb-4">
+            About
+          </p>
+          <h1 className="text-4xl md:text-5xl font-light">
+            ResearchProfs
+          </h1>
+        </div>
+      </section>
 
-        <div className="prose prose-purple max-w-none">
-          <section className="mb-6 md:mb-8">
-            <h2 className="text-lg md:text-xl font-semibold text-gray-900 mb-2 md:mb-3">
+      <section className="py-16 md:py-24 px-6">
+        <div className="max-w-3xl mx-auto space-y-16">
+          <div>
+            <h2 className="text-xl font-medium text-[#fafafa] mb-4">
               Our Mission
             </h2>
-            <p className="text-sm md:text-base text-gray-600 leading-relaxed">
-              Western Research Profs helps undergraduate and graduate students at
-              Western University discover research opportunities. We aggregate
-              professor information and recent publications to make it easier for
-              students to find potential research supervisors whose work aligns
-              with their interests.
+            <p className="text-[#888] leading-relaxed">
+              ResearchProfs helps undergraduate and graduate students discover research
+              opportunities. We aggregate professor information and recent publications
+              to make it easier for students to find potential research supervisors
+              whose work aligns with their interests.
             </p>
-          </section>
+          </div>
 
-          <section className="mb-6 md:mb-8">
-            <h2 className="text-lg md:text-xl font-semibold text-gray-900 mb-2 md:mb-3">
+          <div className="h-px bg-[#222]" />
+
+          <div>
+            <h2 className="text-xl font-medium text-[#fafafa] mb-4">
               How It Works
             </h2>
-            <div className="text-sm md:text-base text-gray-600 leading-relaxed space-y-2 md:space-y-3">
+            <div className="text-[#888] leading-relaxed space-y-4">
               <p>
-                We collect publicly available information from Western
-                University&apos;s faculty pages and supplement it with publication
-                data from Semantic Scholar, a free academic search engine.
+                We collect publicly available information from university faculty
+                pages and supplement it with publication data from OpenAlex, a free
+                academic search engine.
               </p>
               <p>
                 Our database is updated periodically to ensure you have access to
                 recent publications and accurate contact information.
               </p>
             </div>
-          </section>
+          </div>
 
-          <section className="mb-6 md:mb-8">
-            <h2 className="text-lg md:text-xl font-semibold text-gray-900 mb-2 md:mb-3">
+          <div className="h-px bg-[#222]" />
+
+          <div>
+            <h2 className="text-xl font-medium text-[#fafafa] mb-4">
               Data Sources
             </h2>
-            <ul className="list-disc list-inside text-sm md:text-base text-gray-600 space-y-1.5 md:space-y-2">
-              <li>
-                <strong>Professor profiles:</strong> Western University faculty
-                directory pages
+            <ul className="text-[#888] space-y-3">
+              <li className="flex items-start gap-3">
+                <span className="text-[#ff6b35]">&mdash;</span>
+                <span><strong className="text-[#ccc]">Professor profiles:</strong> University faculty directory pages</span>
               </li>
-              <li>
-                <strong>Publications:</strong> Semantic Scholar API
+              <li className="flex items-start gap-3">
+                <span className="text-[#ff6b35]">&mdash;</span>
+                <span><strong className="text-[#ccc]">Publications:</strong> OpenAlex API</span>
               </li>
-              <li>
-                <strong>Research areas:</strong> Extracted from faculty profiles
-                when available
+              <li className="flex items-start gap-3">
+                <span className="text-[#ff6b35]">&mdash;</span>
+                <span><strong className="text-[#ccc]">Research areas:</strong> Extracted from faculty profiles</span>
               </li>
             </ul>
-          </section>
+          </div>
 
-          <section className="mb-6 md:mb-8">
-            <h2 className="text-lg md:text-xl font-semibold text-gray-900 mb-2 md:mb-3">
+          <div className="h-px bg-[#222]" />
+
+          <div>
+            <h2 className="text-xl font-medium text-[#fafafa] mb-4">
               Tips for Contacting Professors
             </h2>
-            <ol className="list-decimal list-inside text-sm md:text-base text-gray-600 space-y-1.5 md:space-y-2">
-              <li>
-                Read their recent publications to understand their current
-                research focus
-              </li>
-              <li>
-                Write a personalized email explaining why their research interests
-                you
-              </li>
+            <ol className="text-[#888] space-y-3 list-decimal list-inside">
+              <li>Read their recent publications to understand their current research focus</li>
+              <li>Write a personalized email explaining why their research interests you</li>
               <li>Mention specific papers or projects that caught your attention</li>
               <li>Briefly describe your background and what you hope to learn</li>
               <li>Be respectful of their time and follow up politely if needed</li>
             </ol>
-          </section>
+          </div>
 
-          <section className="mb-6 md:mb-8">
-            <h2 className="text-lg md:text-xl font-semibold text-gray-900 mb-2 md:mb-3">
+          <div className="h-px bg-[#222]" />
+
+          <div>
+            <h2 className="text-xl font-medium text-[#fafafa] mb-4">
               Disclaimer
             </h2>
-            <p className="text-sm md:text-base text-gray-600 leading-relaxed">
-              This is an independent project and is not affiliated with or
-              endorsed by Western University. All information is collected from
-              publicly available sources. If you notice any inaccuracies or would
-              like your information removed, please contact us.
+            <p className="text-[#888] leading-relaxed">
+              This is an independent project and is not affiliated with or endorsed
+              by any university. All information is collected from publicly available
+              sources. If you notice any inaccuracies or would like your information
+              removed, please contact us.
             </p>
-          </section>
+          </div>
 
-          <section className="bg-purple-50 rounded-lg p-4 md:p-6">
-            <h2 className="text-lg md:text-xl font-semibold text-gray-900 mb-2 md:mb-3">
+          <div className="p-8 bg-[#111] border border-[#222]">
+            <h2 className="text-xl font-medium text-[#fafafa] mb-4">
               Open Source
             </h2>
-            <p className="text-sm md:text-base text-gray-600 leading-relaxed">
+            <p className="text-[#888] leading-relaxed">
               This project is open source. Want to contribute or report an issue?
               Check out our GitHub repository.
             </p>
-          </section>
+          </div>
         </div>
-      </div>
+      </section>
     </div>
   );
 }
