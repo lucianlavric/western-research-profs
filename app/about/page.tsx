@@ -1,103 +1,71 @@
 export default function AboutPage() {
   return (
-    <div className="py-8 md:py-12 px-4">
-      <div className="max-w-3xl mx-auto">
-        <h1 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4 md:mb-6">
-          About Western Research Profs
-        </h1>
-
-        <div className="prose prose-purple max-w-none">
-          <section className="mb-6 md:mb-8">
-            <h2 className="text-lg md:text-xl font-semibold text-gray-900 mb-2 md:mb-3">
-              Our Mission
-            </h2>
-            <p className="text-sm md:text-base text-gray-600 leading-relaxed">
-              Western Research Profs helps undergraduate and graduate students at
-              Western University discover research opportunities. We aggregate
-              professor information and recent publications to make it easier for
-              students to find potential research supervisors whose work aligns
-              with their interests.
-            </p>
-          </section>
-
-          <section className="mb-6 md:mb-8">
-            <h2 className="text-lg md:text-xl font-semibold text-gray-900 mb-2 md:mb-3">
-              How It Works
-            </h2>
-            <div className="text-sm md:text-base text-gray-600 leading-relaxed space-y-2 md:space-y-3">
-              <p>
-                We collect publicly available information from Western
-                University&apos;s faculty pages and supplement it with publication
-                data from Semantic Scholar, a free academic search engine.
-              </p>
-              <p>
-                Our database is updated periodically to ensure you have access to
-                recent publications and accurate contact information.
-              </p>
-            </div>
-          </section>
-
-          <section className="mb-6 md:mb-8">
-            <h2 className="text-lg md:text-xl font-semibold text-gray-900 mb-2 md:mb-3">
-              Data Sources
-            </h2>
-            <ul className="list-disc list-inside text-sm md:text-base text-gray-600 space-y-1.5 md:space-y-2">
-              <li>
-                <strong>Professor profiles:</strong> Western University faculty
-                directory pages
-              </li>
-              <li>
-                <strong>Publications:</strong> Semantic Scholar API
-              </li>
-              <li>
-                <strong>Research areas:</strong> Extracted from faculty profiles
-                when available
-              </li>
-            </ul>
-          </section>
-
-          <section className="mb-6 md:mb-8">
-            <h2 className="text-lg md:text-xl font-semibold text-gray-900 mb-2 md:mb-3">
-              Tips for Contacting Professors
-            </h2>
-            <ol className="list-decimal list-inside text-sm md:text-base text-gray-600 space-y-1.5 md:space-y-2">
-              <li>
-                Read their recent publications to understand their current
-                research focus
-              </li>
-              <li>
-                Write a personalized email explaining why their research interests
-                you
-              </li>
-              <li>Mention specific papers or projects that caught your attention</li>
-              <li>Briefly describe your background and what you hope to learn</li>
-              <li>Be respectful of their time and follow up politely if needed</li>
-            </ol>
-          </section>
-
-          <section className="mb-6 md:mb-8">
-            <h2 className="text-lg md:text-xl font-semibold text-gray-900 mb-2 md:mb-3">
-              Disclaimer
-            </h2>
-            <p className="text-sm md:text-base text-gray-600 leading-relaxed">
-              This is an independent project and is not affiliated with or
-              endorsed by Western University. All information is collected from
-              publicly available sources. If you notice any inaccuracies or would
-              like your information removed, please contact us.
-            </p>
-          </section>
-
-          <section className="bg-purple-50 rounded-lg p-4 md:p-6">
-            <h2 className="text-lg md:text-xl font-semibold text-gray-900 mb-2 md:mb-3">
-              Open Source
-            </h2>
-            <p className="text-sm md:text-base text-gray-600 leading-relaxed">
-              This project is open source. Want to contribute or report an issue?
-              Check out our GitHub repository.
-            </p>
-          </section>
+    <div className="min-h-screen bg-[#fffef5]">
+      <section className="border-b-3 border-[#1a1a1a]">
+        <div className="max-w-3xl mx-auto px-4 py-8">
+          <span className="section-label">Info</span>
+          <h1 className="text-3xl md:text-4xl font-bold text-[#1a1a1a] mt-3">About</h1>
         </div>
-      </div>
+      </section>
+
+      <section className="py-8 bg-white">
+        <div className="max-w-3xl mx-auto px-4 space-y-4">
+          <div className="neu-card p-4">
+            <div className="flex items-start gap-3">
+              <div className="w-8 h-8 bg-[#ffd93d] border-2 border-[#1a1a1a] flex items-center justify-center flex-shrink-0 text-sm">⚡</div>
+              <div>
+                <h2 className="font-bold text-[#1a1a1a]">Mission</h2>
+                <p className="text-sm text-[#666] mt-1">Help students find research mentors by aggregating professor info and publications.</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="neu-card p-4">
+            <div className="flex items-start gap-3">
+              <div className="w-8 h-8 bg-[#6bcb77] border-2 border-[#1a1a1a] flex items-center justify-center flex-shrink-0 text-sm">⚙</div>
+              <div>
+                <h2 className="font-bold text-[#1a1a1a]">How it works</h2>
+                <p className="text-sm text-[#666] mt-1">We scrape public faculty pages and enrich with publication data from OpenAlex.</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="neu-card p-4">
+            <div className="flex items-start gap-3">
+              <div className="w-8 h-8 bg-[#ff9f43] border-2 border-[#1a1a1a] flex items-center justify-center flex-shrink-0 text-sm">📊</div>
+              <div>
+                <h2 className="font-bold text-[#1a1a1a]">Data sources</h2>
+                <ul className="text-sm text-[#666] mt-1 space-y-0.5">
+                  <li>• Profiles: University faculty pages</li>
+                  <li>• Publications: OpenAlex API</li>
+                  <li>• Research areas: Faculty profiles</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div className="neu-card p-4">
+            <div className="flex items-start gap-3">
+              <div className="w-8 h-8 bg-[#ff5c5c] border-2 border-[#1a1a1a] flex items-center justify-center flex-shrink-0 text-sm text-white">💡</div>
+              <div>
+                <h2 className="font-bold text-[#1a1a1a]">Tips for cold emails</h2>
+                <ol className="text-sm text-[#666] mt-1 space-y-0.5 list-decimal list-inside">
+                  <li>Read their recent papers</li>
+                  <li>Mention specific work</li>
+                  <li>Be brief about yourself</li>
+                  <li>Follow up once if needed</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+
+          <div className="border-3 border-[#1a1a1a] p-4 bg-[#1a1a1a] shadow-[4px_4px_0_#666]">
+            <p className="text-xs text-gray-400">
+              Independent project. Not affiliated with any university. Data from public sources.
+            </p>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }

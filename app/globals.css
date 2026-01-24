@@ -1,113 +1,108 @@
-@import url('https://fonts.googleapis.com/css2?family=Teko:wght@400;500;600;700&family=Roboto+Condensed:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap');
 @import "tailwindcss";
 
 :root {
-  --background: #f5e6d3;
-  --foreground: #2d2013;
-  --tf-red: #b8383b;
-  --tf-red-dark: #8f2b2d;
-  --tf-orange: #cf6a32;
-  --tf-cream: #f5e6d3;
-  --tf-tan: #e8d5b7;
-  --tf-brown: #4a3728;
-  --tf-brown-dark: #2d2013;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: 'Roboto Condensed', var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --background: #fffef5;
+  --foreground: #1a1a1a;
+  --muted: #666;
+  --accent-coral: #ff5c5c;
+  --accent-yellow: #ffd93d;
+  --accent-mint: #6bcb77;
+  --accent-orange: #ff9f43;
+  --border: #1a1a1a;
+  --shadow: #1a1a1a;
+  --card: #ffffff;
 }
 
 html, body {
   overflow-x: hidden;
 }
 
-/* Hide scrollbar while maintaining scroll functionality */
 html {
-  scrollbar-width: none;
-  -ms-overflow-style: none;
-}
-
-html::-webkit-scrollbar {
-  display: none;
+  scrollbar-width: thin;
+  scrollbar-color: var(--border) var(--background);
 }
 
 body {
-  background: var(--tf-cream);
-  color: var(--tf-brown-dark);
-  font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Space Grotesk', system-ui, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
 }
 
-/* TF2 style heading font */
-.tf-heading {
-  font-family: 'Teko', sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 0.02em;
+/* Neubrutalist card - SHARP corners */
+.neu-card {
+  background: var(--card);
+  border: 3px solid var(--border);
+  box-shadow: 4px 4px 0 var(--shadow);
 }
 
-/* Vintage paper texture overlay */
-.tf-paper {
-  background-image:
-    radial-gradient(ellipse at center, transparent 0%, rgba(0,0,0,0.03) 100%),
-    linear-gradient(90deg, transparent 50%, rgba(0,0,0,0.02) 50%);
-  background-size: 100% 100%, 4px 4px;
-}
-
-/* Bold TF2 button style */
-.tf-button {
-  background: linear-gradient(180deg, var(--tf-red) 0%, var(--tf-red-dark) 100%);
-  border: 3px solid var(--tf-brown-dark);
-  box-shadow:
-    0 4px 0 var(--tf-brown-dark),
-    inset 0 1px 0 rgba(255,255,255,0.2);
-  text-transform: uppercase;
-  font-family: 'Teko', sans-serif;
-  font-weight: 600;
-  letter-spacing: 0.05em;
-  transition: all 0.1s ease;
-}
-
-.tf-button:hover {
-  transform: translateY(2px);
-  box-shadow:
-    0 2px 0 var(--tf-brown-dark),
-    inset 0 1px 0 rgba(255,255,255,0.2);
-}
-
-.tf-button:active {
-  transform: translateY(4px);
-  box-shadow:
-    0 0 0 var(--tf-brown-dark),
-    inset 0 1px 0 rgba(255,255,255,0.2);
-}
-
-/* Card with vintage poster feel */
-.tf-card {
-  background: linear-gradient(180deg, #faf3e8 0%, #ede0c8 100%);
-  border: 3px solid var(--tf-brown);
-  box-shadow:
-    4px 4px 0 var(--tf-brown-dark),
-    inset 0 0 20px rgba(0,0,0,0.05);
-}
-
-.tf-card:hover {
+.neu-card:hover {
   transform: translate(-2px, -2px);
-  box-shadow:
-    6px 6px 0 var(--tf-brown-dark),
-    inset 0 0 20px rgba(0,0,0,0.05);
+  box-shadow: 6px 6px 0 var(--shadow);
 }
 
-@keyframes slide-up {
-  from {
-    transform: translateY(100%);
-  }
-  to {
-    transform: translateY(0);
-  }
+/* Neubrutalist button */
+.neu-button {
+  background: var(--accent-yellow);
+  border: 2px solid var(--border);
+  box-shadow: 3px 3px 0 var(--shadow);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
 }
 
-.animate-slide-up {
-  animation: slide-up 0.3s ease-out;
+.neu-button:hover {
+  transform: translate(-1px, -1px);
+  box-shadow: 4px 4px 0 var(--shadow);
+}
+
+.neu-button:active {
+  transform: translate(1px, 1px);
+  box-shadow: 2px 2px 0 var(--shadow);
+}
+
+.neu-button-coral { background: var(--accent-coral); color: white; }
+.neu-button-mint { background: var(--accent-mint); }
+.neu-button-outline { background: var(--card); }
+
+/* Section label - tight */
+.section-label {
+  display: inline-block;
+  background: var(--accent-yellow);
+  border: 2px solid var(--border);
+  padding: 2px 10px;
+  font-weight: 700;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Transitions only for interactive */
+.neu-card, .neu-button, a, button {
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+/* Focus */
+:focus-visible {
+  outline: 3px solid var(--accent-orange);
+  outline-offset: 2px;
+}
+
+::selection {
+  background: var(--accent-yellow);
+  color: var(--foreground);
+}
+
+/* Marquee animation - pauses cleanly on tab blur */
+@keyframes marquee {
+  0% { transform: translate3d(0, 0, 0); }
+  100% { transform: translate3d(-50%, 0, 0); }
+}
+
+.animate-marquee {
+  animation: marquee 30s linear infinite;
+  will-change: transform;
+  backface-visibility: hidden;
 }
