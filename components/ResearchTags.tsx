@@ -5,7 +5,7 @@ interface ResearchTagsProps {
   featured?: boolean;
 }
 
-const colors = ["#ffd93d", "#6bcb77", "#ff9f43", "#ff5c5c"];
+const baseColor = "#ffd93d";
 
 export default function ResearchTags({ tags, limit, small = false, featured = false }: ResearchTagsProps) {
   const displayTags = limit ? tags.slice(0, limit) : tags;
@@ -17,7 +17,7 @@ export default function ResearchTags({ tags, limit, small = false, featured = fa
         <span
           key={tag}
           style={{ 
-            backgroundColor: colors[i % colors.length],
+            backgroundColor: baseColor,
             transform: "rotate(0deg)"
           }}
           className={`inline-block border-2 border-[#1a1a1a] font-semibold text-[#1a1a1a] relative ${
@@ -32,7 +32,7 @@ export default function ResearchTags({ tags, limit, small = false, featured = fa
         <span className={`inline-block bg-white border-2 border-[#1a1a1a] font-semibold text-[#1a1a1a] relative ${
           small ? "px-1.5 py-0.5 text-[9px]" : "px-2 py-0.5 text-xs"
         }`}
-          style={{ transform: "rotate(0deg)" }}
+          style={{ transform: "rotate(0deg)", backgroundColor: baseColor }}
         >
           +{remaining}
           <span className="absolute inset-0 border-2 border-[#1a1a1a] opacity-10 translate-x-0.5 translate-y-0.5 pointer-events-none" />

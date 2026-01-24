@@ -15,10 +15,12 @@ interface ProfessorCardInteractiveProps {
   professor: Professor;
 }
 
-const colors = ["#ffd93d", "#6bcb77", "#ff9f43", "#ff5c5c"];
+const universityColors: Record<string, string> = {
+  "Western University": "#6f42c1",
+};
 
-function getColor(name: string) {
-  return colors[name.charCodeAt(0) % colors.length];
+function getUniversityColor(university: string) {
+  return universityColors[university] || "#ffd93d";
 }
 
 export default function ProfessorCardInteractive({ professor }: ProfessorCardInteractiveProps) {
@@ -36,7 +38,8 @@ export default function ProfessorCardInteractive({ professor }: ProfessorCardInt
   })();
 
   const pubCount = professor.publications.length;
-  const color = getColor(professor.name);
+  const uniColor = getUniversityColor(professor.university);
+  const avatarColor = "#ffd93d";
 
   return (
     <>
@@ -50,7 +53,7 @@ export default function ProfessorCardInteractive({ professor }: ProfessorCardInt
           <div className="flex items-start gap-3 mb-2">
             <div
               className="w-10 h-10 border-2 border-[#1a1a1a] flex items-center justify-center flex-shrink-0 relative"
-              style={{ backgroundColor: color }}
+              style={{ backgroundColor: avatarColor }}
             >
               <span className="text-[#1a1a1a] font-bold">{professor.name.charAt(0)}</span>
               {/* Small accent corner */}
@@ -61,7 +64,10 @@ export default function ProfessorCardInteractive({ professor }: ProfessorCardInt
                 {professor.name}
               </h3>
               <p className="text-xs text-[#1a1a1a] font-semibold truncate">{professor.department}</p>
-              <div className="mt-1 inline-flex items-center gap-2 px-2 py-0.5 border-2 border-[#1a1a1a] bg-white text-[10px] font-bold uppercase tracking-wide">
+              <div
+                className="mt-1 inline-flex items-center gap-2 px-2 py-0.5 border-2 border-[#1a1a1a] text-[10px] font-bold uppercase tracking-wide"
+                style={{ backgroundColor: uniColor }}
+              >
                 <span className="inline-block w-2 h-2 bg-[#1a1a1a]" />
                 {professor.university}
               </div>

@@ -12,8 +12,16 @@ interface Props {
 
 const accentPalette = ["#ffd93d", "#6bcb77", "#ff9f43", "#ff5c5c"];
 
+const universityColors: Record<string, string> = {
+  "Western University": "#6f42c1",
+};
+
 function getAccent(name: string) {
   return accentPalette[name.charCodeAt(0) % accentPalette.length];
+}
+
+function getUniversityColor(university: string) {
+  return universityColors[university] || "#ffd93d";
 }
 
 export async function generateStaticParams() {
@@ -37,6 +45,7 @@ export default async function ProfessorPage({ params }: Props) {
   const relatedProfessors = getRelatedProfessors(professor, 4);
 
   const accent = getAccent(professor.name);
+  const universityColor = getUniversityColor(professor.university);
 
   return (
     <div className="py-6 md:py-10 px-4">
@@ -74,7 +83,10 @@ export default async function ProfessorPage({ params }: Props) {
             </div>
 
             <div className="flex-1 text-center md:text-left space-y-2">
-              <div className="inline-flex items-center gap-2 px-2 py-1 bg-[#ffd93d] border-2 border-[#1a1a1a] text-xs font-bold uppercase tracking-wide">
+              <div
+                className="inline-flex items-center gap-2 px-2 py-1 border-2 border-[#1a1a1a] text-xs font-bold uppercase tracking-wide"
+                style={{ backgroundColor: universityColor }}
+              >
                 {professor.university}
               </div>
               <h1 className="text-2xl md:text-3xl font-bold text-[#1a1a1a] leading-tight">

@@ -6,15 +6,9 @@ interface ProfessorCardProps {
   professor: Professor;
 }
 
-const colors = ["#ffd93d", "#6bcb77", "#ff9f43", "#ff5c5c"];
-
-function getColor(name: string) {
-  return colors[name.charCodeAt(0) % colors.length];
-}
-
 export default function ProfessorCard({ professor }: ProfessorCardProps) {
   const pubCount = professor.publications.length;
-  const color = getColor(professor.name);
+  const avatarColor = "#ffd93d";
   const rotation = 0;
 
   return (
@@ -29,7 +23,7 @@ export default function ProfessorCard({ professor }: ProfessorCardProps) {
         <div className="flex items-start gap-3">
           <div
             className="w-10 h-10 border-2 border-[#1a1a1a] flex items-center justify-center flex-shrink-0 relative"
-            style={{ backgroundColor: color }}
+              style={{ backgroundColor: avatarColor }}
           >
             <span className="text-[#1a1a1a] font-bold">{professor.name.charAt(0)}</span>
             {/* Small accent corner */}
