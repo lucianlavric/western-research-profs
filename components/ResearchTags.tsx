@@ -2,35 +2,40 @@ interface ResearchTagsProps {
   tags: string[];
   limit?: number;
   small?: boolean;
+  featured?: boolean;
 }
 
-export default function ResearchTags({
-  tags,
-  limit,
-  small = false,
-}: ResearchTagsProps) {
+const baseColor = "#ffd93d";
+
+export default function ResearchTags({ tags, limit, small = false, featured = false }: ResearchTagsProps) {
   const displayTags = limit ? tags.slice(0, limit) : tags;
   const remaining = limit && tags.length > limit ? tags.length - limit : 0;
 
   return (
-    <div className="flex flex-wrap gap-1.5">
-      {displayTags.map((tag) => (
+    <div className="flex flex-wrap gap-1">
+      {displayTags.map((tag, i) => (
         <span
           key={tag}
-          className={`inline-block bg-purple-50 text-purple-700 rounded-full font-medium ${
-            small ? "px-2 py-0.5 text-xs" : "px-3 py-1 text-sm"
+          style={{ 
+            backgroundColor: baseColor,
+            transform: "rotate(0deg)"
+          }}
+          className={`inline-block border-2 border-[#1a1a1a] font-semibold text-[#1a1a1a] relative ${
+            small ? "px-1.5 py-0.5 text-[9px]" : "px-2 py-0.5 text-xs"
           }`}
         >
           {tag}
+          <span className="absolute inset-0 border-2 border-[#1a1a1a] opacity-10 translate-x-0.5 translate-y-0.5 pointer-events-none" />
         </span>
       ))}
       {remaining > 0 && (
-        <span
-          className={`inline-block bg-gray-100 text-gray-500 rounded-full ${
-            small ? "px-2 py-0.5 text-xs" : "px-3 py-1 text-sm"
-          }`}
+        <span className={`inline-block bg-white border-2 border-[#1a1a1a] font-semibold text-[#1a1a1a] relative ${
+          small ? "px-1.5 py-0.5 text-[9px]" : "px-2 py-0.5 text-xs"
+        }`}
+          style={{ transform: "rotate(0deg)", backgroundColor: baseColor }}
         >
-          +{remaining} more
+          +{remaining}
+          <span className="absolute inset-0 border-2 border-[#1a1a1a] opacity-10 translate-x-0.5 translate-y-0.5 pointer-events-none" />
         </span>
       )}
     </div>

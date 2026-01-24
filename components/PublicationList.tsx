@@ -30,51 +30,65 @@ export default function PublicationList({ publications }: PublicationListProps) 
   }
 
   return (
-    <div className="space-y-3 md:space-y-4">
-      {publications.map((pub, index) => (
-        <div
-          key={index}
-          className="bg-white border border-gray-200 rounded-lg p-3 md:p-4 hover:border-purple-200 transition-colors"
-        >
-          <div className="flex items-start justify-between gap-3 md:gap-4">
-            <div className="flex-1 min-w-0">
-              {pub.url ? (
-                <a
-                  href={pub.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="font-medium text-sm md:text-base text-gray-900 hover:text-purple-600 transition-colors line-clamp-2"
-                >
-                  {pub.title}
-                </a>
-              ) : (
-                <h4 className="font-medium text-sm md:text-base text-gray-900 line-clamp-2">
+    <div className="space-y-3">
+      {publications.map((pub) => {
+        const content = (
+          <>
+            {/* Corner accent */}
+            <div className="absolute top-2 right-2 w-3 h-3 border-t-2 border-r-2 border-[#1a1a1a]" />
+            
+            <div className="flex items-start justify-between gap-3">
+              <div className="flex-1 min-w-0">
+                <h4 className="font-bold text-sm text-[#1a1a1a] line-clamp-2">
                   {pub.title}
                 </h4>
-              )}
 
-              <div className="flex items-center gap-2 md:gap-3 mt-1.5 md:mt-2 text-xs md:text-sm text-gray-500">
-                <span className="font-medium text-purple-600">{pub.year}</span>
-                {pub.venue && (
-                  <>
-                    <span className="text-gray-300">|</span>
-                    <span className="truncate">{pub.venue}</span>
-                  </>
-                )}
-              </div>
-            </div>
-
-            {pub.citationCount !== undefined && pub.citationCount > 0 && (
-              <div className="flex-shrink-0 text-center">
-                <div className="text-base md:text-lg font-bold text-gray-700 tabular-nums">
-                  {pub.citationCount}
+                <div className="flex items-center gap-2 mt-1.5 text-xs text-[#666]">
+                  <span className="font-bold text-[#1a1a1a]">{pub.year}</span>
+                  {pub.venue && (
+                    <>
+                      <span className="text-[#1a1a1a]">•</span>
+                      <span className="truncate">{pub.venue}</span>
+                    </>
+                  )}
                 </div>
-                <div className="text-xs text-gray-400">citations</div>
               </div>
-            )}
+
+              {pub.citationCount !== undefined && pub.citationCount > 0 && (
+                <div className="shrink-0 text-center">
+                  <div className="text-base font-bold text-[#1a1a1a] tabular-nums">
+                    {pub.citationCount}
+                  </div>
+                  <div className="text-xs text-[#666]">citations</div>
+                </div>
+              )}
+            </div>
+          </>
+        );
+
+        if (pub.url) {
+          return (
+            <a
+              key={`${pub.title}-${pub.year}`}
+              href={pub.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="neu-card p-3 relative hover:-translate-y-1 hover:shadow-[5px_6px_0_var(--shadow),_9px_11px_13px_rgba(0,0,0,0.1)] transition-all block"
+            >
+              {content}
+            </a>
+          );
+        }
+
+        return (
+          <div
+            key={`${pub.title}-${pub.year}`}
+            className="neu-card p-3 relative hover:-translate-y-1 hover:shadow-[5px_6px_0_var(--shadow),_9px_11px_13px_rgba(0,0,0,0.1)] transition-all"
+          >
+            {content}
           </div>
-        </div>
-      ))}
+        );
+      })}
     </div>
   );
 }
