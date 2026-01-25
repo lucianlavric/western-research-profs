@@ -121,7 +121,7 @@ export default function SearchBar({
         <button
           type="submit"
           aria-label="Search"
-          className={`absolute right-2 top-1/2 -translate-y-1/2 bg-[#ff5c5c] hover:translate-y-[calc(-50%-1px)] hover:-translate-x-px text-white font-bold border border-[#1a1a1a] transition-colors ${
+          className={`absolute right-2 top-1/2 -translate-y-1/2 bg-[#ff5c5c] hover:translate-y-[calc(-50%-1px)] hover:-translate-x-px text-white font-bold border border-[#1a1a1a] transition-colors cursor-pointer ${
             large ? "p-2.5 md:px-6 md:py-2" : "p-2 md:px-4 md:py-1.5 text-sm"
           }`}
           style={{
@@ -179,7 +179,7 @@ export default function SearchBar({
             <li className="border-t-2 border-[#1a1a1a]">
               <button
                 type="submit"
-                className="w-full px-4 py-2 text-sm text-[#1a1a1a] font-bold hover:bg-[#ffd93d] text-left transition-colors"
+                className="w-full px-4 py-2 text-sm text-[#1a1a1a] font-bold hover:bg-[#ffd93d] text-left transition-colors cursor-pointer"
               >
                 View all for &quot;{query}&quot;
               </button>

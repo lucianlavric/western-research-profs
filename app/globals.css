@@ -31,6 +31,15 @@ body {
   line-height: 1.5;
 }
 
+/* Ensure minimum readable font size across the app */
+* {
+  min-font-size: 12px;
+}
+
+/* Override tiny text classes for better readability */
+.text-\[10px\] { font-size: 11px !important; }
+.text-\[9px\] { font-size: 11px !important; }
+
 /* Neubrutalist card - SHARP corners with imperfect aesthetic */
 .neu-card {
   background: var(--card);
@@ -158,4 +167,44 @@ body {
   animation: marquee 30s linear infinite;
   will-change: transform;
   backface-visibility: hidden;
+}
+
+/* Dropdown fade-slide animation for department filter */
+@keyframes fadeSlideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-8px) scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* 404 page floating animation */
+@keyframes float {
+  0%, 100% { transform: translateY(0) rotate(-2deg); }
+  50% { transform: translateY(-15px) rotate(2deg); }
+}
+
+@keyframes wiggle {
+  0%, 100% { transform: rotate(-3deg); }
+  50% { transform: rotate(3deg); }
+}
+
+@keyframes pulse-shadow {
+  0%, 100% { box-shadow: 6px 8px 0 var(--shadow); }
+  50% { box-shadow: 8px 10px 0 var(--shadow); }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.animate-wiggle {
+  animation: wiggle 0.5s ease-in-out infinite;
+}
+
+.animate-pulse-shadow {
+  animation: pulse-shadow 2s ease-in-out infinite;
 }
