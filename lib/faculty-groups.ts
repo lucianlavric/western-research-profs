@@ -81,12 +81,15 @@ export function groupDepartmentsByFaculty(departments: string[]): Record<string,
 
 // Faculty colors for visual distinction
 export const FACULTY_COLORS: Record<string, string> = {
-  "Engineering": "#ff9f43",
-  "Science": "#6bcb77",
-  "Schulich Medicine & Dentistry": "#ff5c5c",
-  "Social Science": "#ffd93d",
-  "Arts & Humanities": "#a855f7",
-  "Health Sciences": "#06b6d4",
-  "Other Faculties": "#64748b",
+  "Engineering": "#ff9f43",      // Orange
+  "Science": "#6bcb77",          // Green
+  "Schulich Medicine & Dentistry": "#ff5c5c",  // Coral/Red
+  "Social Science": "#f472b6",   // Pink
+  "Arts & Humanities": "#a855f7", // Purple
+  "Health Sciences": "#06b6d4",   // Cyan
+  "Other Faculties": "#64748b",   // Slate
   "Other": "#94a3b8",
 };
+
+// All Departments button color
+export const ALL_DEPARTMENTS_COLOR = "#ffd93d"; // Yellow

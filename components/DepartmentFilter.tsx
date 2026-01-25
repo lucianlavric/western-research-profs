@@ -2,7 +2,7 @@
 
 import { useState, useRef, useEffect } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
-import { groupDepartmentsByFaculty, FACULTY_COLORS } from "@/lib/faculty-groups";
+import { groupDepartmentsByFaculty, FACULTY_COLORS, ALL_DEPARTMENTS_COLOR } from "@/lib/faculty-groups";
 
 interface DepartmentFilterProps {
   departments: string[];
@@ -58,12 +58,29 @@ export default function DepartmentFilter({
             setExpandedFaculty(expandedFaculty === "all" ? null : "all");
           }}
           aria-pressed={expandedFaculty === "all"}
-          className={`px-3 py-1.5 text-xs md:text-sm font-bold border-2 border-[#1a1a1a] transition-colors cursor-pointer flex items-center gap-1.5 ${
+          className={`px-3 py-1.5 text-xs md:text-sm font-bold border-2 border-[#1a1a1a] transition-all cursor-pointer flex items-center gap-1.5 ${
             expandedFaculty === "all"
-              ? "bg-[#ffd93d] text-[#1a1a1a] shadow-[3px_4px_0_#1a1a1a]"
-              : "bg-white text-[#1a1a1a] hover:bg-[#ffd93d]"
+              ? "text-[#1a1a1a] shadow-[3px_4px_0_#1a1a1a]"
+              : "text-[#1a1a1a]"
           }`}
+          style={{
+            backgroundColor: expandedFaculty === "all" ? ALL_DEPARTMENTS_COLOR : "white",
+          }}
+          onMouseEnter={(e) => {
+            if (expandedFaculty !== "all") {
+              e.currentTarget.style.backgroundColor = ALL_DEPARTMENTS_COLOR;
+            }
+          }}
+          onMouseLeave={(e) => {
+            if (expandedFaculty !== "all") {
+              e.currentTarget.style.backgroundColor = "white";
+            }
+          }}
         >
+          <span
+            className="w-2 h-2 border border-[#1a1a1a]"
+            style={{ backgroundColor: ALL_DEPARTMENTS_COLOR }}
+          />
           All Departments
           <span className="text-[10px] opacity-70">({departments.length})</span>
           <svg
@@ -85,13 +102,23 @@ export default function DepartmentFilter({
             <button
               key={faculty}
               onClick={() => toggleFaculty(faculty)}
-              className={`px-3 py-1.5 text-xs md:text-sm font-bold border-2 border-[#1a1a1a] transition-colors cursor-pointer flex items-center gap-1.5 ${
+              className={`px-3 py-1.5 text-xs md:text-sm font-bold border-2 border-[#1a1a1a] transition-all cursor-pointer flex items-center gap-1.5 ${
                 isExpanded || isActive
                   ? "text-[#1a1a1a] shadow-[3px_4px_0_#1a1a1a]"
-                  : "bg-white text-[#1a1a1a] hover:opacity-90"
+                  : "text-[#1a1a1a]"
               }`}
               style={{
                 backgroundColor: isExpanded || isActive ? color : "white",
+              }}
+              onMouseEnter={(e) => {
+                if (!isExpanded && !isActive) {
+                  e.currentTarget.style.backgroundColor = color;
+                }
+              }}
+              onMouseLeave={(e) => {
+                if (!isExpanded && !isActive) {
+                  e.currentTarget.style.backgroundColor = "white";
+                }
               }}
             >
               <span
