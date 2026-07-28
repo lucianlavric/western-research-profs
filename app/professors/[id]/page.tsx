@@ -146,7 +146,7 @@ export default async function ProfessorPage({ params }: Props) {
           </div>
         </div>
 
-        <div className={`grid ${typeof professor.hIndex === "number" ? "grid-cols-2 md:grid-cols-4" : "grid-cols-3"} gap-2 md:gap-4`}>
+        <div className="grid grid-cols-3 gap-2 md:gap-4">
           {[
             {
               label: "Publications",
@@ -158,9 +158,6 @@ export default async function ProfessorPage({ params }: Props) {
               value: totalCitations,
               hint: "Total",
             },
-            ...(typeof professor.hIndex === "number"
-              ? [{ label: "H-Index", value: professor.hIndex, hint: "OpenAlex" }]
-              : []),
             {
               label: "Latest Paper",
               value:

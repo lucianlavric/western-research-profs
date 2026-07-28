@@ -49,12 +49,11 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:37.560Z",
-      "university": "Western University",
-      "hIndex": 25
+      "university": "Western University"
     },
     {
       "id": "j-rn-diedrichsen-cs",
-      "name": "Jörn Diedrichsen",
+      "name": "J\u00f6rn Diedrichsen",
       "title": "Professor",
       "department": "Computer Science",
       "email": "",
@@ -98,8 +97,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:37.561Z",
-      "university": "Western University",
-      "hIndex": 71
+      "university": "Western University"
     },
     {
       "id": "michael-domaratzki",
@@ -128,7 +126,7 @@
           "citationCount": 0
         },
         {
-          "title": "LSTM-Attention-Guided Graph Neural Networks for Integrated Genotype–Environment Modeling in Maize Yield Prediction",
+          "title": "LSTM-Attention-Guided Graph Neural Networks for Integrated Genotype\u2013Environment Modeling in Maize Yield Prediction",
           "year": 2025,
           "url": "https://doi.org/10.1101/2025.11.09.687529",
           "citationCount": 0
@@ -149,8 +147,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:37.561Z",
-      "university": "Western University",
-      "hIndex": 17
+      "university": "Western University"
     },
     {
       "id": "mahmoud-el-sakka",
@@ -182,7 +179,7 @@
           "citationCount": 1
         },
         {
-          "title": "Enhancing JPEG XL’s Weighted Average Predictor: Genetic Algorithm Optimization of Expanded Sub-Predictor Ensemble",
+          "title": "Enhancing JPEG XL\u2019s Weighted Average Predictor: Genetic Algorithm Optimization of Expanded Sub-Predictor Ensemble",
           "year": 2025,
           "venue": "Electronics",
           "url": "https://doi.org/10.3390/electronics14204116",
@@ -204,8 +201,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:37.561Z",
-      "university": "Western University",
-      "hIndex": 15
+      "university": "Western University"
     },
     {
       "id": "marwa-elsayed",
@@ -253,8 +249,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:37.561Z",
-      "university": "Western University",
-      "hIndex": 9
+      "university": "Western University"
     },
     {
       "id": "zubair-fadlullah",
@@ -306,8 +301,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:37.561Z",
-      "university": "Western University",
-      "hIndex": 48
+      "university": "Western University"
     },
     {
       "id": "anwar-haque",
@@ -356,8 +350,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:37.561Z",
-      "university": "Western University",
-      "hIndex": 19
+      "university": "Western University"
     },
     {
       "id": "alice-huang",
@@ -372,8 +365,7 @@
       ],
       "publications": [],
       "lastUpdated": "2026-01-24T01:00:37.561Z",
-      "university": "Western University",
-      "hIndex": 2
+      "university": "Western University"
     },
     {
       "id": "lucian-ilie",
@@ -395,7 +387,7 @@
           "citationCount": 0
         },
         {
-          "title": "Component puzzle protein–protein interaction prediction",
+          "title": "Component puzzle protein\u2013protein interaction prediction",
           "year": 2025,
           "venue": "Briefings in Bioinformatics",
           "url": "https://doi.org/10.1093/bib/bbaf685",
@@ -422,8 +414,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:37.561Z",
-      "university": "Western University",
-      "hIndex": 0
+      "university": "Western University"
     },
     {
       "id": "duff-jones",
@@ -464,7 +455,7 @@
           "citationCount": 0
         },
         {
-          "title": "A Reusable Methodology for Player Clustering Using Wasserstein Autoencoders",
+          "title": "A Reusable Methodology for\u00a0Player Clustering Using Wasserstein Autoencoders",
           "year": 2022,
           "venue": "Lecture notes in computer science",
           "url": "https://doi.org/10.1007/978-3-031-20212-4_24",
@@ -488,8 +479,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:37.561Z",
-      "university": "Western University",
-      "hIndex": 2
+      "university": "Western University"
     },
     {
       "id": "agustinus-kristiadi",
@@ -542,8 +532,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:37.561Z",
-      "university": "Western University",
-      "hIndex": 8
+      "university": "Western University"
     },
     {
       "id": "charles-ling",
@@ -579,7 +568,7 @@
           "citationCount": 0
         },
         {
-          "title": "Research on the Integration of Artificial Intelligence into Higher Vocational Accounting Teaching from the Perspective of Teachers’ Application Ability",
+          "title": "Research on the Integration of Artificial Intelligence into Higher Vocational Accounting Teaching from the Perspective of Teachers\u2019 Application Ability",
           "year": 2025,
           "venue": "Education Reform and Development",
           "url": "https://doi.org/10.26689/erd.v7i8.11969",
@@ -594,8 +583,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:37.561Z",
-      "university": "Western University",
-      "hIndex": 38
+      "university": "Western University"
     },
     {
       "id": "daniel-lizotte",
@@ -647,8 +635,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:37.561Z",
-      "university": "Western University",
-      "hIndex": 30
+      "university": "Western University"
     },
     {
       "id": "hanan-lutfiyya",
@@ -742,8 +729,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:37.561Z",
-      "university": "Western University",
-      "hIndex": 20
+      "university": "Western University"
     },
     {
       "id": "mostafa-milani",
@@ -794,8 +780,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:37.561Z",
-      "university": "Western University",
-      "hIndex": 8
+      "university": "Western University"
     },
     {
       "id": "yalda-mohsenzadeh",
@@ -846,8 +831,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:37.561Z",
-      "university": "Western University",
-      "hIndex": 17
+      "university": "Western University"
     },
     {
       "id": "marc-moreno-maza",
@@ -872,7 +856,7 @@
           "citationCount": 0
         },
         {
-          "title": "Parallel Computation of the Power Series Solutions to Linear Ordinary Differential Equations",
+          "title": "Parallel Computation of\u00a0the\u00a0Power Series Solutions to\u00a0Linear Ordinary Differential Equations",
           "year": 2025,
           "venue": "Lecture notes in computer science",
           "url": "https://doi.org/10.1007/978-3-032-09645-6_20",
@@ -900,8 +884,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:37.561Z",
-      "university": "Western University",
-      "hIndex": 26
+      "university": "Western University"
     },
     {
       "id": "apurva-narayan",
@@ -947,8 +930,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:37.561Z",
-      "university": "Western University",
-      "hIndex": 14
+      "university": "Western University"
     },
     {
       "id": "umair-rehman",
@@ -999,8 +981,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:37.561Z",
-      "university": "Western University",
-      "hIndex": 18
+      "university": "Western University"
     },
     {
       "id": "laura-reid",
@@ -1025,8 +1006,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:37.561Z",
-      "university": "Western University",
-      "hIndex": 1
+      "university": "Western University"
     },
     {
       "id": "angela-roberts",
@@ -1038,35 +1018,35 @@
       "researchAreas": [],
       "publications": [
         {
-          "title": "Exploring Emotional Well‐Being in Exceptional Aging: Data from the SuperAging Research Initiative",
+          "title": "Exploring Emotional Well\u2010Being in Exceptional Aging: Data from the SuperAging Research Initiative",
           "year": 2025,
           "venue": "Alzheimer s & Dementia",
           "url": "https://doi.org/10.1002/alz70857_098016",
           "citationCount": 0
         },
         {
-          "title": "Community‐University Partnerships for Successful Aging Research: The Canadian SuperAging Research Initiative Site",
+          "title": "Community\u2010University Partnerships for Successful Aging Research: The Canadian SuperAging Research Initiative Site",
           "year": 2025,
           "venue": "Alzheimer s & Dementia",
           "url": "https://doi.org/10.1002/alz70857_104887",
           "citationCount": 0
         },
         {
-          "title": "Health‐Related Behaviours in Octogenarians and Nonagenarians with Robust Cognitive Longevity: Progress from the SuperAging Research Initiative",
+          "title": "Health\u2010Related Behaviours in Octogenarians and Nonagenarians with Robust Cognitive Longevity: Progress from the SuperAging Research Initiative",
           "year": 2025,
           "venue": "Alzheimer s & Dementia",
           "url": "https://doi.org/10.1002/alz70860_105769",
           "citationCount": 0
         },
         {
-          "title": "Exploring variability in daily health‐related behaviors as a feature of exceptional cognitive aging in people 80+ years of age: Early findings from the SuperAging Research Initiative",
+          "title": "Exploring variability in daily health\u2010related behaviors as a feature of exceptional cognitive aging in people 80+ years of age: Early findings from the SuperAging Research Initiative",
           "year": 2025,
           "venue": "Alzheimer s & Dementia",
           "url": "https://doi.org/10.1002/alz70861_108450",
           "citationCount": 0
         },
         {
-          "title": "Reverberation Time as an Acoustic Biomarker for Speech Impairment in Parkinson Disease",
+          "title": "Reverberation Time as\u00a0an\u00a0Acoustic Biomarker for\u00a0Speech Impairment in\u00a0Parkinson Disease",
           "year": 2025,
           "venue": "Communications in computer and information science",
           "url": "https://doi.org/10.1007/978-3-032-07083-8_7",
@@ -1074,8 +1054,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:37.561Z",
-      "university": "Western University",
-      "hIndex": 61
+      "university": "Western University"
     },
     {
       "id": "bryan-sarlo",
@@ -1118,8 +1097,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:37.561Z",
-      "university": "Western University",
-      "hIndex": 2
+      "university": "Western University"
     },
     {
       "id": "daniel-servos",
@@ -1163,8 +1141,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:37.561Z",
-      "university": "Western University",
-      "hIndex": 7
+      "university": "Western University"
     },
     {
       "id": "kamran-sedig",
@@ -1218,8 +1195,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:37.561Z",
-      "university": "Western University",
-      "hIndex": 24
+      "university": "Western University"
     },
     {
       "id": "roberto-solis-oba",
@@ -1244,8 +1220,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:37.561Z",
-      "university": "Western University",
-      "hIndex": 16
+      "university": "Western University"
     },
     {
       "id": "boyu-wang",
@@ -1351,8 +1326,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:37.561Z",
-      "university": "Western University",
-      "hIndex": 20
+      "university": "Western University"
     },
     {
       "id": "kaizhong-zhang",
@@ -1415,7 +1389,7 @@
       "researchAreas": [],
       "publications": [
         {
-          "title": "Spatial and Temporal Patterns of Prion Gene Variation Are Consistent With a Response to Chronic Wasting Disease‐Induced Selection in Wild White‐Tailed Deer",
+          "title": "Spatial and Temporal Patterns of Prion Gene Variation Are Consistent With a Response to Chronic Wasting Disease\u2010Induced Selection in Wild White\u2010Tailed Deer",
           "year": 2025,
           "venue": "Ecology and Evolution",
           "url": "https://doi.org/10.1002/ece3.72449",
@@ -1442,8 +1416,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:38.765Z",
-      "university": "Western University",
-      "hIndex": 71
+      "university": "Western University"
     },
     {
       "id": "juno-coltman",
@@ -1514,8 +1487,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:38.765Z",
-      "university": "Western University",
-      "hIndex": 47
+      "university": "Western University"
     },
     {
       "id": "alice-boyle",
@@ -1527,7 +1499,7 @@
       "researchAreas": [],
       "publications": [
         {
-          "title": "Multi‐scale considerations for identifying and managing climate‐change refugia in grassland ecosystems",
+          "title": "Multi\u2010scale considerations for identifying and managing climate\u2010change refugia in grassland ecosystems",
           "year": 2025,
           "venue": "Conservation Science and Practice",
           "url": "https://doi.org/10.1111/csp2.70168",
@@ -1563,8 +1535,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:38.765Z",
-      "university": "Western University",
-      "hIndex": 26
+      "university": "Western University"
     },
     {
       "id": "brian-branfireun",
@@ -1612,8 +1583,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:38.765Z",
-      "university": "Western University",
-      "hIndex": 0
+      "university": "Western University"
     },
     {
       "id": "robert-buchkowski",
@@ -1661,8 +1631,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:38.765Z",
-      "university": "Western University",
-      "hIndex": 16
+      "university": "Western University"
     },
     {
       "id": "robert-cumming",
@@ -1681,7 +1650,7 @@
           "citationCount": 0
         },
         {
-          "title": "p66Shc silencing promotes aerobic glycolysis via signalling between the transcription factors NRF2 and HIF1-α",
+          "title": "p66Shc silencing promotes aerobic glycolysis via signalling between the transcription factors NRF2 and HIF1-\u03b1",
           "year": 2025,
           "venue": "Free Radical Biology and Medicine",
           "url": "https://doi.org/10.1016/j.freeradbiomed.2025.10.007",
@@ -1710,8 +1679,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:38.765Z",
-      "university": "Western University",
-      "hIndex": 21
+      "university": "Western University"
     },
     {
       "id": "sashko-damjanovski",
@@ -1759,8 +1727,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:38.765Z",
-      "university": "Western University",
-      "hIndex": 20
+      "university": "Western University"
     },
     {
       "id": "thomas-defalco",
@@ -1799,8 +1766,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:38.765Z",
-      "university": "Western University",
-      "hIndex": 23
+      "university": "Western University"
     },
     {
       "id": "miodrag-grbic",
@@ -1848,8 +1814,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:38.765Z",
-      "university": "Western University",
-      "hIndex": 38
+      "university": "Western University"
     },
     {
       "id": "vojislava-grbic",
@@ -1861,8 +1826,7 @@
       "researchAreas": [],
       "publications": [],
       "lastUpdated": "2026-01-24T01:00:38.765Z",
-      "university": "Western University",
-      "hIndex": 35
+      "university": "Western University"
     },
     {
       "id": "christopher-guglielmo",
@@ -1909,8 +1873,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:38.765Z",
-      "university": "Western University",
-      "hIndex": 51
+      "university": "Western University"
     },
     {
       "id": "tim-hain",
@@ -1924,7 +1887,7 @@
         {
           "title": "Faculty Opinions recommendation of Bill morphology and neutral genetic structure both predict variation in acoustic signals within a bird population.",
           "year": 2017,
-          "venue": "Faculty Opinions – Post-Publication Peer Review of the Biomedical Literature",
+          "venue": "Faculty Opinions \u2013 Post-Publication Peer Review of the Biomedical Literature",
           "url": "https://doi.org/10.3410/f.727746002.793533636",
           "citationCount": 0
         },
@@ -1938,28 +1901,27 @@
         {
           "title": "Faculty Opinions recommendation of Female guppies can recognize kin but only avoid incest when previously mated.",
           "year": 2016,
-          "venue": "Faculty Opinions – Post-Publication Peer Review of the Biomedical Literature",
+          "venue": "Faculty Opinions \u2013 Post-Publication Peer Review of the Biomedical Literature",
           "url": "https://doi.org/10.3410/f.726095818.793513785",
           "citationCount": 0
         },
         {
           "title": "Faculty Opinions recommendation of The measure and significance of Bateman's principles.",
           "year": 2014,
-          "venue": "Faculty Opinions – Post-Publication Peer Review of the Biomedical Literature",
+          "venue": "Faculty Opinions \u2013 Post-Publication Peer Review of the Biomedical Literature",
           "url": "https://doi.org/10.3410/f.718319259.793494426",
           "citationCount": 0
         },
         {
           "title": "Faculty Opinions recommendation of Negative frequency-dependent preferences and variation in male facial hair.",
           "year": 2014,
-          "venue": "Faculty Opinions – Post-Publication Peer Review of the Biomedical Literature",
+          "venue": "Faculty Opinions \u2013 Post-Publication Peer Review of the Biomedical Literature",
           "url": "https://doi.org/10.3410/f.718354582.793494367",
           "citationCount": 0
         }
       ],
       "lastUpdated": "2026-01-24T01:00:38.765Z",
-      "university": "Western University",
-      "hIndex": 0
+      "university": "Western University"
     },
     {
       "id": "hugh-henry",
@@ -1971,7 +1933,7 @@
       "researchAreas": [],
       "publications": [
         {
-          "title": "Grazing‐N addition interactions drive soil carbon priming and balance via bacterial assimilation in a meadow steppe",
+          "title": "Grazing\u2010N addition interactions drive soil carbon priming and balance via bacterial assimilation in a meadow steppe",
           "year": 2025,
           "venue": "Journal of Applied Ecology",
           "url": "https://doi.org/10.1111/1365-2664.70200",
@@ -2007,8 +1969,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:38.765Z",
-      "university": "Western University",
-      "hIndex": 39
+      "university": "Western University"
     },
     {
       "id": "kathleen-hill",
@@ -2027,7 +1988,7 @@
           "citationCount": 0
         },
         {
-          "title": "A – 56 Language as a Predictor of Performance on the Verbal Fluency Task for Children",
+          "title": "A \u2013 56 Language as a Predictor of Performance on the Verbal Fluency Task for Children",
           "year": 2025,
           "venue": "Archives of Clinical Neuropsychology",
           "url": "https://doi.org/10.1093/arclin/acaf084.079",
@@ -2054,8 +2015,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:38.765Z",
-      "university": "Western University",
-      "hIndex": 29
+      "university": "Western University"
     },
     {
       "id": "daniel-jeffery",
@@ -2115,8 +2075,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:38.765Z",
-      "university": "Western University",
-      "hIndex": 16
+      "university": "Western University"
     },
     {
       "id": "greg-kelly",
@@ -2176,8 +2135,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:38.765Z",
-      "university": "Western University",
-      "hIndex": 23
+      "university": "Western University"
     },
     {
       "id": "susanne-kohalmi",
@@ -2222,12 +2180,11 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:38.765Z",
-      "university": "Western University",
-      "hIndex": 31
+      "university": "Western University"
     },
     {
       "id": "zo-lindo",
-      "name": "Zoë Lindo",
+      "name": "Zo\u00eb Lindo",
       "title": "Assistant Professor",
       "department": "Biology",
       "email": "dcoltman@uwo.ca",
@@ -2256,7 +2213,7 @@
           "citationCount": 0
         },
         {
-          "title": "Putting the “Ped” into Pedobiologia –– A call to a new generation of soil ecologists",
+          "title": "Putting the \u201cPed\u201d into Pedobiologia \u2013\u2013 A call to a new generation of soil ecologists",
           "year": 2025,
           "venue": "Pedobiologia",
           "url": "https://doi.org/10.1016/j.pedobi.2025.151091",
@@ -2271,8 +2228,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:38.765Z",
-      "university": "Western University",
-      "hIndex": 40
+      "university": "Western University"
     },
     {
       "id": "natasha-macbean",
@@ -2317,8 +2273,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:38.765Z",
-      "university": "Western University",
-      "hIndex": 33
+      "university": "Western University"
     },
     {
       "id": "denis-maxwell",
@@ -2330,8 +2285,7 @@
       "researchAreas": [],
       "publications": [],
       "lastUpdated": "2026-01-24T01:00:38.765Z",
-      "university": "Western University",
-      "hIndex": 25
+      "university": "Western University"
     },
     {
       "id": "patrick-mcdonald",
@@ -2391,8 +2345,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:38.765Z",
-      "university": "Western University",
-      "hIndex": 9
+      "university": "Western University"
     },
     {
       "id": "natasha-mhatre",
@@ -2430,8 +2383,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:38.765Z",
-      "university": "Western University",
-      "hIndex": 15
+      "university": "Western University"
     },
     {
       "id": "amanda-moehring",
@@ -2449,7 +2401,7 @@
           "citationCount": 0
         },
         {
-          "title": "Identification and genetic analysis of a pervasive ‘needle-eye’ sperm phenotype in Drosophila sterile hybrid males",
+          "title": "Identification and genetic analysis of a pervasive \u2018needle-eye\u2019 sperm phenotype in Drosophila sterile hybrid males",
           "year": 2025,
           "venue": "UNC Libraries",
           "url": "https://doi.org/10.17615/4qmw-7721",
@@ -2477,8 +2429,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:38.765Z",
-      "university": "Western University",
-      "hIndex": 19
+      "university": "Western University"
     },
     {
       "id": "yolanda-morbey",
@@ -2509,14 +2460,14 @@
           "citationCount": 3
         },
         {
-          "title": "Prevalence and Implications of “Must‐Kill” Angling Regulations for the Management of Invasive Fishes",
+          "title": "Prevalence and Implications of \u201cMust\u2010Kill\u201d Angling Regulations for the Management of Invasive Fishes",
           "year": 2025,
           "venue": "Fisheries Management and Ecology",
           "url": "https://doi.org/10.1111/fme.70021",
           "citationCount": 0
         },
         {
-          "title": "Low thiamine concentrations are associated with altered cardiac morphology across reproductive life histories of spawning Chinook Salmon",
+          "title": "Low thiamine concentrations are associated with altered cardiac morphology across reproductive life histories of\u00a0spawning Chinook Salmon",
           "year": 2025,
           "venue": "Journal of Aquatic Animal Health",
           "url": "https://doi.org/10.1093/jahafs/vsaf007",
@@ -2538,8 +2489,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:38.765Z",
-      "university": "Western University",
-      "hIndex": 46
+      "university": "Western University"
     },
     {
       "id": "joshua-pemberton",
@@ -2587,8 +2537,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:38.765Z",
-      "university": "Western University",
-      "hIndex": 17
+      "university": "Western University"
     },
     {
       "id": "anthony-percival-smith",
@@ -2628,8 +2577,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:38.765Z",
-      "university": "Western University",
-      "hIndex": 19
+      "university": "Western University"
     },
     {
       "id": "jennifer-peter-bio",
@@ -2720,8 +2668,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:38.765Z",
-      "university": "Western University",
-      "hIndex": 0
+      "university": "Western University"
     },
     {
       "id": "anne-simon",
@@ -2767,8 +2714,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:38.765Z",
-      "university": "Western University",
-      "hIndex": 18
+      "university": "Western University"
     },
     {
       "id": "david-smith",
@@ -2819,8 +2765,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:38.765Z",
-      "university": "Western University",
-      "hIndex": 0
+      "university": "Western University"
     },
     {
       "id": "caroline-strang",
@@ -2847,8 +2792,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:38.765Z",
-      "university": "Western University",
-      "hIndex": 2
+      "university": "Western University"
     },
     {
       "id": "vera-tai",
@@ -2895,8 +2839,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:38.765Z",
-      "university": "Western University",
-      "hIndex": 19
+      "university": "Western University"
     },
     {
       "id": "graeme-taylor",
@@ -2934,7 +2877,7 @@
           "citationCount": 0
         },
         {
-          "title": "Climate‐Resilient Crop Production Under Agrivoltaics: Experimental Evaluation of Amaranth Production With Semi‐Transparent Photovoltaic Modules in Canada Under Changing Climates",
+          "title": "Climate\u2010Resilient Crop Production Under Agrivoltaics: Experimental Evaluation of Amaranth Production With Semi\u2010Transparent Photovoltaic Modules in Canada Under Changing Climates",
           "year": 2025,
           "venue": "Sustainable Development",
           "url": "https://doi.org/10.1002/sd.70337",
@@ -2956,8 +2899,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:38.765Z",
-      "university": "Western University",
-      "hIndex": 36
+      "university": "Western University"
     },
     {
       "id": "greg-thorn",
@@ -2998,8 +2940,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:38.765Z",
-      "university": "Western University",
-      "hIndex": 0
+      "university": "Western University"
     },
     {
       "id": "alexander-timoshenko",
@@ -3011,8 +2952,7 @@
       "researchAreas": [],
       "publications": [],
       "lastUpdated": "2026-01-24T01:00:38.765Z",
-      "university": "Western University",
-      "hIndex": 20
+      "university": "Western University"
     },
     {
       "id": "liana-zanette",
@@ -3024,7 +2964,7 @@
       "researchAreas": [],
       "publications": [
         {
-          "title": "Wolves and their prey all fear the human “super predator”",
+          "title": "Wolves and their prey all fear the human \u201csuper predator\u201d",
           "year": 2025,
           "venue": "Current Biology",
           "url": "https://doi.org/10.1016/j.cub.2025.09.018",
@@ -3045,14 +2985,14 @@
           "citationCount": 0
         },
         {
-          "title": "Fear of the human ‘super predator’ in native marsupials and introduced deer in Australia",
+          "title": "Fear of the human \u2018super predator\u2019 in native marsupials and introduced deer in Australia",
           "year": 2024,
           "venue": "Proceedings of the Royal Society B Biological Sciences",
           "url": "https://doi.org/10.1098/rspb.2023.2849",
           "citationCount": 7
         },
         {
-          "title": "Fear of predators reduces body and physiological condition affecting offspring survival and the ‘quality’ of the survivors",
+          "title": "Fear of predators reduces body and physiological condition affecting offspring survival and the \u2018quality\u2019 of the survivors",
           "year": 2024,
           "venue": "Functional Ecology",
           "url": "https://doi.org/10.1111/1365-2435.14553",
@@ -3092,8 +3032,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:39.830Z",
-      "university": "Western University",
-      "hIndex": 1
+      "university": "Western University"
     },
     {
       "id": "jason-bertram",
@@ -3137,8 +3076,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:39.830Z",
-      "university": "Western University",
-      "hIndex": 13
+      "university": "Western University"
     },
     {
       "id": "taylor-brysiewicz",
@@ -3180,7 +3118,7 @@
         {
           "title": "Quatroids and rational plane cubics",
           "year": 2024,
-          "venue": "Beiträge zur Algebra und Geometrie / Contributions to Algebra and Geometry",
+          "venue": "Beitr\u00e4ge zur Algebra und Geometrie / Contributions to Algebra and Geometry",
           "url": "https://doi.org/10.1007/s13366-024-00776-5",
           "citationCount": 0
         }
@@ -3257,8 +3195,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:39.830Z",
-      "university": "Western University",
-      "hIndex": 1
+      "university": "Western University"
     },
     {
       "id": "graham-denham",
@@ -3310,8 +3247,7 @@
       "researchAreas": [],
       "publications": [],
       "lastUpdated": "2026-01-24T01:00:39.830Z",
-      "university": "Western University",
-      "hIndex": 5
+      "university": "Western University"
     },
     {
       "id": "matthias-franz",
@@ -3350,8 +3286,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:39.830Z",
-      "university": "Western University",
-      "hIndex": 25
+      "university": "Western University"
     },
     {
       "id": "asghar-ghorbanpour",
@@ -3363,7 +3298,7 @@
       "researchAreas": [],
       "publications": [
         {
-          "title": "A Selberg Trace Formula for GL3(Fp)∖GL3(Fq)/K",
+          "title": "A Selberg Trace Formula for GL3(Fp)\u2216GL3(Fq)/K",
           "year": 2024,
           "venue": "Axioms",
           "url": "https://doi.org/10.3390/axioms13060381",
@@ -3399,8 +3334,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:39.830Z",
-      "university": "Western University",
-      "hIndex": 5
+      "university": "Western University"
     },
     {
       "id": "chris-hall",
@@ -3424,7 +3358,7 @@
       "researchAreas": [],
       "publications": [
         {
-          "title": "Computation of Stirling Numbers for Complex Arguments",
+          "title": "Computation of\u00a0Stirling Numbers for\u00a0Complex Arguments",
           "year": 2025,
           "venue": "Lecture notes in computer science",
           "url": "https://doi.org/10.1007/978-3-032-09645-6_4",
@@ -3459,8 +3393,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:39.830Z",
-      "university": "Western University",
-      "hIndex": 32
+      "university": "Western University"
     },
     {
       "id": "chris-kapulkin",
@@ -3506,8 +3439,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:39.830Z",
-      "university": "Western University",
-      "hIndex": 20
+      "university": "Western University"
     },
     {
       "id": "nicole-lemire",
@@ -3571,7 +3503,7 @@
     },
     {
       "id": "j-n-min",
-      "name": "Ján Mináč",
+      "name": "J\u00e1n Min\u00e1\u010d",
       "title": "Professor",
       "department": "Mathematics",
       "email": "",
@@ -3615,8 +3547,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:39.830Z",
-      "university": "Western University",
-      "hIndex": 19
+      "university": "Western University"
     },
     {
       "id": "lyle-muller",
@@ -3662,8 +3593,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:39.830Z",
-      "university": "Western University",
-      "hIndex": 0
+      "university": "Western University"
     },
     {
       "id": "khoa-nguyen",
@@ -3711,7 +3641,7 @@
       "researchAreas": [],
       "publications": [
         {
-          "title": "Structural analysis by generalized embedding method for integro-differential–algebraic equations",
+          "title": "Structural analysis by generalized embedding method for integro-differential\u2013algebraic equations",
           "year": 2024,
           "venue": "Computational and Applied Mathematics",
           "url": "https://doi.org/10.1007/s40314-024-03006-9",
@@ -3738,8 +3668,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:39.830Z",
-      "university": "Western University",
-      "hIndex": 9
+      "university": "Western University"
     },
     {
       "id": "david-riley",
@@ -3787,8 +3716,7 @@
       "researchAreas": [],
       "publications": [],
       "lastUpdated": "2026-01-24T01:00:39.830Z",
-      "university": "Western University",
-      "hIndex": 15
+      "university": "Western University"
     },
     {
       "id": "yvon-verberne",
@@ -3847,8 +3775,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:39.830Z",
-      "university": "Western University",
-      "hIndex": 37
+      "university": "Western University"
     },
     {
       "id": "geoff-wild",
@@ -3860,7 +3787,7 @@
       "researchAreas": [],
       "publications": [
         {
-          "title": "Virulence and Vertically Transmitted Pathogens: The Role of Costs Paid by Co‐Evolving Hosts in a Self‐Regulating Population",
+          "title": "Virulence and Vertically Transmitted Pathogens: The Role of Costs Paid by Co\u2010Evolving Hosts in a Self\u2010Regulating Population",
           "year": 2025,
           "venue": "Ecology and Evolution",
           "url": "https://doi.org/10.1002/ece3.71840",
@@ -3874,7 +3801,7 @@
           "citationCount": 0
         },
         {
-          "title": "Co-evolution of pathogen–host interactions with vertical transmission can produce bistable outcomes",
+          "title": "Co-evolution of pathogen\u2013host interactions with vertical transmission can produce bistable outcomes",
           "year": 2025,
           "venue": "Journal of Theoretical Biology",
           "url": "https://doi.org/10.1016/j.jtbi.2025.112073",
@@ -3896,8 +3823,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:39.830Z",
-      "university": "Western University",
-      "hIndex": 22
+      "university": "Western University"
     },
     {
       "id": "pei-yu",
@@ -3945,8 +3871,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:39.830Z",
-      "university": "Western University",
-      "hIndex": 41
+      "university": "Western University"
     },
     {
       "id": "xingfu-zou",
@@ -3993,8 +3918,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:39.830Z",
-      "university": "Western University",
-      "hIndex": 51
+      "university": "Western University"
     },
     {
       "id": "ankush-agarwal",
@@ -4041,8 +3965,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:40.861Z",
-      "university": "Western University",
-      "hIndex": 8
+      "university": "Western University"
     },
     {
       "id": "simon-bonner",
@@ -4068,7 +3991,7 @@
           "citationCount": 0
         },
         {
-          "title": "Predicting rare events using training data from stratified sampling designs, with application to human‐caused wildfire prediction",
+          "title": "Predicting rare events using training data from stratified sampling designs, with application to human\u2010caused wildfire prediction",
           "year": 2025,
           "venue": "Canadian Journal of Statistics",
           "url": "https://doi.org/10.1002/cjs.70008",
@@ -4082,7 +4005,7 @@
           "citationCount": 1
         },
         {
-          "title": "Response to ‘Improving abundance estimation by combining capture–recapture and presence–absence data: Example with a large carnivore’",
+          "title": "Response to \u2018Improving abundance estimation by combining capture\u2013recapture and presence\u2013absence data: Example with a large carnivore\u2019",
           "year": 2024,
           "venue": "Ecological Solutions and Evidence",
           "url": "https://doi.org/10.1002/2688-8319.12368",
@@ -4090,12 +4013,11 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:40.861Z",
-      "university": "Western University",
-      "hIndex": 18
+      "university": "Western University"
     },
     {
       "id": "cristi-n-bravo-roman",
-      "name": "Cristián Bravo Roman",
+      "name": "Cristi\u00e1n Bravo Roman",
       "title": "Professor",
       "department": "Statistical & Actuarial Sciences",
       "email": "",
@@ -4150,8 +4072,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:40.861Z",
-      "university": "Western University",
-      "hIndex": 1
+      "university": "Western University"
     },
     {
       "id": "camila-de-souza",
@@ -4198,12 +4119,11 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:40.861Z",
-      "university": "Western University",
-      "hIndex": 11
+      "university": "Western University"
     },
     {
       "id": "j-rn-diedrichsen-stats",
-      "name": "Jörn Diedrichsen",
+      "name": "J\u00f6rn Diedrichsen",
       "title": "Professor",
       "department": "Statistical & Actuarial Sciences",
       "email": "",
@@ -4242,8 +4162,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:40.861Z",
-      "university": "Western University",
-      "hIndex": 71
+      "university": "Western University"
     },
     {
       "id": "marcos-escobar-anel",
@@ -4269,7 +4188,7 @@
           "citationCount": 0
         },
         {
-          "title": "Closed‐Form Optimal Investment Under Generalized GARCH Models",
+          "title": "Closed\u2010Form Optimal Investment Under Generalized GARCH Models",
           "year": 2025,
           "venue": "European Financial Management",
           "url": "https://doi.org/10.1111/eufm.70030",
@@ -4283,7 +4202,7 @@
           "citationCount": 0
         },
         {
-          "title": "Mean–variance optimization of terminal wealth and consumption",
+          "title": "Mean\u2013variance optimization of terminal wealth and consumption",
           "year": 2025,
           "venue": "Finance research letters",
           "url": "https://doi.org/10.1016/j.frl.2025.108420",
@@ -4291,8 +4210,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:40.861Z",
-      "university": "Western University",
-      "hIndex": 11
+      "university": "Western University"
     },
     {
       "id": "katsu-goda",
@@ -4352,8 +4270,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:40.861Z",
-      "university": "Western University",
-      "hIndex": 16
+      "university": "Western University"
     },
     {
       "id": "guowen-huang",
@@ -4401,8 +4318,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:40.861Z",
-      "university": "Western University",
-      "hIndex": 10
+      "university": "Western University"
     },
     {
       "id": "shu-li",
@@ -4526,8 +4442,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:40.861Z",
-      "university": "Western University",
-      "hIndex": 17
+      "university": "Western University"
     },
     {
       "id": "hristo-sendov-stats",
@@ -4587,8 +4502,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:40.861Z",
-      "university": "Western University",
-      "hIndex": 11
+      "university": "Western University"
     },
     {
       "id": "holly-steeves",
@@ -4607,7 +4521,7 @@
           "citationCount": 0
         },
         {
-          "title": "Shooting for abundance: Comparing integrated multi‐sampling models for camera trap and hair trap data",
+          "title": "Shooting for abundance: Comparing integrated multi\u2010sampling models for camera trap and hair trap data",
           "year": 2022,
           "venue": "Environmetrics",
           "url": "https://doi.org/10.1002/env.2761",
@@ -4633,8 +4547,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:40.861Z",
-      "university": "Western University",
-      "hIndex": 3
+      "university": "Western University"
     },
     {
       "id": "lars-stentoft",
@@ -4682,8 +4595,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:40.861Z",
-      "university": "Western University",
-      "hIndex": 16
+      "university": "Western University"
     },
     {
       "id": "doug-woolford",
@@ -4743,8 +4655,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:40.861Z",
-      "university": "Western University",
-      "hIndex": 20
+      "university": "Western University"
     },
     {
       "id": "hao-yu",
@@ -4769,14 +4680,14 @@
           "citationCount": 0
         },
         {
-          "title": "Can green finance policies affect enterprises’ green total factor productivity?",
+          "title": "Can green finance policies affect enterprises\u2019 green total factor productivity?",
           "year": 2025,
           "venue": "Applied Economics",
           "url": "https://doi.org/10.1080/00036846.2025.2581896",
           "citationCount": 0
         },
         {
-          "title": "Data assets, supply chain spillovers, and corporate ESG development — Evidence from Chinese listed companies",
+          "title": "Data assets, supply chain spillovers, and corporate ESG development \u2014 Evidence from Chinese listed companies",
           "year": 2025,
           "venue": "Structural Change and Economic Dynamics",
           "url": "https://doi.org/10.1016/j.strueco.2025.10.017",
@@ -4803,8 +4714,7 @@
       "researchAreas": [],
       "publications": [],
       "lastUpdated": "2026-01-24T01:00:41.956Z",
-      "university": "Western University",
-      "hIndex": 5
+      "university": "Western University"
     },
     {
       "id": "pauline-barmby",
@@ -4857,8 +4767,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:41.956Z",
-      "university": "Western University",
-      "hIndex": 33
+      "university": "Western University"
     },
     {
       "id": "peter-g-brown",
@@ -4870,8 +4779,7 @@
       "researchAreas": [],
       "publications": [],
       "lastUpdated": "2026-01-24T01:00:41.956Z",
-      "university": "Western University",
-      "hIndex": 1
+      "university": "Western University"
     },
     {
       "id": "alex-buchel",
@@ -4919,8 +4827,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:41.956Z",
-      "university": "Western University",
-      "hIndex": 1
+      "university": "Western University"
     },
     {
       "id": "jan-cami",
@@ -4932,8 +4839,7 @@
       "researchAreas": [],
       "publications": [],
       "lastUpdated": "2026-01-24T01:00:41.956Z",
-      "university": "Western University",
-      "hIndex": 1
+      "university": "Western University"
     },
     {
       "id": "margaret-campbell-brown",
@@ -4945,8 +4851,7 @@
       "researchAreas": [],
       "publications": [],
       "lastUpdated": "2026-01-24T01:00:41.956Z",
-      "university": "Western University",
-      "hIndex": 0
+      "university": "Western University"
     },
     {
       "id": "blaine-a-chronik",
@@ -4972,7 +4877,7 @@
           "citationCount": 0
         },
         {
-          "title": "EPI proton resonant frequency temperature mapping at 0.5T in the brain: Comparison to single‐echo gradient recalled echo",
+          "title": "EPI proton resonant frequency temperature mapping at 0.5T in the brain: Comparison to single\u2010echo gradient recalled echo",
           "year": 2024,
           "venue": "Magnetic Resonance in Medicine",
           "url": "https://doi.org/10.1002/mrm.30373",
@@ -4994,8 +4899,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:41.956Z",
-      "university": "Western University",
-      "hIndex": 23
+      "university": "Western University"
     },
     {
       "id": "colin-denniston",
@@ -5043,8 +4947,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:41.956Z",
-      "university": "Western University",
-      "hIndex": 24
+      "university": "Western University"
     },
     {
       "id": "gonca-erdemci-tandogan",
@@ -5064,8 +4967,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:41.956Z",
-      "university": "Western University",
-      "hIndex": 15
+      "university": "Western University"
     },
     {
       "id": "giovanni-fanchini",
@@ -5113,8 +5015,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:41.956Z",
-      "university": "Western University",
-      "hIndex": 32
+      "university": "Western University"
     },
     {
       "id": "sarah-gallagher",
@@ -5138,8 +5039,7 @@
       "researchAreas": [],
       "publications": [],
       "lastUpdated": "2026-01-24T01:00:41.956Z",
-      "university": "Western University",
-      "hIndex": 27
+      "university": "Western University"
     },
     {
       "id": "martin-houde",
@@ -5180,8 +5080,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:41.956Z",
-      "university": "Western University",
-      "hIndex": 33
+      "university": "Western University"
     },
     {
       "id": "jeffrey-l-hutter",
@@ -5193,7 +5092,7 @@
       "researchAreas": [],
       "publications": [
         {
-          "title": "Dielectric spectroscopy of poly(ethylene oxide)–carbon nanotube nanocomposites",
+          "title": "Dielectric spectroscopy of poly(ethylene oxide)\u2013carbon nanotube nanocomposites",
           "year": 2022,
           "venue": "AIP Advances",
           "url": "https://doi.org/10.1063/5.0064740",
@@ -5207,7 +5106,7 @@
           "citationCount": 1
         },
         {
-          "title": "Importance of axial stretch on the determination of Young’s modulus of electrospun poly(<i>ε</i>-caprolactone) nanofibres by atomic force microscopy",
+          "title": "Importance of axial stretch on the determination of Young\u2019s modulus of electrospun poly(<i>\u03b5</i>-caprolactone) nanofibres by atomic force microscopy",
           "year": 2021,
           "venue": "Canadian Journal of Physics",
           "url": "https://doi.org/10.1139/cjp-2020-0620",
@@ -5221,7 +5120,7 @@
           "citationCount": 14
         },
         {
-          "title": "Dielectric properties of PVA cryogels prepared by freeze–thaw cycling",
+          "title": "Dielectric properties of PVA cryogels prepared by freeze\u2013thaw cycling",
           "year": 2020,
           "venue": "The Journal of Chemical Physics",
           "url": "https://doi.org/10.1063/5.0007251",
@@ -5229,8 +5128,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:41.956Z",
-      "university": "Western University",
-      "hIndex": 24
+      "university": "Western University"
     },
     {
       "id": "carol-e-jones",
@@ -5268,7 +5166,7 @@
           "citationCount": 0
         },
         {
-          "title": "Stay Together or Split Up: Investigating Selective Adsorption of Carbon Dioxide and Acetylene in Anion-Pillared Microporous Metal–Organic Frameworks",
+          "title": "Stay Together or Split Up: Investigating Selective Adsorption of Carbon Dioxide and Acetylene in Anion-Pillared Microporous Metal\u2013Organic Frameworks",
           "year": 2025,
           "venue": "Chemistry of Materials",
           "url": "https://doi.org/10.1021/acs.chemmater.5c01816",
@@ -5290,8 +5188,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:41.956Z",
-      "university": "Western University",
-      "hIndex": 66
+      "university": "Western University"
     },
     {
       "id": "yanping-li",
@@ -5372,8 +5269,7 @@
       "researchAreas": [],
       "publications": [],
       "lastUpdated": "2026-01-24T01:00:41.956Z",
-      "university": "Western University",
-      "hIndex": 0
+      "university": "Western University"
     },
     {
       "id": "alexei-ouriadov",
@@ -5421,8 +5317,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:41.956Z",
-      "university": "Western University",
-      "hIndex": 26
+      "university": "Western University"
     },
     {
       "id": "els-peeters",
@@ -5466,7 +5361,7 @@
           "citationCount": 6
         },
         {
-          "title": "A Simple, Cost‐Effective Microfluidic Device Using a <scp>3D</scp> Cross‐Flow T‐Junction for Producing Decellularized Extracellular Matrix‐Derived Microcarriers",
+          "title": "A Simple, Cost\u2010Effective Microfluidic Device Using a <scp>3D</scp> Cross\u2010Flow T\u2010Junction for Producing Decellularized Extracellular Matrix\u2010Derived Microcarriers",
           "year": 2025,
           "venue": "Journal of Biomedical Materials Research Part A",
           "url": "https://doi.org/10.1002/jbm.a.37873",
@@ -5474,8 +5369,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:41.956Z",
-      "university": "Western University",
-      "hIndex": 19
+      "university": "Western University"
     },
     {
       "id": "lisa-schielicke",
@@ -5518,8 +5412,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:41.956Z",
-      "university": "Western University",
-      "hIndex": 9
+      "university": "Western University"
     },
     {
       "id": "yu-shi",
@@ -5548,7 +5441,7 @@
           "citationCount": 16
         },
         {
-          "title": "Panchromatic properties of the extreme Fe ii emitter PHL 1092",
+          "title": "Panchromatic properties of the extreme Fe\u2009ii emitter PHL\u20091092",
           "year": 2020,
           "venue": "Monthly Notices of the Royal Astronomical Society",
           "url": "https://doi.org/10.1093/mnras/staa934",
@@ -5574,8 +5467,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:41.956Z",
-      "university": "Western University",
-      "hIndex": 3
+      "university": "Western University"
     },
     {
       "id": "mahi-r-singh",
@@ -5615,7 +5507,7 @@
           "citationCount": 0
         },
         {
-          "title": "Enhancement of second harmonic generations in plasmonic nanohybrids",
+          "title": "Enhancement of second harmonic generations in\u00a0plasmonic nanohybrids",
           "year": 2025,
           "venue": "Journal of the Optical Society of America B",
           "url": "https://doi.org/10.1364/josab.573273",
@@ -5623,8 +5515,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:41.956Z",
-      "university": "Western University",
-      "hIndex": 28
+      "university": "Western University"
     },
     {
       "id": "andrea-soddu",
@@ -5636,7 +5527,7 @@
       "researchAreas": [],
       "publications": [
         {
-          "title": "New insights and predictability from in vivo recordings of paroxysmal sympathetic hyperactivity in disorders of consciousness",
+          "title": "New insights and predictability from in\u00a0vivo recordings of paroxysmal sympathetic hyperactivity in disorders of consciousness",
           "year": 2025,
           "venue": "Clinical Autonomic Research",
           "url": "https://doi.org/10.1007/s10286-025-01175-z",
@@ -5672,8 +5563,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:41.956Z",
-      "university": "Western University",
-      "hIndex": 46
+      "university": "Western University"
     },
     {
       "id": "olga-trichtchenko",
@@ -5685,8 +5575,7 @@
       "researchAreas": [],
       "publications": [],
       "lastUpdated": "2026-01-24T01:00:41.956Z",
-      "university": "Western University",
-      "hIndex": 8
+      "university": "Western University"
     },
     {
       "id": "bogdan-tudose",
@@ -5745,8 +5634,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:41.956Z",
-      "university": "Western University",
-      "hIndex": 30
+      "university": "Western University"
     },
     {
       "id": "eugene-wong",
@@ -5758,7 +5646,7 @@
       "researchAreas": [],
       "publications": [
         {
-          "title": "Surface effects on chemical potentials of nano-objects—assessment of the applicability of Gibbsian thermodynamics versus Kelvin’s curvature theory",
+          "title": "Surface effects on chemical potentials of nano-objects\u2014assessment of the applicability of Gibbsian thermodynamics versus Kelvin\u2019s curvature theory",
           "year": 2025,
           "venue": "Journal of Materials Science",
           "url": "https://doi.org/10.1007/s10853-025-11924-0",
@@ -5794,8 +5682,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:41.956Z",
-      "university": "Western University",
-      "hIndex": 22
+      "university": "Western University"
     },
     {
       "id": "johanna-m-blacquiere",
@@ -5815,21 +5702,21 @@
           "citationCount": 0
         },
         {
-          "title": "Poly(α‐Aminophosphine Chalcogenide) Networks: Synthesis, Characterization, and Application for Metal Sequestration",
+          "title": "Poly(\u03b1\u2010Aminophosphine Chalcogenide) Networks: Synthesis, Characterization, and Application for Metal Sequestration",
           "year": 2025,
           "venue": "Journal of Polymer Science",
           "url": "https://doi.org/10.1002/pol.20240836",
           "citationCount": 0
         },
         {
-          "title": "Selectivity of Ru and Fe P<sup>R</sup><sub>2</sub>N<sup>R’</sup><sub>2</sub> Catalysts Toward Acceptorless Dehydrogenation of Benzylamine",
+          "title": "Selectivity of Ru and Fe P<sup>R</sup><sub>2</sub>N<sup>R\u2019</sup><sub>2</sub> Catalysts Toward Acceptorless Dehydrogenation of Benzylamine",
           "year": 2024,
           "venue": "Organometallics",
           "url": "https://doi.org/10.1021/acs.organomet.4c00345",
           "citationCount": 2
         },
         {
-          "title": "Examining the Properties of (Co)Polymer Networks Prepared by the Phosphane‐Ene Reaction",
+          "title": "Examining the Properties of (Co)Polymer Networks Prepared by the Phosphane\u2010Ene Reaction",
           "year": 2024,
           "venue": "Macromolecular Chemistry and Physics",
           "url": "https://doi.org/10.1002/macp.202400267",
@@ -5844,8 +5731,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:43.001Z",
-      "university": "Western University",
-      "hIndex": 17
+      "university": "Western University"
     },
     {
       "id": "christina-booker",
@@ -5894,8 +5780,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:43.001Z",
-      "university": "Western University",
-      "hIndex": 10
+      "university": "Western University"
     },
     {
       "id": "styliani-constas",
@@ -5921,7 +5806,7 @@
       "researchAreas": [],
       "publications": [
         {
-          "title": "Impact of raw coal on embedded Mn–Ce/AC catalysts for NH <sub>3</sub> -SCR denitrification",
+          "title": "Impact of raw coal on embedded Mn\u2013Ce/AC catalysts for NH <sub>3</sub> -SCR denitrification",
           "year": 2025,
           "venue": "New Journal of Chemistry",
           "url": "https://doi.org/10.1039/d5nj04219d",
@@ -5935,7 +5820,7 @@
           "citationCount": 0
         },
         {
-          "title": "Sulfur Quantum Dots Emitting Blue–Violet Chemiluminescence, Photoluminescence, and Near-Infrared Electrochemiluminescence",
+          "title": "Sulfur Quantum Dots Emitting Blue\u2013Violet Chemiluminescence, Photoluminescence, and Near-Infrared Electrochemiluminescence",
           "year": 2025,
           "venue": "ACS Applied Nano Materials",
           "url": "https://doi.org/10.1021/acsanm.5c03260",
@@ -5957,8 +5842,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:43.001Z",
-      "university": "Western University",
-      "hIndex": 52
+      "university": "Western University"
     },
     {
       "id": "marcus-drover",
@@ -5971,14 +5855,14 @@
       "researchAreas": [],
       "publications": [
         {
-          "title": "Boron‐Formazanate Complexes as Tunable Redox‐Active Materials for Non‐Aqueous Redox Flow Batteries",
+          "title": "Boron\u2010Formazanate Complexes as Tunable Redox\u2010Active Materials for Non\u2010Aqueous Redox Flow Batteries",
           "year": 2026,
           "venue": "Chemistry - A European Journal",
           "url": "https://doi.org/10.1002/chem.202503592",
           "citationCount": 0
         },
         {
-          "title": "Ligandless Iron‐Catalyzed C(sp <sup>3</sup> )─H Bond Fluorination",
+          "title": "Ligandless Iron\u2010Catalyzed C(sp <sup>3</sup> )\u2500H Bond Fluorination",
           "year": 2026,
           "venue": "ChemCatChem",
           "url": "https://doi.org/10.1002/cctc.202501660",
@@ -5999,7 +5883,7 @@
           "citationCount": 0
         },
         {
-          "title": "C(sp <sup>2</sup> )─H Bond Activation with a Heterometallic Nickel–Aluminium Complex",
+          "title": "C(sp <sup>2</sup> )\u2500H Bond Activation with a Heterometallic Nickel\u2013Aluminium Complex",
           "year": 2025,
           "venue": "Angewandte Chemie International Edition",
           "url": "https://doi.org/10.1002/anie.202512684",
@@ -6007,8 +5891,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:43.001Z",
-      "university": "Western University",
-      "hIndex": 21
+      "university": "Western University"
     },
     {
       "id": "samantha-gateman",
@@ -6021,7 +5904,7 @@
       "researchAreas": [],
       "publications": [
         {
-          "title": "Challenges in Quantitative Scanning Electrochemical Microscopy for Corrosion Studies of Ferrous Materials: The Role of Redox Mediator–Substrate Interactions",
+          "title": "Challenges in Quantitative Scanning Electrochemical Microscopy for Corrosion Studies of Ferrous Materials: The Role of Redox Mediator\u2013Substrate Interactions",
           "year": 2025,
           "venue": "ChemElectroChem",
           "url": "https://doi.org/10.1002/celc.202500334",
@@ -6057,8 +5940,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:43.001Z",
-      "university": "Western University",
-      "hIndex": 15
+      "university": "Western University"
     },
     {
       "id": "elizabeth-gillies",
@@ -6098,7 +5980,7 @@
           "citationCount": 1
         },
         {
-          "title": "Self‐Immolative Polyion Complexes",
+          "title": "Self\u2010Immolative Polyion Complexes",
           "year": 2025,
           "venue": "Macromolecular Rapid Communications",
           "url": "https://doi.org/10.1002/marc.202500419",
@@ -6106,8 +5988,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:43.001Z",
-      "university": "Western University",
-      "hIndex": 46
+      "university": "Western University"
     },
     {
       "id": "joe-b-gilroy",
@@ -6120,35 +6001,35 @@
       "researchAreas": [],
       "publications": [
         {
-          "title": "Boron‐Formazanate Complexes as Tunable Redox‐Active Materials for Non‐Aqueous Redox Flow Batteries",
+          "title": "Boron\u2010Formazanate Complexes as Tunable Redox\u2010Active Materials for Non\u2010Aqueous Redox Flow Batteries",
           "year": 2026,
           "venue": "Chemistry - A European Journal",
           "url": "https://doi.org/10.1002/chem.202503592",
           "citationCount": 0
         },
         {
-          "title": "Understanding the Properties of Donor‐Acceptor Substituted Boron Difluoride 3‐Cyanoformazanate Dyes",
+          "title": "Understanding the Properties of Donor\u2010Acceptor Substituted Boron Difluoride 3\u2010Cyanoformazanate Dyes",
           "year": 2025,
           "venue": "Chemistry - A European Journal",
           "url": "https://doi.org/10.1002/chem.202500675",
           "citationCount": 3
         },
         {
-          "title": "Hydrophosphinated Styrene–Butadiene Rubber: Improving Automotive Tire Performance",
+          "title": "Hydrophosphinated Styrene\u2013Butadiene Rubber: Improving Automotive Tire Performance",
           "year": 2025,
           "venue": "ACS Applied Polymer Materials",
           "url": "https://doi.org/10.1021/acsapm.5c00222",
           "citationCount": 1
         },
         {
-          "title": "Poly(α‐Aminophosphine Chalcogenide) Networks: Synthesis, Characterization, and Application for Metal Sequestration",
+          "title": "Poly(\u03b1\u2010Aminophosphine Chalcogenide) Networks: Synthesis, Characterization, and Application for Metal Sequestration",
           "year": 2025,
           "venue": "Journal of Polymer Science",
           "url": "https://doi.org/10.1002/pol.20240836",
           "citationCount": 0
         },
         {
-          "title": "Phosphorus‐Nitrogen Heterocycles Derived from Chelating <i>N</i> ‐Donor Ligands: Historical Advances, Recent Highlights, and Outlook",
+          "title": "Phosphorus\u2010Nitrogen Heterocycles Derived from Chelating <i>N</i> \u2010Donor Ligands: Historical Advances, Recent Highlights, and Outlook",
           "year": 2025,
           "venue": "Chemistry - A European Journal",
           "url": "https://doi.org/10.1002/chem.202404420",
@@ -6156,8 +6037,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:43.001Z",
-      "university": "Western University",
-      "hIndex": 36
+      "university": "Western University"
     },
     {
       "id": "yolanda-hedberg",
@@ -6191,7 +6071,7 @@
           "citationCount": 0
         },
         {
-          "title": "Influence of Different Gold-Doped Carbon Electrodes on Interactions with L-Cysteine – a Comparative Study of Glassy Carbon and Paraffin-Impregnated Graphite Electrode",
+          "title": "Influence of Different Gold-Doped Carbon Electrodes on Interactions with L-Cysteine \u2013 a Comparative Study of Glassy Carbon and Paraffin-Impregnated Graphite Electrode",
           "year": 2025,
           "venue": "ECS Meeting Abstracts",
           "url": "https://doi.org/10.1149/ma2025-02121101mtgabs",
@@ -6206,8 +6086,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:43.001Z",
-      "university": "Western University",
-      "hIndex": 36
+      "university": "Western University"
     },
     {
       "id": "yining-huang",
@@ -6234,7 +6113,7 @@
           "citationCount": 0
         },
         {
-          "title": "Stay Together or Split Up: Investigating Selective Adsorption of Carbon Dioxide and Acetylene in Anion-Pillared Microporous Metal–Organic Frameworks",
+          "title": "Stay Together or Split Up: Investigating Selective Adsorption of Carbon Dioxide and Acetylene in Anion-Pillared Microporous Metal\u2013Organic Frameworks",
           "year": 2025,
           "venue": "Chemistry of Materials",
           "url": "https://doi.org/10.1021/acs.chemmater.5c01816",
@@ -6256,8 +6135,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:43.001Z",
-      "university": "Western University",
-      "hIndex": 15
+      "university": "Western University"
     },
     {
       "id": "robert-hudson",
@@ -6305,8 +6183,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:43.001Z",
-      "university": "Western University",
-      "hIndex": 37
+      "university": "Western University"
     },
     {
       "id": "mikko-karttunen-chem",
@@ -6333,7 +6210,7 @@
           "citationCount": 0
         },
         {
-          "title": "Stay Together or Split Up: Investigating Selective Adsorption of Carbon Dioxide and Acetylene in Anion-Pillared Microporous Metal–Organic Frameworks",
+          "title": "Stay Together or Split Up: Investigating Selective Adsorption of Carbon Dioxide and Acetylene in Anion-Pillared Microporous Metal\u2013Organic Frameworks",
           "year": 2025,
           "venue": "Chemistry of Materials",
           "url": "https://doi.org/10.1021/acs.chemmater.5c01816",
@@ -6355,8 +6232,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:43.001Z",
-      "university": "Western University",
-      "hIndex": 66
+      "university": "Western University"
     },
     {
       "id": "michael-a-kerr",
@@ -6369,8 +6245,7 @@
       "researchAreas": [],
       "publications": [],
       "lastUpdated": "2026-01-24T01:00:43.001Z",
-      "university": "Western University",
-      "hIndex": 67
+      "university": "Western University"
     },
     {
       "id": "lars-konermann",
@@ -6419,12 +6294,11 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:43.001Z",
-      "university": "Western University",
-      "hIndex": 56
+      "university": "Western University"
     },
     {
       "id": "fran-ois-lagugn-labarthet-associate",
-      "name": "François Lagugné-Labarthet - Associate",
+      "name": "Fran\u00e7ois Lagugn\u00e9-Labarthet - Associate",
       "title": "Assistant Professor",
       "department": "Chemistry",
       "email": "johanna.blacquiere@uwo.ca",
@@ -6473,7 +6347,7 @@
           "citationCount": 0
         },
         {
-          "title": "Niobium nitride–mediated electron enrichment unlocks elevated piezocatalytic thiol coupling efficiency of molybdenum disulfide via a non-radical–radical hybrid pathway",
+          "title": "Niobium nitride\u2013mediated electron enrichment unlocks elevated piezocatalytic thiol coupling efficiency of molybdenum disulfide via a non-radical\u2013radical hybrid pathway",
           "year": 2025,
           "venue": "Applied Catalysis B: Environmental",
           "url": "https://doi.org/10.1016/j.apcatb.2025.126360",
@@ -6512,7 +6386,7 @@
     },
     {
       "id": "james-no-l",
-      "name": "James Noël",
+      "name": "James No\u00ebl",
       "title": "Assistant Professor",
       "department": "Chemistry",
       "email": "johanna.blacquiere@uwo.ca",
@@ -6577,7 +6451,7 @@
           "citationCount": 2
         },
         {
-          "title": "The <scp>IUBMB</scp> Focused Meeting on Aminoacyl‐<scp>tRNA</scp> Synthetases 2023",
+          "title": "The <scp>IUBMB</scp> Focused Meeting on Aminoacyl\u2010<scp>tRNA</scp> Synthetases 2023",
           "year": 2025,
           "venue": "IUBMB Life",
           "url": "https://doi.org/10.1002/iub.70041",
@@ -6593,12 +6467,12 @@
         {
           "title": "Glutamine missense suppressor transfer RNAs inhibit polyglutamine aggregation",
           "year": 2024,
-          "venue": "Molecular Therapy — Nucleic Acids",
+          "venue": "Molecular Therapy \u2014 Nucleic Acids",
           "url": "https://doi.org/10.1016/j.omtn.2024.102442",
           "citationCount": 3
         },
         {
-          "title": "Transfer <scp>RNA</scp> and small molecule therapeutics for aminoacyl‐<scp>tRNA</scp> synthetase diseases",
+          "title": "Transfer <scp>RNA</scp> and small molecule therapeutics for aminoacyl\u2010<scp>tRNA</scp> synthetase diseases",
           "year": 2024,
           "venue": "FEBS Journal",
           "url": "https://doi.org/10.1111/febs.17361",
@@ -6626,14 +6500,14 @@
           "citationCount": 7
         },
         {
-          "title": "Benzosiloles with Crystallization‐Induced Emission Enhancement of Electrochemiluminescence: Synthesis, Electrochemistry, and Crystallography",
+          "title": "Benzosiloles with Crystallization\u2010Induced Emission Enhancement of Electrochemiluminescence: Synthesis, Electrochemistry, and Crystallography",
           "year": 2020,
           "venue": "Chemistry - A European Journal",
           "url": "https://doi.org/10.1002/chem.202002647",
           "citationCount": 29
         },
         {
-          "title": "Synthesis of Hexahydropyridazines by [4 + 2] Cycloaddition of Donor–Acceptor Cyclobutanes and <i>cis</i>-Diazenes",
+          "title": "Synthesis of Hexahydropyridazines by [4 + 2] Cycloaddition of Donor\u2013Acceptor Cyclobutanes and <i>cis</i>-Diazenes",
           "year": 2020,
           "venue": "Organic Letters",
           "url": "https://doi.org/10.1021/acs.orglett.0c00896",
@@ -6724,14 +6598,14 @@
           "citationCount": 0
         },
         {
-          "title": "Benzimidazolium hydrogen carbonate salts—Investigation of thermal properties in the context of small molecule inhibitors",
+          "title": "Benzimidazolium hydrogen carbonate salts\u2014Investigation of thermal properties in the context of small molecule inhibitors",
           "year": 2025,
           "venue": "Journal of Vacuum Science & Technology A Vacuum Surfaces and Films",
           "url": "https://doi.org/10.1116/6.0004886",
           "citationCount": 0
         },
         {
-          "title": "Sulfur Quantum Dots Emitting Blue–Violet Chemiluminescence, Photoluminescence, and Near-Infrared Electrochemiluminescence",
+          "title": "Sulfur Quantum Dots Emitting Blue\u2013Violet Chemiluminescence, Photoluminescence, and Near-Infrared Electrochemiluminescence",
           "year": 2025,
           "venue": "ACS Applied Nano Materials",
           "url": "https://doi.org/10.1021/acsanm.5c03260",
@@ -6799,14 +6673,14 @@
           "citationCount": 0
         },
         {
-          "title": "Experimental Investigation of Levitation Dynamics in Turbulent Airflow: A Study of Drag Force and Bernoulli’s Principle for Aerodynamic Application",
+          "title": "Experimental Investigation of Levitation Dynamics in Turbulent Airflow: A Study of Drag Force and Bernoulli\u2019s Principle for Aerodynamic Application",
           "year": 2025,
           "venue": "Highlights in Science Engineering and Technology",
           "url": "https://doi.org/10.54097/pc7rya93",
           "citationCount": 0
         },
         {
-          "title": "Pressure‐Induced Structural and Optoelectronic Modulations in 2D Dion‐Jacobson Hybrid Lead Iodide Perovskites With a Rigid Spacer",
+          "title": "Pressure\u2010Induced Structural and Optoelectronic Modulations in 2D Dion\u2010Jacobson Hybrid Lead Iodide Perovskites With a Rigid Spacer",
           "year": 2025,
           "venue": "Advanced Optical Materials",
           "url": "https://doi.org/10.1002/adom.202500602",
@@ -6913,7 +6787,7 @@
           "citationCount": 0
         },
         {
-          "title": "On‐Demand Photochemical Modification of Glassy Carbon Surface",
+          "title": "On\u2010Demand Photochemical Modification of Glassy Carbon Surface",
           "year": 2025,
           "venue": "Electroanalysis",
           "url": "https://doi.org/10.1002/elan.12004",
@@ -6941,7 +6815,7 @@
       "researchAreas": [],
       "publications": [
         {
-          "title": "The antioxidant N-acetylcysteine prevents cortical neuropathological phenotypes caused by adolescent Δ-9-tetrahydrocannabinol exposure in male rats",
+          "title": "The antioxidant N-acetylcysteine prevents cortical neuropathological phenotypes caused by adolescent \u0394-9-tetrahydrocannabinol exposure in male rats",
           "year": 2025,
           "venue": "Translational Psychiatry",
           "url": "https://doi.org/10.1038/s41398-025-03580-4",
@@ -7009,7 +6883,7 @@
           "citationCount": 0
         },
         {
-          "title": "Skin disease‐associated <i>GJB4</i> variants differentially influence connexin stability, cell viability and channel function",
+          "title": "Skin disease\u2010associated <i>GJB4</i> variants differentially influence connexin stability, cell viability and channel function",
           "year": 2025,
           "venue": "The Journal of Physiology",
           "url": "https://doi.org/10.1113/jp286367",
@@ -7081,7 +6955,7 @@
           "citationCount": 0
         },
         {
-          "title": "p66Shc silencing promotes aerobic glycolysis via signalling between the transcription factors NRF2 and HIF1-α",
+          "title": "p66Shc silencing promotes aerobic glycolysis via signalling between the transcription factors NRF2 and HIF1-\u03b1",
           "year": 2025,
           "venue": "Free Radical Biology and Medicine",
           "url": "https://doi.org/10.1016/j.freeradbiomed.2025.10.007",
@@ -7095,14 +6969,14 @@
           "citationCount": 0
         },
         {
-          "title": "Proximity proteomics reveals unique and shared pathological features between multiple system atrophy and Parkinson’s disease",
+          "title": "Proximity proteomics reveals unique and shared pathological features between multiple system atrophy and Parkinson\u2019s disease",
           "year": 2025,
           "venue": "Acta Neuropathologica Communications",
           "url": "https://doi.org/10.1186/s40478-025-01958-5",
           "citationCount": 3
         },
         {
-          "title": "Comparing alpha-synuclein-interactomes between multiple systems atrophy and Parkinson’s disease reveals unique and shared pathological features",
+          "title": "Comparing alpha-synuclein-interactomes between multiple systems atrophy and Parkinson\u2019s disease reveals unique and shared pathological features",
           "year": 2024,
           "url": "https://doi.org/10.1101/2024.09.20.613717",
           "citationCount": 2
@@ -7148,8 +7022,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:44.173Z",
-      "university": "Western University",
-      "hIndex": 0
+      "university": "Western University"
     },
     {
       "id": "oana-birceanu",
@@ -7161,7 +7034,7 @@
       "researchAreas": [],
       "publications": [
         {
-          "title": "Educators’ experience and guide to scaffolding generative AI applications throughout a physiology and pharmacology undergraduate laboratory course",
+          "title": "Educators\u2019 experience and guide to scaffolding generative AI applications throughout a physiology and pharmacology undergraduate laboratory course",
           "year": 2025,
           "venue": "AJP Advances in Physiology Education",
           "url": "https://doi.org/10.1152/advan.00130.2024",
@@ -7197,8 +7070,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:44.173Z",
-      "university": "Western University",
-      "hIndex": 0
+      "university": "Western University"
     },
     {
       "id": "nica-borradaile",
@@ -7224,7 +7096,7 @@
           "citationCount": 0
         },
         {
-          "title": "<scp>SARS</scp> ‐ <scp>CoV</scp> ‐2 Nucleocapsid Protein Does Not Induce Inflammation in Endothelial Cells or Monocytes",
+          "title": "<scp>SARS</scp> \u2010 <scp>CoV</scp> \u20102 Nucleocapsid Protein Does Not Induce Inflammation in Endothelial Cells or Monocytes",
           "year": 2025,
           "venue": "The FASEB Journal",
           "url": "https://doi.org/10.1096/fj.202501433r",
@@ -7246,8 +7118,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:44.173Z",
-      "university": "Western University",
-      "hIndex": 22
+      "university": "Western University"
     },
     {
       "id": "tim-bussey",
@@ -7298,7 +7169,7 @@
           "citationCount": 4
         },
         {
-          "title": "Flexible learning dimensions in higher education: aligning students’ and educators’ perspectives for more inclusive practices",
+          "title": "Flexible learning dimensions in higher education: aligning students\u2019 and educators\u2019 perspectives for more inclusive practices",
           "year": 2024,
           "venue": "Frontiers in Education",
           "url": "https://doi.org/10.3389/feduc.2024.1347432",
@@ -7339,7 +7210,7 @@
           "citationCount": 2
         },
         {
-          "title": "Luciferase-based GloSensor™ cAMP assay: Temperature optimization and application to cell-based kinetic studies",
+          "title": "Luciferase-based GloSensor\u2122 cAMP assay: Temperature optimization and application to cell-based kinetic studies",
           "year": 2021,
           "venue": "Methods",
           "url": "https://doi.org/10.1016/j.ymeth.2021.10.009",
@@ -7353,8 +7224,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:44.173Z",
-      "university": "Western University",
-      "hIndex": 34
+      "university": "Western University"
     },
     {
       "id": "brian-corneil",
@@ -7380,7 +7250,7 @@
           "citationCount": 0
         },
         {
-          "title": "Lower-limb express visuomotor responses are spared in Parkinson’s disease during step initiation from a stable position",
+          "title": "Lower-limb express visuomotor responses are spared in Parkinson\u2019s disease during step initiation from a stable position",
           "year": 2025,
           "venue": "Clinical Neurophysiology",
           "url": "https://doi.org/10.1016/j.clinph.2025.2110988",
@@ -7401,8 +7271,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:44.173Z",
-      "university": "Western University",
-      "hIndex": 35
+      "university": "Western University"
     },
     {
       "id": "sean-cregan",
@@ -7420,7 +7289,7 @@
           "citationCount": 0
         },
         {
-          "title": "ATF4 activates a transcriptional program that chronically suppresses mTOR activity promoting neurodegeneration in Parkinson’s disease models",
+          "title": "ATF4 activates a transcriptional program that chronically suppresses mTOR activity promoting neurodegeneration in Parkinson\u2019s disease models",
           "year": 2025,
           "url": "https://doi.org/10.1101/2025.06.09.658667",
           "citationCount": 0
@@ -7440,7 +7309,7 @@
           "citationCount": 4
         },
         {
-          "title": "Activating transcription factor-4 promotes neuronal death induced by Parkinson’s disease neurotoxins and α-synuclein aggregates",
+          "title": "Activating transcription factor-4 promotes neuronal death induced by Parkinson\u2019s disease neurotoxins and \u03b1-synuclein aggregates",
           "year": 2020,
           "venue": "Cell Death and Differentiation",
           "url": "https://doi.org/10.1038/s41418-020-00688-6",
@@ -7448,8 +7317,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:44.173Z",
-      "university": "Western University",
-      "hIndex": 31
+      "university": "Western University"
     },
     {
       "id": "fabiana-crowley",
@@ -7468,7 +7336,7 @@
           "citationCount": 4
         },
         {
-          "title": "Evaluating the quality of multiple‐choice question pilot database: A global educator‐created tool for concept‐based pharmacology learning",
+          "title": "Evaluating the quality of multiple\u2010choice question pilot database: A global educator\u2010created tool for concept\u2010based pharmacology learning",
           "year": 2024,
           "venue": "Pharmacology Research & Perspectives",
           "url": "https://doi.org/10.1002/prp2.70004",
@@ -7490,8 +7358,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:44.173Z",
-      "university": "Western University",
-      "hIndex": 2
+      "university": "Western University"
     },
     {
       "id": "lina-dagnino",
@@ -7510,7 +7377,7 @@
           "citationCount": 0
         },
         {
-          "title": "β-arrestin 1 and integrin-linked kinase interact in epidermal keratinocytes and regulate cell motility",
+          "title": "\u03b2-arrestin 1 and integrin-linked kinase interact in epidermal keratinocytes and regulate cell motility",
           "year": 2025,
           "venue": "Tissue Barriers",
           "url": "https://doi.org/10.1080/21688370.2025.2465048",
@@ -7539,8 +7406,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:44.173Z",
-      "university": "Western University",
-      "hIndex": 33
+      "university": "Western University"
     },
     {
       "id": "emily-day",
@@ -7588,8 +7454,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:44.173Z",
-      "university": "Western University",
-      "hIndex": 24
+      "university": "Western University"
     },
     {
       "id": "john-di-guglielmo",
@@ -7608,14 +7473,14 @@
           "citationCount": 0
         },
         {
-          "title": "Abstract 352: The role of p62 (SQTSM1) in the transforming growth factor β signaling pathway",
+          "title": "Abstract 352: The role of p62 (SQTSM1) in the transforming growth factor \u03b2 signaling pathway",
           "year": 2017,
           "venue": "Cancer Research",
           "url": "https://doi.org/10.1158/1538-7445.am2017-352",
           "citationCount": 0
         },
         {
-          "title": "Abstract 4593: Analysis of transforming growth factor β receptor trafficking on different signaling transduction pathways",
+          "title": "Abstract 4593: Analysis of transforming growth factor \u03b2 receptor trafficking on different signaling transduction pathways",
           "year": 2016,
           "venue": "Cancer Research",
           "url": "https://doi.org/10.1158/1538-7445.am2016-4593",
@@ -7637,8 +7502,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:44.173Z",
-      "university": "Western University",
-      "hIndex": 1
+      "university": "Western University"
     },
     {
       "id": "stefan-everling",
@@ -7685,8 +7549,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:44.173Z",
-      "university": "Western University",
-      "hIndex": 61
+      "university": "Western University"
     },
     {
       "id": "qingping-feng",
@@ -7698,7 +7561,7 @@
       "researchAreas": [],
       "publications": [
         {
-          "title": "<scp>SARS</scp> ‐ <scp>CoV</scp> ‐2 Nucleocapsid Protein Does Not Induce Inflammation in Endothelial Cells or Monocytes",
+          "title": "<scp>SARS</scp> \u2010 <scp>CoV</scp> \u20102 Nucleocapsid Protein Does Not Induce Inflammation in Endothelial Cells or Monocytes",
           "year": 2025,
           "venue": "The FASEB Journal",
           "url": "https://doi.org/10.1096/fj.202501433r",
@@ -7733,8 +7596,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:44.173Z",
-      "university": "Western University",
-      "hIndex": 41
+      "university": "Western University"
     },
     {
       "id": "paul-gribble",
@@ -7773,8 +7635,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:44.173Z",
-      "university": "Western University",
-      "hIndex": 47
+      "university": "Western University"
     },
     {
       "id": "matthew-w-grol",
@@ -7786,7 +7647,7 @@
       "researchAreas": [],
       "publications": [
         {
-          "title": "Role of soft tissue and bone interactions in the developmental integration and modularity of the skull in neural crest‐specific gap junction alpha‐1 knockout mice",
+          "title": "Role of soft tissue and bone interactions in the developmental integration and modularity of the skull in neural crest\u2010specific gap junction alpha\u20101 knockout mice",
           "year": 2025,
           "venue": "The Anatomical Record",
           "url": "https://doi.org/10.1002/ar.70115",
@@ -7821,8 +7682,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:44.173Z",
-      "university": "Western University",
-      "hIndex": 15
+      "university": "Western University"
     },
     {
       "id": "robert-gros",
@@ -7862,7 +7722,7 @@
           "citationCount": 4
         },
         {
-          "title": "Sex‐dependent cholinergic effects on amyloid pathology: A translational study",
+          "title": "Sex\u2010dependent cholinergic effects on amyloid pathology: A translational study",
           "year": 2023,
           "venue": "Alzheimer s & Dementia",
           "url": "https://doi.org/10.1002/alz.13481",
@@ -7870,8 +7730,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:44.173Z",
-      "university": "Western University",
-      "hIndex": 40
+      "university": "Western University"
     },
     {
       "id": "faraj-haddad",
@@ -7915,7 +7774,7 @@
           "citationCount": 0
         },
         {
-          "title": "Semaglutide promotes bone marrow–derived progenitor cell flux towards an anti-inflammatory and pro-regenerative profile in high-risk patients: the SEMA-VR CardioLink-15 trial",
+          "title": "Semaglutide promotes bone marrow\u2013derived progenitor cell flux towards an anti-inflammatory and pro-regenerative profile in high-risk patients: the SEMA-VR CardioLink-15 trial",
           "year": 2025,
           "venue": "European Heart Journal",
           "url": "https://doi.org/10.1093/eurheartj/ehaf690",
@@ -7930,8 +7789,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:44.173Z",
-      "university": "Western University",
-      "hIndex": 41
+      "university": "Western University"
     },
     {
       "id": "wataru-inoue",
@@ -7977,8 +7835,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:44.173Z",
-      "university": "Western University",
-      "hIndex": 25
+      "university": "Western University"
     },
     {
       "id": "marlys-koschinsky",
@@ -8026,8 +7883,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:44.173Z",
-      "university": "Western University",
-      "hIndex": 63
+      "university": "Western University"
     },
     {
       "id": "van-lu",
@@ -8039,8 +7895,7 @@
       "researchAreas": [],
       "publications": [],
       "lastUpdated": "2026-01-24T01:00:44.173Z",
-      "university": "Western University",
-      "hIndex": 20
+      "university": "Western University"
     },
     {
       "id": "wei-yang-lu",
@@ -8088,8 +7943,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:44.173Z",
-      "university": "Western University",
-      "hIndex": 48
+      "university": "Western University"
     },
     {
       "id": "julio-martinez-trujillo",
@@ -8135,8 +7989,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:44.173Z",
-      "university": "Western University",
-      "hIndex": 38
+      "university": "Western University"
     },
     {
       "id": "flory-muanda",
@@ -8184,8 +8037,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:44.173Z",
-      "university": "Western University",
-      "hIndex": 18
+      "university": "Western University"
     },
     {
       "id": "adrian-m-owen",
@@ -8204,7 +8056,7 @@
           "citationCount": 0
         },
         {
-          "title": "Optimized Simultaneous Assessment of Subcortical and Cortical Auditory Responses Through a Frequency‐Tagged Roving Paradigm",
+          "title": "Optimized Simultaneous Assessment of Subcortical and Cortical Auditory Responses Through a Frequency\u2010Tagged Roving Paradigm",
           "year": 2025,
           "venue": "European Journal of Neuroscience",
           "url": "https://doi.org/10.1111/ejn.70337",
@@ -8233,8 +8085,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:44.173Z",
-      "university": "Western University",
-      "hIndex": 108
+      "university": "Western University"
     },
     {
       "id": "christopher-l-pin",
@@ -8253,7 +8104,7 @@
           "citationCount": 0
         },
         {
-          "title": "Defining the interactome of the pancreas‐specific <scp>SPCA2</scp>  isoform ( <scp>SPCA2C</scp> ) identifies unique links to store‐operated Ca <sup>2+</sup> entry",
+          "title": "Defining the interactome of the pancreas\u2010specific <scp>SPCA2</scp> \u00a0isoform ( <scp>SPCA2C</scp> ) identifies unique links to store\u2010operated Ca <sup>2+</sup> entry",
           "year": 2025,
           "venue": "FEBS Journal",
           "url": "https://doi.org/10.1111/febs.70213",
@@ -8280,8 +8131,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:44.173Z",
-      "university": "Western University",
-      "hIndex": 28
+      "university": "Western University"
     },
     {
       "id": "marco-prado-phys",
@@ -8321,7 +8171,7 @@
           "citationCount": 0
         },
         {
-          "title": "A Longitudinal Study of Sex Differences in a <scp>TDP</scp> ‐43 Mouse Model Reveals <scp>STI1</scp> Regulation of <scp>TDP</scp> ‐43 Proteinopathy and Motor Deficits",
+          "title": "A Longitudinal Study of Sex Differences in a <scp>TDP</scp> \u201043 Mouse Model Reveals <scp>STI1</scp> Regulation of <scp>TDP</scp> \u201043 Proteinopathy and Motor Deficits",
           "year": 2025,
           "venue": "Journal of Neurochemistry",
           "url": "https://doi.org/10.1111/jnc.70204",
@@ -8329,8 +8179,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:44.173Z",
-      "university": "Western University",
-      "hIndex": 58
+      "university": "Western University"
     },
     {
       "id": "vania-prado-phys",
@@ -8342,7 +8191,7 @@
       "researchAreas": [],
       "publications": [
         {
-          "title": "Loss of α7 nicotinic acetylcholine receptor exacerbates adrenergic-induced cardiac damage",
+          "title": "Loss of \u03b17 nicotinic acetylcholine receptor exacerbates adrenergic-induced cardiac damage",
           "year": 2026,
           "venue": "American Journal of Physiology-Cell Physiology",
           "url": "https://doi.org/10.1152/ajpcell.00839.2025",
@@ -8356,14 +8205,14 @@
           "citationCount": 0
         },
         {
-          "title": "Apolipoprotein E (ApoE) 4 exacerbates pattern separation deficits and amyloid pathology in a combined humanized knock‐in Apolipoprotein E, Amyloid, and Tau model of Alzheimer's Disease",
+          "title": "Apolipoprotein E (ApoE) 4 exacerbates pattern separation deficits and amyloid pathology in a combined humanized knock\u2010in Apolipoprotein E, Amyloid, and Tau model of Alzheimer's Disease",
           "year": 2025,
           "venue": "Alzheimer s & Dementia",
           "url": "https://doi.org/10.1002/alz70855_099794",
           "citationCount": 0
         },
         {
-          "title": "Tau pathology in triple knock‐in mouse model of Alzheimer's Disease expressing APOE3 and APOE4",
+          "title": "Tau pathology in triple knock\u2010in mouse model of Alzheimer's Disease expressing APOE3 and APOE4",
           "year": 2025,
           "venue": "Alzheimer s & Dementia",
           "url": "https://doi.org/10.1002/alz70855_101626",
@@ -8378,8 +8227,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:44.173Z",
-      "university": "Western University",
-      "hIndex": 49
+      "university": "Western University"
     },
     {
       "id": "andrew-pruszynski",
@@ -8397,9 +8245,9 @@
           "citationCount": 0
         },
         {
-          "title": "Stability of selected open and closed thin-walled beams – numerical analysis",
+          "title": "Stability of selected open and closed thin-walled beams \u2013 numerical analysis",
           "year": 2025,
-          "venue": "Advances in Science and Technology – Research Journal",
+          "venue": "Advances in Science and Technology \u2013 Research Journal",
           "url": "https://doi.org/10.12913/22998624/211003",
           "citationCount": 0
         },
@@ -8418,8 +8266,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:44.173Z",
-      "university": "Western University",
-      "hIndex": 32
+      "university": "Western University"
     },
     {
       "id": "rithwik-ramachandran",
@@ -8431,14 +8278,14 @@
       "researchAreas": [],
       "publications": [
         {
-          "title": "In memoriam: Morley D. Hollenberg (1944–2025), scientist, artist, mentor, and friend",
+          "title": "In memoriam: Morley D. Hollenberg (1944\u20132025), scientist, artist, mentor, and friend",
           "year": 2025,
           "venue": "Canadian Journal of Physiology and Pharmacology",
           "url": "https://doi.org/10.1139/cjpp-2025-0210",
           "citationCount": 0
         },
         {
-          "title": "Defining the interactome of the pancreas‐specific <scp>SPCA2</scp>  isoform ( <scp>SPCA2C</scp> ) identifies unique links to store‐operated Ca <sup>2+</sup> entry",
+          "title": "Defining the interactome of the pancreas\u2010specific <scp>SPCA2</scp> \u00a0isoform ( <scp>SPCA2C</scp> ) identifies unique links to store\u2010operated Ca <sup>2+</sup> entry",
           "year": 2025,
           "venue": "FEBS Journal",
           "url": "https://doi.org/10.1111/febs.70213",
@@ -8465,8 +8312,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:44.173Z",
-      "university": "Western University",
-      "hIndex": 32
+      "university": "Western University"
     },
     {
       "id": "jane-rylett",
@@ -8485,7 +8331,7 @@
           "citationCount": 0
         },
         {
-          "title": "Impaired Cognitive Flexibility With Preserved Learning in an Amyloid Precursor Protein Knock‐In Mouse Model of Amyloidopathy",
+          "title": "Impaired Cognitive Flexibility With Preserved Learning in an Amyloid Precursor Protein Knock\u2010In Mouse Model of Amyloidopathy",
           "year": 2025,
           "venue": "Genes Brain & Behavior",
           "url": "https://doi.org/10.1111/gbb.70024",
@@ -8513,8 +8359,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:44.173Z",
-      "university": "Western University",
-      "hIndex": 36
+      "university": "Western University"
     },
     {
       "id": "lisa-saksida",
@@ -8554,7 +8399,7 @@
           "citationCount": 0
         },
         {
-          "title": "Impaired Cognitive Flexibility With Preserved Learning in an Amyloid Precursor Protein Knock‐In Mouse Model of Amyloidopathy",
+          "title": "Impaired Cognitive Flexibility With Preserved Learning in an Amyloid Precursor Protein Knock\u2010In Mouse Model of Amyloidopathy",
           "year": 2025,
           "venue": "Genes Brain & Behavior",
           "url": "https://doi.org/10.1111/gbb.70024",
@@ -8562,8 +8407,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:44.173Z",
-      "university": "Western University",
-      "hIndex": 73
+      "university": "Western University"
     },
     {
       "id": "taylor-schmitz",
@@ -8575,20 +8419,20 @@
       "researchAreas": [],
       "publications": [
         {
-          "title": "Neuromodulatory Fragility Is an Upstream Breakpoint for Alzheimer’s Disease Pathogenesis",
+          "title": "Neuromodulatory Fragility Is an Upstream Breakpoint for Alzheimer\u2019s Disease Pathogenesis",
           "year": 2025,
           "venue": "Preprints.org",
           "url": "https://doi.org/10.20944/preprints202512.0510.v1",
           "citationCount": 0
         },
         {
-          "title": "Locus coeruleus degeneration is associated with cortical tau deposition and cognitive decline in older adults at familial risk of Alzheimer’s disease",
+          "title": "Locus coeruleus degeneration is associated with cortical tau deposition and cognitive decline in older adults at familial risk of Alzheimer\u2019s disease",
           "year": 2025,
           "url": "https://doi.org/10.64898/2025.12.02.691923",
           "citationCount": 0
         },
         {
-          "title": "Longitudinal functional connectivity during rest and task is differentially related to Alzheimer’s pathology and episodic memory in older adults",
+          "title": "Longitudinal functional connectivity during rest and task is differentially related to Alzheimer\u2019s pathology and episodic memory in older adults",
           "year": 2025,
           "venue": "Scientific Reports",
           "url": "https://doi.org/10.1038/s41598-025-21596-0",
@@ -8602,7 +8446,7 @@
           "citationCount": 0
         },
         {
-          "title": "Quantitative MRI of the hippocampus reveals microstructural trajectories of aging and Alzheimer’s disease pathology",
+          "title": "Quantitative MRI of the hippocampus reveals microstructural trajectories of aging and Alzheimer\u2019s disease pathology",
           "year": 2025,
           "venue": "Proceedings of the National Academy of Sciences",
           "url": "https://doi.org/10.1073/pnas.2502674122",
@@ -8610,12 +8454,11 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:44.173Z",
-      "university": "Western University",
-      "hIndex": 32
+      "university": "Western University"
     },
     {
       "id": "cheryle-a-s-guin",
-      "name": "Cheryle A. Séguin",
+      "name": "Cheryle A. S\u00e9guin",
       "title": "Professor",
       "department": "Physiology & Pharmacology",
       "email": "",
@@ -8623,14 +8466,14 @@
       "researchAreas": [],
       "publications": [
         {
-          "title": "Sex Hormones Attenuate Pro‐Inflammatory Gene Expression in Nucleus Pulposus and Annulus Fibrosus Cells in a Cell‐Type Specific Manner",
+          "title": "Sex Hormones Attenuate Pro\u2010Inflammatory Gene Expression in Nucleus Pulposus and Annulus Fibrosus Cells in a Cell\u2010Type Specific Manner",
           "year": 2026,
           "venue": "JOR Spine",
           "url": "https://doi.org/10.1002/jsp2.70152",
           "citationCount": 0
         },
         {
-          "title": "Tribute to Dr. Frank Beier (1965–2025)",
+          "title": "Tribute to Dr. Frank Beier (1965\u20132025)",
           "year": 2025,
           "venue": "Osteoarthritis and Cartilage",
           "url": "https://doi.org/10.1016/j.joca.2025.11.012",
@@ -8658,8 +8501,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:44.173Z",
-      "university": "Western University",
-      "hIndex": 29
+      "university": "Western University"
     },
     {
       "id": "peter-stathopulos",
@@ -8671,7 +8513,7 @@
       "researchAreas": [],
       "publications": [
         {
-          "title": "Defining the interactome of the pancreas‐specific <scp>SPCA2</scp>  isoform ( <scp>SPCA2C</scp> ) identifies unique links to store‐operated Ca <sup>2+</sup> entry",
+          "title": "Defining the interactome of the pancreas\u2010specific <scp>SPCA2</scp> \u00a0isoform ( <scp>SPCA2C</scp> ) identifies unique links to store\u2010operated Ca <sup>2+</sup> entry",
           "year": 2025,
           "venue": "FEBS Journal",
           "url": "https://doi.org/10.1111/febs.70213",
@@ -8685,29 +8527,28 @@
           "citationCount": 0
         },
         {
-          "title": "The apo <scp>LETM1</scp> F‐ <scp>EF</scp> ‐hand adopts a closed conformation that underlies a multi‐modal sensory role in mitochondria",
+          "title": "The apo <scp>LETM1</scp> F\u2010 <scp>EF</scp> \u2010hand adopts a closed conformation that underlies a multi\u2010modal sensory role in mitochondria",
           "year": 2025,
           "venue": "FEBS Letters",
           "url": "https://doi.org/10.1002/1873-3468.70006",
           "citationCount": 1
         },
         {
-          "title": "Skin disease‐associated <i>GJB4</i> variants differentially influence connexin stability, cell viability and channel function",
+          "title": "Skin disease\u2010associated <i>GJB4</i> variants differentially influence connexin stability, cell viability and channel function",
           "year": 2025,
           "venue": "The Journal of Physiology",
           "url": "https://doi.org/10.1113/jp286367",
           "citationCount": 1
         },
         {
-          "title": "Author response for \"The apo &lt;scp&gt;LETM1&lt;/scp&gt; F‐&lt;scp&gt;EF&lt;/scp&gt;‐hand adopts a closed conformation that underlies a multi‐modal sensory role in mitochondria\"",
+          "title": "Author response for \"The apo &lt;scp&gt;LETM1&lt;/scp&gt; F\u2010&lt;scp&gt;EF&lt;/scp&gt;\u2010hand adopts a closed conformation that underlies a multi\u2010modal sensory role in mitochondria\"",
           "year": 2024,
           "url": "https://doi.org/10.1002/1873-3468.70006/v2/response1",
           "citationCount": 0
         }
       ],
       "lastUpdated": "2026-01-24T01:00:44.173Z",
-      "university": "Western University",
-      "hIndex": 40
+      "university": "Western University"
     },
     {
       "id": "rommel-g-tirona",
@@ -8726,14 +8567,14 @@
           "citationCount": 3
         },
         {
-          "title": "A.1 Repurposing Ambroxol as a disease-modifying treatment for Parkinson’s disease dementia: A phase 2, randomized, double blind placebo-controlled trial",
+          "title": "A.1 Repurposing Ambroxol as a disease-modifying treatment for Parkinson\u2019s disease dementia: A phase 2, randomized, double blind placebo-controlled trial",
           "year": 2024,
           "venue": "Canadian Journal of Neurological Sciences / Journal Canadien des Sciences Neurologiques",
           "url": "https://doi.org/10.1017/cjn.2024.74",
           "citationCount": 0
         },
         {
-          "title": "Aging and brain free cholesterol concentration on amyloid‐β peptide accumulation in guinea pigs",
+          "title": "Aging and brain free cholesterol concentration on amyloid\u2010\u03b2 peptide accumulation in guinea pigs",
           "year": 2024,
           "venue": "Biopharmaceutics & Drug Disposition",
           "url": "https://doi.org/10.1002/bdd.2386",
@@ -8755,8 +8596,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:44.173Z",
-      "university": "Western University",
-      "hIndex": 43
+      "university": "Western University"
     },
     {
       "id": "brad-urquhart",
@@ -8768,8 +8608,7 @@
       "researchAreas": [],
       "publications": [],
       "lastUpdated": "2026-01-24T01:00:44.173Z",
-      "university": "Western University",
-      "hIndex": 0
+      "university": "Western University"
     },
     {
       "id": "don-welsh",
@@ -8829,8 +8668,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:44.173Z",
-      "university": "Western University",
-      "hIndex": 16
+      "university": "Western University"
     },
     {
       "id": "tallulah-andrews",
@@ -8870,7 +8708,7 @@
           "citationCount": 0
         },
         {
-          "title": "Towards a reference cell atlas of liver diversity over the human lifespan",
+          "title": "Towards a reference cell atlas of liver diversity over the\u00a0human lifespan",
           "year": 2025,
           "venue": "Nature Reviews Gastroenterology & Hepatology",
           "url": "https://doi.org/10.1038/s41575-025-01114-3",
@@ -8878,8 +8716,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:45.281Z",
-      "university": "Western University",
-      "hIndex": 20
+      "university": "Western University"
     },
     {
       "id": "stephanie-bishop",
@@ -8926,8 +8763,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:45.281Z",
-      "university": "Western University",
-      "hIndex": 8
+      "university": "Western University"
     },
     {
       "id": "michael-boffa",
@@ -8975,8 +8811,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:45.281Z",
-      "university": "Western University",
-      "hIndex": 39
+      "university": "Western University"
     },
     {
       "id": "john-capone",
@@ -9014,14 +8849,14 @@
           "citationCount": 8
         },
         {
-          "title": "Investigation of the pre‐sensor 1 hairpin in minichromosome maintenance proteins 2–7.",
+          "title": "Investigation of the pre\u2010sensor 1 hairpin in minichromosome maintenance proteins 2\u20137.",
           "year": 2013,
           "venue": "The FASEB Journal",
           "url": "https://doi.org/10.1096/fasebj.27.1_supplement.538.5",
           "citationCount": 0
         },
         {
-          "title": "Modulation of Mcm2–7 activity by Cdt1",
+          "title": "Modulation of Mcm2\u20137 activity by Cdt1",
           "year": 2013,
           "venue": "The FASEB Journal",
           "url": "https://doi.org/10.1096/fasebj.27.1_supplement.539.2",
@@ -9036,8 +8871,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:45.281Z",
-      "university": "Western University",
-      "hIndex": 15
+      "university": "Western University"
     },
     {
       "id": "brian-dempsey",
@@ -9061,7 +8895,7 @@
       "researchAreas": [],
       "publications": [
         {
-          "title": "Machine learning reveals sequence and methylation determinants of SaCas9–PAM interactions in bacteria",
+          "title": "Machine learning reveals sequence and methylation determinants of SaCas9\u2013PAM interactions in bacteria",
           "year": 2025,
           "venue": "Nucleic Acids Research",
           "url": "https://doi.org/10.1093/nar/gkaf1520",
@@ -9095,8 +8929,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:45.281Z",
-      "university": "Western University",
-      "hIndex": 30
+      "university": "Western University"
     },
     {
       "id": "teklab-gebregiworgis",
@@ -9122,7 +8955,7 @@
           "citationCount": 0
         },
         {
-          "title": "Immunization with Complete Freund’s Adjuvant Reveals Trained Immunity-like Features in A/J Mice",
+          "title": "Immunization with Complete Freund\u2019s Adjuvant Reveals Trained Immunity-like Features in A/J Mice",
           "year": 2025,
           "venue": "Vaccines",
           "url": "https://doi.org/10.3390/vaccines13070768",
@@ -9136,7 +8969,7 @@
           "citationCount": 3
         },
         {
-          "title": "Metabolic Reprogramming in Response to Freund’s Adjuvants: Insights from Serum Metabolomics",
+          "title": "Metabolic Reprogramming in Response to Freund\u2019s Adjuvants: Insights from Serum Metabolomics",
           "year": 2025,
           "venue": "Microorganisms",
           "url": "https://doi.org/10.3390/microorganisms13030492",
@@ -9144,8 +8977,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:45.281Z",
-      "university": "Western University",
-      "hIndex": 16
+      "university": "Western University"
     },
     {
       "id": "greg-gloor",
@@ -9188,21 +9020,21 @@
           "citationCount": 0
         },
         {
-          "title": "The <scp>IUBMB</scp> Focused Meeting on Aminoacyl‐<scp>tRNA</scp> Synthetases 2023",
+          "title": "The <scp>IUBMB</scp> Focused Meeting on Aminoacyl\u2010<scp>tRNA</scp> Synthetases 2023",
           "year": 2025,
           "venue": "IUBMB Life",
           "url": "https://doi.org/10.1002/iub.70041",
           "citationCount": 0
         },
         {
-          "title": "Yeast models for Charcot‐Marie‐Tooth disease‐causing aminoacyl‐<scp>tRNA</scp> synthetase alleles reveal the cellular basis of disease",
+          "title": "Yeast models for Charcot\u2010Marie\u2010Tooth disease\u2010causing aminoacyl\u2010<scp>tRNA</scp> synthetase alleles reveal the cellular basis of disease",
           "year": 2025,
           "venue": "IUBMB Life",
           "url": "https://doi.org/10.1002/iub.70017",
           "citationCount": 2
         },
         {
-          "title": "Transfer <scp>RNA</scp> and small molecule therapeutics for aminoacyl‐<scp>tRNA</scp> synthetase diseases",
+          "title": "Transfer <scp>RNA</scp> and small molecule therapeutics for aminoacyl\u2010<scp>tRNA</scp> synthetase diseases",
           "year": 2024,
           "venue": "FEBS Journal",
           "url": "https://doi.org/10.1111/febs.17361",
@@ -9210,8 +9042,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:45.281Z",
-      "university": "Western University",
-      "hIndex": 23
+      "university": "Western University"
     },
     {
       "id": "pingzhao-hu",
@@ -9259,8 +9090,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:45.281Z",
-      "university": "Western University",
-      "hIndex": 48
+      "university": "Western University"
     },
     {
       "id": "murray-junop",
@@ -9294,8 +9124,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:45.281Z",
-      "university": "Western University",
-      "hIndex": 0
+      "university": "Western University"
     },
     {
       "id": "bogumil-karas",
@@ -9338,8 +9167,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:45.281Z",
-      "university": "Western University",
-      "hIndex": 28
+      "university": "Western University"
     },
     {
       "id": "shawn-li",
@@ -9386,8 +9214,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:45.281Z",
-      "university": "Western University",
-      "hIndex": 44
+      "university": "Western University"
     },
     {
       "id": "hong-ling",
@@ -9418,7 +9245,7 @@
           "citationCount": 0
         },
         {
-          "title": "Covalent Inhibition of the Peptidyl‐Prolyl Isomerase Pin1 by Sulfopin Results in a Broad Impact on the Phosphoproteome of Human Osteosarcoma U2‐OS Cells",
+          "title": "Covalent Inhibition of the Peptidyl\u2010Prolyl Isomerase Pin1 by Sulfopin Results in a Broad Impact on the Phosphoproteome of Human Osteosarcoma U2\u2010OS Cells",
           "year": 2025,
           "venue": "PROTEOMICS",
           "url": "https://doi.org/10.1002/pmic.13980",
@@ -9446,8 +9273,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:45.281Z",
-      "university": "Western University",
-      "hIndex": 66
+      "university": "Western University"
     },
     {
       "id": "kun-ping-lu",
@@ -9507,14 +9333,14 @@
       "researchAreas": [],
       "publications": [
         {
-          "title": "Song: What Makes You Albumin (to the tune of “What Makes You Beautiful”*)",
+          "title": "Song: What Makes You Albumin (to the tune of \u201cWhat Makes You Beautiful\u201d*)",
           "year": 2025,
           "venue": "Biochemistry and Molecular Biology Education",
           "url": "https://doi.org/10.1002/bmb.70028",
           "citationCount": 0
         },
         {
-          "title": "Song: You need <scp>ATP</scp> (to the tune of “You belong with me”)",
+          "title": "Song: You need <scp>ATP</scp> (to the tune of \u201cYou belong with me\u201d)",
           "year": 2025,
           "venue": "Biochemistry and Molecular Biology Education",
           "url": "https://doi.org/10.1002/bmb.21887",
@@ -9526,7 +9352,7 @@
           "citationCount": 0
         },
         {
-          "title": "Song: I love ketone bodies (to the tune of “shape of you”)",
+          "title": "Song: I love ketone bodies (to the tune of \u201cshape of you\u201d)",
           "year": 2018,
           "venue": "Biochemistry and Molecular Biology Education",
           "url": "https://doi.org/10.1002/bmb.21203",
@@ -9539,8 +9365,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:45.281Z",
-      "university": "Western University",
-      "hIndex": 13
+      "university": "Western University"
     },
     {
       "id": "susan-meakin",
@@ -9588,8 +9413,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:45.281Z",
-      "university": "Western University",
-      "hIndex": 32
+      "university": "Western University"
     },
     {
       "id": "patrick-o-donoghue-biochem",
@@ -9608,7 +9432,7 @@
           "citationCount": 2
         },
         {
-          "title": "The <scp>IUBMB</scp> Focused Meeting on Aminoacyl‐<scp>tRNA</scp> Synthetases 2023",
+          "title": "The <scp>IUBMB</scp> Focused Meeting on Aminoacyl\u2010<scp>tRNA</scp> Synthetases 2023",
           "year": 2025,
           "venue": "IUBMB Life",
           "url": "https://doi.org/10.1002/iub.70041",
@@ -9624,12 +9448,12 @@
         {
           "title": "Glutamine missense suppressor transfer RNAs inhibit polyglutamine aggregation",
           "year": 2024,
-          "venue": "Molecular Therapy — Nucleic Acids",
+          "venue": "Molecular Therapy \u2014 Nucleic Acids",
           "url": "https://doi.org/10.1016/j.omtn.2024.102442",
           "citationCount": 3
         },
         {
-          "title": "Transfer <scp>RNA</scp> and small molecule therapeutics for aminoacyl‐<scp>tRNA</scp> synthetase diseases",
+          "title": "Transfer <scp>RNA</scp> and small molecule therapeutics for aminoacyl\u2010<scp>tRNA</scp> synthetase diseases",
           "year": 2024,
           "venue": "FEBS Journal",
           "url": "https://doi.org/10.1111/febs.17361",
@@ -9637,8 +9461,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:45.281Z",
-      "university": "Western University",
-      "hIndex": 34
+      "university": "Western University"
     },
     {
       "id": "caroline-schild-poulter",
@@ -9677,7 +9500,7 @@
           "citationCount": 2
         },
         {
-          "title": "Interplay between β-propeller subunits WDR26 and muskelin regulates the CTLH E3 ligase supramolecular complex",
+          "title": "Interplay between \u03b2-propeller subunits WDR26 and muskelin regulates the CTLH E3 ligase supramolecular complex",
           "year": 2024,
           "venue": "Communications Biology",
           "url": "https://doi.org/10.1038/s42003-024-07371-3",
@@ -9685,8 +9508,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:45.281Z",
-      "university": "Western University",
-      "hIndex": 27
+      "university": "Western University"
     },
     {
       "id": "gary-shaw",
@@ -9725,7 +9547,7 @@
           "citationCount": 0
         },
         {
-          "title": "Complex Conformational Interplay for Parkin Activation is Revealed By 19f Nmr Spectroscopy",
+          "title": "Complex Conformational Interplay for Parkin Activation is Revealed By\u00a019f Nmr Spectroscopy",
           "year": 2025,
           "venue": "SSRN Electronic Journal",
           "url": "https://doi.org/10.2139/ssrn.5265525",
@@ -9733,8 +9555,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:45.281Z",
-      "university": "Western University",
-      "hIndex": 47
+      "university": "Western University"
     },
     {
       "id": "brian-shilton",
@@ -9767,7 +9588,7 @@
           "citationCount": 3
         },
         {
-          "title": "Specific quinone reductase 2 inhibitors reduce metabolic burden and reverse Alzheimer’s disease phenotype in mice",
+          "title": "Specific quinone reductase 2 inhibitors reduce metabolic burden and reverse Alzheimer\u2019s disease phenotype in mice",
           "year": 2023,
           "venue": "Journal of Clinical Investigation",
           "url": "https://doi.org/10.1172/jci162120",
@@ -9781,8 +9602,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:45.281Z",
-      "university": "Western University",
-      "hIndex": 30
+      "university": "Western University"
     },
     {
       "id": "ken-yeung-biochem",
@@ -9794,7 +9614,7 @@
       "researchAreas": [],
       "publications": [
         {
-          "title": "The antioxidant N-acetylcysteine prevents cortical neuropathological phenotypes caused by adolescent Δ-9-tetrahydrocannabinol exposure in male rats",
+          "title": "The antioxidant N-acetylcysteine prevents cortical neuropathological phenotypes caused by adolescent \u0394-9-tetrahydrocannabinol exposure in male rats",
           "year": 2025,
           "venue": "Translational Psychiatry",
           "url": "https://doi.org/10.1038/s41398-025-03580-4",
@@ -9830,8 +9650,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:45.281Z",
-      "university": "Western University",
-      "hIndex": 28
+      "university": "Western University"
     },
     {
       "id": "alison-allan",
@@ -9905,7 +9724,7 @@
           "citationCount": 0
         },
         {
-          "title": "Using computational modeling to assess decision‐making processes in a prodromal rat model of Alzheimer’s disease",
+          "title": "Using computational modeling to assess decision\u2010making processes in a prodromal rat model of Alzheimer\u2019s disease",
           "year": 2025,
           "venue": "Alzheimer s & Dementia",
           "url": "https://doi.org/10.1002/alz70859_105666",
@@ -9925,8 +9744,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:46.421Z",
-      "university": "Western University",
-      "hIndex": 35
+      "university": "Western University"
     },
     {
       "id": "michele-barbeau",
@@ -9951,7 +9769,7 @@
           "citationCount": 0
         },
         {
-          "title": "What Makes a Good Anatomy E‐module? A Quantitative and Qualitative Evaluation of Occupational Therapy Introductory Anatomy E‐modules",
+          "title": "What Makes a Good Anatomy E\u2010module? A Quantitative and Qualitative Evaluation of Occupational Therapy Introductory Anatomy E\u2010modules",
           "year": 2022,
           "venue": "The FASEB Journal",
           "url": "https://doi.org/10.1096/fasebj.2022.36.s1.r4978",
@@ -9965,7 +9783,7 @@
           "citationCount": 1
         },
         {
-          "title": "The Design and Evaluation of Occupational Therapy Introductory Anatomy E‐Modules",
+          "title": "The Design and Evaluation of Occupational Therapy Introductory Anatomy E\u2010Modules",
           "year": 2021,
           "venue": "The FASEB Journal",
           "url": "https://doi.org/10.1096/fasebj.2021.35.s1.02258",
@@ -9973,12 +9791,11 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:46.421Z",
-      "university": "Western University",
-      "hIndex": 5
+      "university": "Western University"
     },
     {
       "id": "nathalie-b-rub",
-      "name": "Nathalie Bérubé",
+      "name": "Nathalie B\u00e9rub\u00e9",
       "title": "Professor",
       "department": "Anatomy & Cell Biology",
       "email": "",
@@ -10019,8 +9836,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:46.421Z",
-      "university": "Western University",
-      "hIndex": 35
+      "university": "Western University"
     },
     {
       "id": "tyler-beveridge",
@@ -10032,7 +9848,7 @@
       "researchAreas": [],
       "publications": [
         {
-          "title": "Autonomic Plexuses of the Female Sexual Organs Travel Within Pubocervical and Rectovaginal [Endopelvic] Fascia: A Rationale for ‘Nerve‐Aware’ Vaginal Prolapse Repair",
+          "title": "Autonomic Plexuses of the Female Sexual Organs Travel Within Pubocervical and Rectovaginal [Endopelvic] Fascia: A Rationale for \u2018Nerve\u2010Aware\u2019 Vaginal Prolapse Repair",
           "year": 2025,
           "venue": "Clinical Anatomy",
           "url": "https://doi.org/10.1002/ca.70028",
@@ -10060,7 +9876,7 @@
           "citationCount": 11
         },
         {
-          "title": "Uncovering the Perceptions of Grades in Dentistry Students – How Grades are Impacting Learning &amp; Clinical Development",
+          "title": "Uncovering the Perceptions of Grades in Dentistry Students \u2013 How Grades are Impacting Learning &amp; Clinical Development",
           "year": 2022,
           "venue": "The FASEB Journal",
           "url": "https://doi.org/10.1096/fasebj.2022.36.s1.r5981",
@@ -10068,8 +9884,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:46.421Z",
-      "university": "Western University",
-      "hIndex": 8
+      "university": "Western University"
     },
     {
       "id": "arthur-brown",
@@ -10110,8 +9925,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:46.421Z",
-      "university": "Western University",
-      "hIndex": 102
+      "university": "Western University"
     },
     {
       "id": "david-cechetto",
@@ -10143,7 +9957,7 @@
           "citationCount": 0
         },
         {
-          "title": "“… I carry their stories home …”: experiences of nurses and midwives caring for perinatal adolescent mothers in primary health care settings in Rwanda",
+          "title": "\u201c\u2026 I carry their stories home \u2026\u201d: experiences of nurses and midwives caring for perinatal adolescent mothers in primary health care settings in Rwanda",
           "year": 2024,
           "venue": "BMC Nursing",
           "url": "https://doi.org/10.1186/s12912-024-02247-7",
@@ -10158,8 +9972,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:46.421Z",
-      "university": "Western University",
-      "hIndex": 48
+      "university": "Western University"
     },
     {
       "id": "sayra-cristancho",
@@ -10192,7 +10005,7 @@
           "citationCount": 1
         },
         {
-          "title": "The Perils of Excessively Relying on Medicine’s Tradition of Standardization",
+          "title": "The Perils of Excessively Relying on Medicine\u2019s Tradition of Standardization",
           "year": 2025,
           "venue": "Perspectives on Medical Education",
           "url": "https://doi.org/10.5334/pme.1864",
@@ -10207,8 +10020,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:46.421Z",
-      "university": "Western University",
-      "hIndex": 30
+      "university": "Western University"
     },
     {
       "id": "andrew-deweyert",
@@ -10220,7 +10032,7 @@
       "researchAreas": [],
       "publications": [
         {
-          "title": "Trauma‐informed bequeathed body donor meeting sessions: A guide for creating a supportive and humanistic anatomy laboratory",
+          "title": "Trauma\u2010informed bequeathed body donor meeting sessions: A guide for creating a supportive and humanistic anatomy laboratory",
           "year": 2025,
           "venue": "Anatomical Sciences Education",
           "url": "https://doi.org/10.1002/ase.70177",
@@ -10256,8 +10068,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:46.421Z",
-      "university": "Western University",
-      "hIndex": 5
+      "university": "Western University"
     },
     {
       "id": "vanessa-dumeaux",
@@ -10303,8 +10114,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:46.421Z",
-      "university": "Western University",
-      "hIndex": 29
+      "university": "Western University"
     },
     {
       "id": "sandrine-de-ribaupierre",
@@ -10323,7 +10133,7 @@
           "citationCount": 0
         },
         {
-          "title": "Age‐Related Changes in the Amygdala From In Utero to Early Childhood: Association With Social and Cognitive Outcomes",
+          "title": "Age\u2010Related Changes in the Amygdala From In Utero to Early Childhood: Association With Social and Cognitive Outcomes",
           "year": 2025,
           "venue": "Human Brain Mapping",
           "url": "https://doi.org/10.1002/hbm.70401",
@@ -10351,8 +10161,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:46.421Z",
-      "university": "Western University",
-      "hIndex": 31
+      "university": "Western University"
     },
     {
       "id": "martin-duennwald",
@@ -10383,7 +10192,7 @@
           "citationCount": 0
         },
         {
-          "title": "A Longitudinal Study of Sex Differences in a <scp>TDP</scp> ‐43 Mouse Model Reveals <scp>STI1</scp> Regulation of <scp>TDP</scp> ‐43 Proteinopathy and Motor Deficits",
+          "title": "A Longitudinal Study of Sex Differences in a <scp>TDP</scp> \u201043 Mouse Model Reveals <scp>STI1</scp> Regulation of <scp>TDP</scp> \u201043 Proteinopathy and Motor Deficits",
           "year": 2025,
           "venue": "Journal of Neurochemistry",
           "url": "https://doi.org/10.1111/jnc.70204",
@@ -10397,8 +10206,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:46.421Z",
-      "university": "Western University",
-      "hIndex": 26
+      "university": "Western University"
     },
     {
       "id": "anna-farias",
@@ -10456,8 +10264,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:46.421Z",
-      "university": "Western University",
-      "hIndex": 32
+      "university": "Western University"
     },
     {
       "id": "douglas-hamilton",
@@ -10469,7 +10276,7 @@
       "researchAreas": [],
       "publications": [
         {
-          "title": "Re‐Epithelialisation in a Yorkshire Pig Full‐Thickness Excisional Wound Model Is Associated With Keratinocyte Activation, Oxidative Stress, and Biomacromolecule Oxidation",
+          "title": "Re\u2010Epithelialisation in a Yorkshire Pig Full\u2010Thickness Excisional Wound Model Is Associated With Keratinocyte Activation, Oxidative Stress,\u00a0and Biomacromolecule Oxidation",
           "year": 2025,
           "venue": "Wound Repair and Regeneration",
           "url": "https://doi.org/10.1111/wrr.70082",
@@ -10490,7 +10297,7 @@
           "citationCount": 6
         },
         {
-          "title": "FGF and TGF-β growth factor isoform modulation of human gingival and periodontal ligament fibroblast wound healing phenotype",
+          "title": "FGF and TGF-\u03b2 growth factor isoform modulation of human gingival and periodontal ligament fibroblast wound healing phenotype",
           "year": 2025,
           "venue": "Matrix Biology",
           "url": "https://doi.org/10.1016/j.matbio.2024.12.011",
@@ -10498,8 +10305,7 @@
         }
       ],
       "lastUpdated": "2026-01-24T01:00:46.421Z",
-      "university": "Western University",
-      "hIndex": 33
+      "university": "Western University"
     },
     {
       "id": "lisa-hoffman",
@@ -10518,7 +10324,7 @@
           "citationCount": 0
         },
         {
-          "title": "Growth Hormone Secretagogue Receptor (GHSR) Is Elevated in Myocardial Tissues of DMD mdx:utrn−/− Mice, and Correlates Strongly with Inflammatory Markers, and Negatively with Cardiac Function",
+          "title": "Growth Hormone Secretagogue Receptor (GHSR) Is Elevated in Myocardial Tissues of DMD mdx:utrn\u2212/\u2212 Mice, and Correlates Strongly with Inflammatory Markers, and Negatively with Cardiac Function",
           "year": 2025,
           "venue": "Cells",
           "url": "https://doi.org/10.3390/cells14131002",
@@ -10573,7 +10379,7 @@
           "citationCount": 0
         },
         {
-          "title": "Cigarette Smoke Extract and Nicotine Evoke Similar Interoceptive Effects in a Pavlovian Occasion Setting Task in Male and Female Sprague–Dawley Rats",
+          "title": "Cigarette Smoke Extract and Nicotine Evoke Similar Interoceptive Effects in a Pavlovian Occasion Setting Task in Male and Female Sprague\u2013Dawley Rats",
           "year": 2025,
           "venue": "Nicotine & Tobacco Research",
           "url": "https://doi.org/10.1093/ntr/ntaf219",
@@ -10634,7 +10440,7 @@
           "citationCount": 0
         },
         {
-          "title": "Glioblastoma multiforme with transdural extension to the external auditory canal via the tegmen tympani—Clinical report with review of the literature",
+          "title": "Glioblastoma multiforme with transdural extension to the external auditory canal via the tegmen tympani\u2014Clinical report with review of the literature",
           "year": 2025,
           "venue": "Eye & ENT Research",
           "url": "https://doi.org/10.1002/eer3.70015",
@@ -10745,14 +10551,14 @@
           "citationCount": 0
         },
         {
-          "title": "The antioxidant N-acetylcysteine prevents cortical neuropathological phenotypes caused by adolescent Δ-9-tetrahydrocannabinol exposure in male rats",
+          "title": "The antioxidant N-acetylcysteine prevents cortical neuropathological phenotypes caused by adolescent \u0394-9-tetrahydrocannabinol exposure in male rats",
           "year": 2025,
           "venue": "Translational Psychiatry",
           "url": "https://doi.org/10.1038/s41398-025-03580-4",
           "citationCount": 0
         },
         {
-          "title": "Identifying established human placental markers of schizophrenia in rodents after gestational ∆9-tetrahydrocannabinol exposure",
+          "title": "Identifying established human placental markers of schizophrenia in rodents after gestational \u22069-tetrahydrocannabinol exposure",
           "year": 2025,
           "venue": "Biology of Reproduction",
           "url": "https://doi.org/10.1093/biolre/ioaf191",
@@ -10788,7 +10594,7 @@
         {
           "title": "Always Watched, Always Watching",
           "year": 2026,
-          "venue": "Discourse and Writing/Rédactologie",
+          "venue": "Discourse and Writing/R\u00e9dactologie",
           "url": "https://doi.org/10.31468/dwr.1147",
           "citationCount": 0
         },
@@ -10806,7 +10612,7 @@
           "citationCount": 2
         },
         {
-          "title": "“Some Kind of Magic?” How Adaptive Experts Navigate Complexity in Pediatric Ultrasound-Guided Vascular Access",
+          "title": "\u201cSome Kind of Magic?\u201d How Adaptive Experts Navigate Complexity in Pediatric Ultrasound-Guided Vascular Access",
           "year": 2025,
           "venue": "Perspectives on Medical Education",
           "url": "https://doi.org/10.5334/pme.1798",
@@ -10833,7 +10639,7 @@
       "researchAreas": [],
       "publications": [
         {
-          "title": "Trauma‐informed bequeathed body donor meeting sessions: A guide for creating a supportive and humanistic anatomy laboratory",
+          "title": "Trauma\u2010informed bequeathed body donor meeting sessions: A guide for creating a supportive and humanistic anatomy laboratory",
           "year": 2025,
           "venue": "Anatomical Sciences Education",
           "url": "https://doi.org/10.1002/ase.70177",
@@ -10860,7 +10666,7 @@
           "citationCount": 0
         },
         {
-          "title": "Correction to: Are Clerks Proficient in the Basic Sciences? Assessment of Third-Year Medical Students’ Basic Science Knowledge Prior to and at the Completion of Core Clerkship Rotations",
+          "title": "Correction to: Are Clerks Proficient in the Basic Sciences? Assessment of Third-Year Medical Students\u2019 Basic Science Knowledge Prior to and at the Completion of Core Clerkship Rotations",
           "year": 2021,
           "venue": "Medical Science Educator",
           "url": "https://doi.org/10.1007/s40670-021-01444-2",
@@ -10880,7 +10686,7 @@
       "researchAreas": [],
       "publications": [
         {
-          "title": "Reflections on Community-engaged Learning in STEM- a student and instructor’s perspective",
+          "title": "Reflections on Community-engaged Learning in STEM- a student and instructor\u2019s perspective",
           "year": 2026,
           "venue": "AJP Advances in Physiology Education",
           "url": "https://doi.org/10.1152/advan.00156.2025",
@@ -10889,7 +10695,7 @@
         {
           "title": "Beyond Technical Skills: The Value of Perspective-Taking in STEM Education",
           "year": 2025,
-          "venue": "CBE—Life Sciences Education",
+          "venue": "CBE\u2014Life Sciences Education",
           "url": "https://doi.org/10.1187/cbe.22-05-0089",
           "citationCount": 0
         },
@@ -10967,7 +10773,7 @@
           "citationCount": 0
         },
         {
-          "title": "Robotic Skull Contouring for Facial Reconstruction—A Cadaveric Study",
+          "title": "Robotic Skull Contouring for Facial Reconstruction\u2014A Cadaveric Study",
           "year": 2025,
           "venue": "Journal of Craniofacial Surgery",
           "url": "https://doi.org/10.1097/scs.0000000000011734",
@@ -11200,7 +11006,7 @@
           "citationCount": 0
         },
         {
-          "title": "A Longitudinal Study of Sex Differences in a <scp>TDP</scp> ‐43 Mouse Model Reveals <scp>STI1</scp> Regulation of <scp>TDP</scp> ‐43 Proteinopathy and Motor Deficits",
+          "title": "A Longitudinal Study of Sex Differences in a <scp>TDP</scp> \u201043 Mouse Model Reveals <scp>STI1</scp> Regulation of <scp>TDP</scp> \u201043 Proteinopathy and Motor Deficits",
           "year": 2025,
           "venue": "Journal of Neurochemistry",
           "url": "https://doi.org/10.1111/jnc.70204",
@@ -11220,7 +11026,7 @@
       "researchAreas": [],
       "publications": [
         {
-          "title": "Loss of α7 nicotinic acetylcholine receptor exacerbates adrenergic-induced cardiac damage",
+          "title": "Loss of \u03b17 nicotinic acetylcholine receptor exacerbates adrenergic-induced cardiac damage",
           "year": 2026,
           "venue": "American Journal of Physiology-Cell Physiology",
           "url": "https://doi.org/10.1152/ajpcell.00839.2025",
@@ -11234,14 +11040,14 @@
           "citationCount": 0
         },
         {
-          "title": "Apolipoprotein E (ApoE) 4 exacerbates pattern separation deficits and amyloid pathology in a combined humanized knock‐in Apolipoprotein E, Amyloid, and Tau model of Alzheimer's Disease",
+          "title": "Apolipoprotein E (ApoE) 4 exacerbates pattern separation deficits and amyloid pathology in a combined humanized knock\u2010in Apolipoprotein E, Amyloid, and Tau model of Alzheimer's Disease",
           "year": 2025,
           "venue": "Alzheimer s & Dementia",
           "url": "https://doi.org/10.1002/alz70855_099794",
           "citationCount": 0
         },
         {
-          "title": "Tau pathology in triple knock‐in mouse model of Alzheimer's Disease expressing APOE3 and APOE4",
+          "title": "Tau pathology in triple knock\u2010in mouse model of Alzheimer's Disease expressing APOE3 and APOE4",
           "year": 2025,
           "venue": "Alzheimer s & Dementia",
           "url": "https://doi.org/10.1002/alz70855_101626",
@@ -11349,7 +11155,7 @@
           "citationCount": 0
         },
         {
-          "title": "The ‘muscular wisdom’ fatigue hypothesis: historical perspectives and contemporary challenges",
+          "title": "The \u2018muscular wisdom\u2019 fatigue hypothesis: historical perspectives and contemporary challenges",
           "year": 2025,
           "venue": "European Journal of Applied Physiology",
           "url": "https://doi.org/10.1007/s00421-025-05872-5",
@@ -11383,7 +11189,7 @@
           "citationCount": 0
         },
         {
-          "title": "The antioxidant N-acetylcysteine prevents cortical neuropathological phenotypes caused by adolescent Δ-9-tetrahydrocannabinol exposure in male rats",
+          "title": "The antioxidant N-acetylcysteine prevents cortical neuropathological phenotypes caused by adolescent \u0394-9-tetrahydrocannabinol exposure in male rats",
           "year": 2025,
           "venue": "Translational Psychiatry",
           "url": "https://doi.org/10.1038/s41398-025-03580-4",
@@ -11404,7 +11210,7 @@
           "citationCount": 2
         },
         {
-          "title": "Adolescent female rats are resistant to the affective and cognitive impacts of Δ9-tetrahydrocannabinol exposure despite long-lasting molecular and neuronal disturbances in the hippocampal-hypothalamic network",
+          "title": "Adolescent female rats are resistant to the affective and cognitive impacts of \u03949-tetrahydrocannabinol exposure despite long-lasting molecular and neuronal disturbances in the hippocampal-hypothalamic network",
           "year": 2025,
           "venue": "Psychopharmacology",
           "url": "https://doi.org/10.1007/s00213-025-06817-8",
@@ -11424,7 +11230,7 @@
       "researchAreas": [],
       "publications": [
         {
-          "title": "The antioxidant N-acetylcysteine prevents cortical neuropathological phenotypes caused by adolescent Δ-9-tetrahydrocannabinol exposure in male rats",
+          "title": "The antioxidant N-acetylcysteine prevents cortical neuropathological phenotypes caused by adolescent \u0394-9-tetrahydrocannabinol exposure in male rats",
           "year": 2025,
           "venue": "Translational Psychiatry",
           "url": "https://doi.org/10.1038/s41398-025-03580-4",
@@ -11526,7 +11332,7 @@
           "citationCount": 0
         },
         {
-          "title": "ATG7 vs. ATG5: Distinct Autophagy Pathways Shaping TGF-β Signaling and Endothelial Function",
+          "title": "ATG7 vs. ATG5: Distinct Autophagy Pathways Shaping TGF-\u03b2 Signaling and Endothelial Function",
           "year": 2025,
           "url": "https://doi.org/10.1101/2025.10.15.682686",
           "citationCount": 0
@@ -11572,14 +11378,14 @@
           "citationCount": 1
         },
         {
-          "title": "Preface to the Special Issue “Touchscreen Testing to Investigate the Neurochemistry of Cognition”",
+          "title": "Preface to the Special Issue \u201cTouchscreen Testing to Investigate the Neurochemistry of Cognition\u201d",
           "year": 2025,
           "venue": "Journal of Neurochemistry",
           "url": "https://doi.org/10.1111/jnc.70071",
           "citationCount": 0
         },
         {
-          "title": "Author response for \"Preface to the Special Issue “Touchscreen Testing to Investigate the Neurochemistry of Cognition”\"",
+          "title": "Author response for \"Preface to the Special Issue \u201cTouchscreen Testing to Investigate the Neurochemistry of Cognition\u201d\"",
           "year": 2025,
           "url": "https://doi.org/10.1111/jnc.70071/v2/response1",
           "citationCount": 0
@@ -11719,7 +11525,7 @@
       "researchAreas": [],
       "publications": [
         {
-          "title": "Role of soft tissue and bone interactions in the developmental integration and modularity of the skull in neural crest‐specific gap junction alpha‐1 knockout mice",
+          "title": "Role of soft tissue and bone interactions in the developmental integration and modularity of the skull in neural crest\u2010specific gap junction alpha\u20101 knockout mice",
           "year": 2025,
           "venue": "The Anatomical Record",
           "url": "https://doi.org/10.1002/ar.70115",
@@ -11746,7 +11552,7 @@
           "citationCount": 1
         },
         {
-          "title": "Personal autonomy and self‐determination are crucial for professionalism in healthcare",
+          "title": "Personal autonomy and self\u2010determination are crucial for professionalism in healthcare",
           "year": 2023,
           "venue": "Anatomical Sciences Education",
           "url": "https://doi.org/10.1002/ase.2278",
@@ -11921,7 +11727,7 @@
       "researchAreas": [],
       "publications": [
         {
-          "title": "<scp>SARS</scp> ‐ <scp>CoV</scp> ‐2 Nucleocapsid Protein Does Not Induce Inflammation in Endothelial Cells or Monocytes",
+          "title": "<scp>SARS</scp> \u2010 <scp>CoV</scp> \u20102 Nucleocapsid Protein Does Not Induce Inflammation in Endothelial Cells or Monocytes",
           "year": 2025,
           "venue": "The FASEB Journal",
           "url": "https://doi.org/10.1096/fj.202501433r",
@@ -12028,7 +11834,7 @@
           "citationCount": 0
         },
         {
-          "title": "(015) Evaluating Actinidin’s Collagen-Degrading Effects in a Human Model of Peyronie’s Disease",
+          "title": "(015) Evaluating Actinidin\u2019s Collagen-Degrading Effects in a Human Model of Peyronie\u2019s Disease",
           "year": 2025,
           "venue": "The Journal of Sexual Medicine",
           "url": "https://doi.org/10.1093/jsxmed/qdaf320.015",
@@ -12122,7 +11928,7 @@
           "citationCount": 2
         },
         {
-          "title": "Dual activation of estrogen receptor alpha and glucocorticoid receptor upregulate CRTh2‐mediated type 2 inflammation; mechanism driving asthma severity in women?",
+          "title": "Dual activation of estrogen receptor alpha and glucocorticoid receptor upregulate CRTh2\u2010mediated type 2 inflammation; mechanism driving asthma severity in women?",
           "year": 2022,
           "venue": "Allergy",
           "url": "https://doi.org/10.1111/all.15543",
@@ -12230,7 +12036,7 @@
           "citationCount": 0
         },
         {
-          "title": "GATA2 induces a stem cell–like transcriptional program in macrophages that promotes an atherogenic phenotype",
+          "title": "GATA2 induces a stem cell\u2013like transcriptional program in macrophages that promotes an atherogenic phenotype",
           "year": 2025,
           "venue": "Journal of Leukocyte Biology",
           "url": "https://doi.org/10.1093/jleuko/qiaf136",
@@ -12439,7 +12245,7 @@
           "citationCount": 0
         },
         {
-          "title": "Ce que vous devez savoir sur la saison du rhume et de la grippe ",
+          "title": "Ce que vous devez savoir sur la saison du rhume et de la grippe\u00a0",
           "year": 2024,
           "url": "https://doi.org/10.64628/aap.wttjak9jv",
           "citationCount": 0
@@ -12572,7 +12378,7 @@
           "citationCount": 0
         },
         {
-          "title": "GATA2 induces a stem cell–like transcriptional program in macrophages that promotes an atherogenic phenotype",
+          "title": "GATA2 induces a stem cell\u2013like transcriptional program in macrophages that promotes an atherogenic phenotype",
           "year": 2025,
           "venue": "Journal of Leukocyte Biology",
           "url": "https://doi.org/10.1093/jleuko/qiaf136",
@@ -12696,7 +12502,7 @@
           "citationCount": 0
         },
         {
-          "title": "CD19 and FcγRIIb co-engagement inhibits processes essential to T cell–dependent B-cell responses",
+          "title": "CD19 and Fc\u03b3RIIb co-engagement inhibits processes essential to T cell\u2013dependent B-cell responses",
           "year": 2025,
           "venue": "The Journal of Immunology",
           "url": "https://doi.org/10.1093/jimmun/vkaf247",
@@ -12776,25 +12582,25 @@
           "citationCount": 0
         },
         {
-          "title": "Data from TTI-621 (SIRPαFc): A CD47-Blocking Innate Immune Checkpoint Inhibitor with Broad Antitumor Activity and Minimal Erythrocyte Binding",
+          "title": "Data from TTI-621 (SIRP\u03b1Fc): A CD47-Blocking Innate Immune Checkpoint Inhibitor with Broad Antitumor Activity and Minimal Erythrocyte Binding",
           "year": 2023,
           "url": "https://doi.org/10.1158/1078-0432.c.6526346",
           "citationCount": 0
         },
         {
-          "title": "Supplementary Figure 2: Representative Hematology Data from Non-Human Primates Dosed with TTI-621. from TTI-621 (SIRPαFc): A CD47-Blocking Innate Immune Checkpoint Inhibitor with Broad Antitumor Activity and Minimal Erythrocyte Binding",
+          "title": "Supplementary Figure 2: Representative Hematology Data from Non-Human Primates Dosed with TTI-621. from TTI-621 (SIRP\u03b1Fc): A CD47-Blocking Innate Immune Checkpoint Inhibitor with Broad Antitumor Activity and Minimal Erythrocyte Binding",
           "year": 2023,
           "url": "https://doi.org/10.1158/1078-0432.22466543",
           "citationCount": 0
         },
         {
-          "title": "Supplementary Figure 1: Gating strategy and representative dot plots for flow cytometry-based phagocytosis assay. from TTI-621 (SIRPαFc): A CD47-Blocking Innate Immune Checkpoint Inhibitor with Broad Antitumor Activity and Minimal Erythrocyte Binding",
+          "title": "Supplementary Figure 1: Gating strategy and representative dot plots for flow cytometry-based phagocytosis assay. from TTI-621 (SIRP\u03b1Fc): A CD47-Blocking Innate Immune Checkpoint Inhibitor with Broad Antitumor Activity and Minimal Erythrocyte Binding",
           "year": 2023,
           "url": "https://doi.org/10.1158/1078-0432.22466546",
           "citationCount": 0
         },
         {
-          "title": "Supplementary Tables from TTI-621 (SIRPαFc): A CD47-Blocking Innate Immune Checkpoint Inhibitor with Broad Antitumor Activity and Minimal Erythrocyte Binding",
+          "title": "Supplementary Tables from TTI-621 (SIRP\u03b1Fc): A CD47-Blocking Innate Immune Checkpoint Inhibitor with Broad Antitumor Activity and Minimal Erythrocyte Binding",
           "year": 2023,
           "url": "https://doi.org/10.1158/1078-0432.22466540.v1",
           "citationCount": 0
@@ -12880,7 +12686,7 @@
           "citationCount": 1
         },
         {
-          "title": "Acute Rheumatic Fever in a Low Prevalence Setting",
+          "title": "Acute Rheumatic Fever in a Low\u00a0Prevalence Setting",
           "year": 2025,
           "venue": "JACC Case Reports",
           "url": "https://doi.org/10.1016/j.jaccas.2024.103178",
@@ -12973,7 +12779,7 @@
           "citationCount": 0
         },
         {
-          "title": "Oncological and functional outcomes of salvage surgery for local oropharyngeal cancer recurrence after primary Radiation±Chemotherapy",
+          "title": "Oncological and functional outcomes of salvage surgery for local oropharyngeal cancer recurrence after primary Radiation\u00b1Chemotherapy",
           "year": 2025,
           "venue": "Surgical Oncology",
           "url": "https://doi.org/10.1016/j.suronc.2025.102276",
@@ -13081,7 +12887,7 @@
           "citationCount": 0
         },
         {
-          "title": "Experiences and evidence of transfeminine people’s challenges with chronic, recurrent neovaginal malodor: a cross-sectional qualitative study",
+          "title": "Experiences and evidence of transfeminine people\u2019s challenges with chronic, recurrent neovaginal malodor: a cross-sectional qualitative study",
           "year": 2025,
           "url": "https://doi.org/10.21203/rs.3.rs-7348971/v1",
           "citationCount": 0
@@ -13262,7 +13068,7 @@
       "researchAreas": [],
       "publications": [
         {
-          "title": "Students’ perspectives and experiences with equity, diversity, inclusion, and accessibility in online and in-person undergraduate science laboratory courses",
+          "title": "Students\u2019 perspectives and experiences with equity, diversity, inclusion, and accessibility in online and in-person undergraduate science laboratory courses",
           "year": 2023,
           "venue": "Journal of Perspectives in Applied Academic Practice",
           "url": "https://doi.org/10.56433/jpaap.v11i3.581",
@@ -13288,7 +13094,7 @@
           "citationCount": 0
         },
         {
-          "title": "MiRAR—miRNA Activity Reporter for Living Cells",
+          "title": "MiRAR\u2014miRNA Activity Reporter for Living Cells",
           "year": 2018,
           "venue": "Genes",
           "url": "https://doi.org/10.3390/genes9060305",
@@ -13376,7 +13182,7 @@
           "citationCount": 0
         },
         {
-          "title": "“I felt like that was a safe place to go”: a qualitative study of help-seeking experiences for early psychosis in primary care",
+          "title": "\u201cI felt like that was a safe place to go\u201d: a qualitative study of help-seeking experiences for early psychosis in primary care",
           "year": 2025,
           "venue": "Journal of Mental Health",
           "url": "https://doi.org/10.1080/09638237.2025.2595617",
@@ -13410,14 +13216,14 @@
           "citationCount": 0
         },
         {
-          "title": "“Another one bite the dust—It happens so much in Black neighborhoods”: Structural barriers and grassroots resources among Black men who use drugs facing fentanyl-era overdose and treatment disparities",
+          "title": "\u201cAnother one bite the dust\u2014It happens so much in Black neighborhoods\u201d: Structural barriers and grassroots resources among Black men who use drugs facing fentanyl-era overdose and treatment disparities",
           "year": 2025,
           "venue": "Journal of Substance Use and Addiction Treatment",
           "url": "https://doi.org/10.1016/j.josat.2025.209846",
           "citationCount": 0
         },
         {
-          "title": "Relationships among implicit theories of intelligence, attitudes toward inclusion and teacher self‐efficacy beliefs for inclusive practices",
+          "title": "Relationships among implicit theories of intelligence, attitudes toward inclusion and teacher self\u2010efficacy beliefs for inclusive practices",
           "year": 2025,
           "venue": "Journal of Research in Special Educational Needs",
           "url": "https://doi.org/10.1111/1471-3802.70048",
@@ -13517,21 +13323,21 @@
           "citationCount": 0
         },
         {
-          "title": "Genome‐wide association studies of survival in 1520 cancer patients treated with bevacizumab‐containing regimens",
+          "title": "Genome\u2010wide association studies of survival in 1520 cancer patients treated with bevacizumab\u2010containing regimens",
           "year": 2025,
           "venue": "UNC Libraries",
           "url": "https://doi.org/10.17615/2y7k-df39",
           "citationCount": 0
         },
         {
-          "title": "Metabolomics reveal distinct molecular pathways associated with future risk of Crohn’s Disease",
+          "title": "Metabolomics reveal distinct molecular pathways associated with future risk of Crohn\u2019s Disease",
           "year": 2025,
           "venue": "Gut Microbes",
           "url": "https://doi.org/10.1080/19490976.2025.2546998",
           "citationCount": 2
         },
         {
-          "title": "Association Between Pre‐Diagnostic Delay and Survival Among Patients With Esophageal and Gastric Cancer Treated With Curative Intent During the <scp>COVID19</scp> Pandemic",
+          "title": "Association Between Pre\u2010Diagnostic Delay and Survival Among Patients With Esophageal and Gastric Cancer Treated With Curative Intent During the <scp>COVID19</scp> Pandemic",
           "year": 2025,
           "venue": "Cancer Medicine",
           "url": "https://doi.org/10.1002/cam4.70939",
@@ -13613,7 +13419,7 @@
           "citationCount": 0
         },
         {
-          "title": "‘Fair and balanced?’: quality of suicide-related reporting on major US cable news networks",
+          "title": "\u2018Fair and balanced?\u2019: quality of suicide-related reporting on major US cable news networks",
           "year": 2025,
           "venue": "The British Journal of Psychiatry",
           "url": "https://doi.org/10.1192/bjp.2025.10309",
@@ -13702,7 +13508,7 @@
       "researchAreas": [],
       "publications": [
         {
-          "title": "Baseline exposure–response assessment of metals from dried blood spots and personal household air pollution concentrations among pregnant women in Rwanda: household air pollution intervention network trial",
+          "title": "Baseline exposure\u2013response assessment of metals from dried blood spots and personal household air pollution concentrations among pregnant women in Rwanda: household air pollution intervention network trial",
           "year": 2025,
           "venue": "Journal of Health Population and Nutrition",
           "url": "https://doi.org/10.1186/s41043-025-01178-6",
@@ -13757,21 +13563,21 @@
           "citationCount": 0
         },
         {
-          "title": "Predictors of Multimorbidity (Defined as Diabetes + Hypertension) Amongst Males Aged 15–54 in India: An Urban/Rural Split Analysis",
+          "title": "Predictors of Multimorbidity (Defined as Diabetes + Hypertension) Amongst Males Aged 15\u201354 in India: An Urban/Rural Split Analysis",
           "year": 2024,
           "venue": "International Journal of Public Health",
           "url": "https://doi.org/10.3389/ijph.2024.1606660",
           "citationCount": 2
         },
         {
-          "title": "A randomised controlled trial of the effectiveness of parent‐based models of language intervention for 2‐ to 3‐year‐old children with speech, language and communication needs (SLCN) in areas of social disadvantage",
+          "title": "A randomised controlled trial of the effectiveness of parent\u2010based models of language intervention for 2\u2010 to 3\u2010year\u2010old children with speech, language and communication needs (SLCN) in areas of social disadvantage",
           "year": 2024,
           "venue": "International Journal of Language & Communication Disorders",
           "url": "https://doi.org/10.1111/1460-6984.13016",
           "citationCount": 6
         },
         {
-          "title": "PA-769 Bayesian spatio-temporal analysis of malaria hotspot in Gabon from 2000 to 2015",
+          "title": "PA-769\u2005Bayesian spatio-temporal analysis of malaria hotspot in Gabon from 2000 to 2015",
           "year": 2023,
           "url": "https://doi.org/10.1136/bmjgh-2023-edc.295",
           "citationCount": 1
@@ -13796,7 +13602,7 @@
           "citationCount": 0
         },
         {
-          "title": "Predictors of 30‐Day Recurrent Emergency Department Visits for Hyperglycemia in Patients With Diabetes: A Multicentre Prospective Cohort Study",
+          "title": "Predictors of 30\u2010Day Recurrent Emergency Department Visits for Hyperglycemia in Patients With Diabetes: A Multicentre Prospective Cohort Study",
           "year": 2025,
           "venue": "Academic Emergency Medicine",
           "url": "https://doi.org/10.1111/acem.70133",
@@ -13851,7 +13657,7 @@
           "citationCount": 0
         },
         {
-          "title": "A Population‐Based Matched Cohort Study of Extra‐Digestive Cancer Incidence and Mortality in Individuals With and Without Inflammatory Bowel Disease",
+          "title": "A Population\u2010Based Matched Cohort Study of Extra\u2010Digestive Cancer Incidence and Mortality in Individuals With and Without Inflammatory Bowel Disease",
           "year": 2025,
           "venue": "Alimentary Pharmacology & Therapeutics",
           "url": "https://doi.org/10.1111/apt.70439",
@@ -14012,7 +13818,7 @@
           "citationCount": 0
         },
         {
-          "title": "Patient Perspectives of the Operationalization of Adult Patient–centred Care at the Primary Care Diabetes Support Program, London, Ontario: A Qualitative Descriptive Study",
+          "title": "Patient Perspectives of the Operationalization of Adult Patient\u2013centred Care at the Primary Care Diabetes Support Program, London, Ontario: A Qualitative Descriptive Study",
           "year": 2025,
           "venue": "Canadian Journal of Diabetes",
           "url": "https://doi.org/10.1016/j.jcjd.2025.06.007",
@@ -14101,7 +13907,7 @@
           "citationCount": 1
         },
         {
-          "title": "Recherche et réconciliation : les sables bitumineux et la santé",
+          "title": "Recherche et r\u00e9conciliation : les sables bitumineux et la sant\u00e9",
           "year": 2025,
           "venue": "Canadian Medical Association Journal",
           "url": "https://doi.org/10.1503/cmaj.240643-f",
@@ -14142,14 +13948,14 @@
           "citationCount": 0
         },
         {
-          "title": "Real‐world incidence and risk factors of level 3 (severe) hypoglycaemia in adults with type 1 or 2 diabetes ( <scp>iNPHORM</scp> , United States)",
+          "title": "Real\u2010world incidence and risk factors of level 3 (severe) hypoglycaemia in adults with type 1 or 2 diabetes ( <scp>iNPHORM</scp> , United States)",
           "year": 2025,
           "venue": "Diabetes Obesity and Metabolism",
           "url": "https://doi.org/10.1111/dom.70252",
           "citationCount": 0
         },
         {
-          "title": "Author response for \"Real‐world incidence and risk factors of level 3 (severe) hypoglycaemia in adults with type 1 or 2 diabetes ( &lt;scp&gt;iNPHORM&lt;/scp&gt; , United States)\"",
+          "title": "Author response for \"Real\u2010world incidence and risk factors of level 3 (severe) hypoglycaemia in adults with type 1 or 2 diabetes ( &lt;scp&gt;iNPHORM&lt;/scp&gt; , United States)\"",
           "year": 2025,
           "url": "https://doi.org/10.1111/dom.70252/v2/response1",
           "citationCount": 0
@@ -14337,7 +14143,7 @@
           "citationCount": 0
         },
         {
-          "title": "Factors affecting quality of life in hepatitis B patients in Herat, Afghanistan: A case–control study",
+          "title": "Factors affecting quality of life in hepatitis B patients in Herat, Afghanistan: A case\u2013control study",
           "year": 2024,
           "venue": "Journal of Viral Hepatitis",
           "url": "https://doi.org/10.1111/jvh.13961",
@@ -14514,7 +14320,7 @@
           "citationCount": 6
         },
         {
-          "title": "Radio-Pathologic Correlation of the “Pig’s Snout” Sign in Osmotic Demyelination Syndrome",
+          "title": "Radio-Pathologic Correlation of the \u201cPig\u2019s Snout\u201d Sign in Osmotic Demyelination Syndrome",
           "year": 2021,
           "venue": "Canadian Journal of Neurological Sciences / Journal Canadien des Sciences Neurologiques",
           "url": "https://doi.org/10.1017/cjn.2021.217",
@@ -14572,7 +14378,7 @@
       "researchAreas": [],
       "publications": [
         {
-          "title": "bioMIND‐A Novel Approach to Integrating Biomarkers in the Diagnostic Workup for Alzheimer's Disease",
+          "title": "bioMIND\u2010A Novel Approach to Integrating Biomarkers in the Diagnostic Workup for Alzheimer's Disease",
           "year": 2025,
           "venue": "Alzheimer s & Dementia",
           "url": "https://doi.org/10.1002/alz70860_103496",
@@ -14586,7 +14392,7 @@
           "citationCount": 1
         },
         {
-          "title": "Positive Predictive Value of Cerebrospinal Fluid Biomarker Testing for a Clinical Diagnosis of Alzheimer’s Disease",
+          "title": "Positive Predictive Value of Cerebrospinal Fluid Biomarker Testing for a Clinical Diagnosis of Alzheimer\u2019s Disease",
           "year": 2025,
           "venue": "Canadian Journal of Neurological Sciences / Journal Canadien des Sciences Neurologiques",
           "url": "https://doi.org/10.1017/cjn.2025.10395",
@@ -14600,7 +14406,7 @@
           "citationCount": 0
         },
         {
-          "title": "Letter to: Real‐World Clinical Experience With Serum <scp>MOG</scp> and <scp>AQP4</scp> Antibody Testing by Live Versus Fixed Cell‐Based Assay",
+          "title": "Letter to: Real\u2010World Clinical Experience With Serum <scp>MOG</scp> and <scp>AQP4</scp> Antibody Testing by Live Versus Fixed Cell\u2010Based Assay",
           "year": 2025,
           "venue": "Annals of Clinical and Translational Neurology",
           "url": "https://doi.org/10.1002/acn3.70062",
@@ -14681,7 +14487,7 @@
           "citationCount": 2
         },
         {
-          "title": "Dual activation of estrogen receptor alpha and glucocorticoid receptor upregulate CRTh2‐mediated type 2 inflammation; mechanism driving asthma severity in women?",
+          "title": "Dual activation of estrogen receptor alpha and glucocorticoid receptor upregulate CRTh2\u2010mediated type 2 inflammation; mechanism driving asthma severity in women?",
           "year": 2022,
           "venue": "Allergy",
           "url": "https://doi.org/10.1111/all.15543",
@@ -14721,7 +14527,7 @@
           "citationCount": 0
         },
         {
-          "title": "Association of Epigenetic Age Acceleration and Mitochondrial DNA‐Based Aging Metrics Provides Insights Into Mechanisms of Aging‐Related Diseases",
+          "title": "Association of Epigenetic Age Acceleration and Mitochondrial DNA\u2010Based Aging Metrics Provides Insights Into Mechanisms of Aging\u2010Related Diseases",
           "year": 2025,
           "venue": "UNC Libraries",
           "url": "https://doi.org/10.17615/hjxt-8w64",
@@ -14796,7 +14602,7 @@
       "researchAreas": [],
       "publications": [
         {
-          "title": "New opportunities for bioscaffold‐enabled spinal cord injury repair",
+          "title": "New opportunities for bioscaffold\u2010enabled spinal cord injury repair",
           "year": 2025,
           "venue": "BMEMat",
           "url": "https://doi.org/10.1002/bmm2.70025",
@@ -14844,7 +14650,7 @@
       "researchAreas": [],
       "publications": [
         {
-          "title": "Evolving incidence patterns for locally advanced operable breast cancer by receptor status: SEER 2010–2021",
+          "title": "Evolving incidence patterns for locally advanced operable breast cancer by receptor status: SEER 2010\u20132021",
           "year": 2025,
           "venue": "npj Breast Cancer",
           "url": "https://doi.org/10.1038/s41523-025-00835-7",
@@ -15259,7 +15065,7 @@
           "citationCount": 40
         },
         {
-          "title": "Prevalence and genotype distribution of human papillomavirus in cervical adenocarcinoma (usual type and variants): A systematic review and meta‐analysis",
+          "title": "Prevalence and genotype distribution of human papillomavirus in cervical adenocarcinoma (usual type and variants): A systematic review and meta\u2010analysis",
           "year": 2023,
           "venue": "Journal of Medical Virology",
           "url": "https://doi.org/10.1002/jmv.29190",
@@ -15502,7 +15308,7 @@
           "citationCount": 0
         },
         {
-          "title": "233 Clinical next-generation sequencing pipeline for brca mutations provides traceback to the families of deceased ovarian cancer patients",
+          "title": "233\u2005Clinical next-generation sequencing pipeline for brca mutations provides traceback to the families of deceased ovarian cancer patients",
           "year": 2019,
           "url": "https://doi.org/10.1136/ijgc-2019-igcs.233",
           "citationCount": 0
@@ -15549,7 +15355,7 @@
           "citationCount": 0
         },
         {
-          "title": "Impact of 11 years of glaucoma research funding: Glaucoma Research Society of Canada (2010–2020)",
+          "title": "Impact of 11 years of glaucoma research funding: Glaucoma Research Society of Canada (2010\u20132020)",
           "year": 2025,
           "venue": "Canadian Journal of Ophthalmology",
           "url": "https://doi.org/10.1016/j.jcjo.2025.05.022",
@@ -15678,7 +15484,7 @@
         {
           "title": "RNA-seq of penile squamous cell carcinoma shows ODC1 overexpression is associated with worse overall survival",
           "year": 2025,
-          "venue": "Archiv für Pathologische Anatomie und Physiologie und für Klinische Medicin",
+          "venue": "Archiv f\u00fcr Pathologische Anatomie und Physiologie und f\u00fcr Klinische Medicin",
           "url": "https://doi.org/10.1007/s00428-025-04166-7",
           "citationCount": 0
         },
@@ -15690,14 +15496,14 @@
           "citationCount": 10
         },
         {
-          "title": "Physiological selectivity and plant–environment feedbacks during Middle and Late Pennsylvanian plant community transitions",
+          "title": "Physiological selectivity and plant\u2013environment feedbacks during Middle and Late Pennsylvanian plant community transitions",
           "year": 2023,
           "venue": "Geological Society London Special Publications",
           "url": "https://doi.org/10.1144/sp535-2022-204",
           "citationCount": 6
         },
         {
-          "title": "Table S1: Physiological selectivity and plant–environment feedbacks during Middle and Late Pennsylvanian plant community transitions",
+          "title": "Table S1: Physiological selectivity and plant\u2013environment feedbacks during Middle and Late Pennsylvanian plant community transitions",
           "year": 2023,
           "url": "https://doi.org/10.6084/m9.figshare.21968438",
           "citationCount": 0
@@ -15716,7 +15522,7 @@
       "researchAreas": [],
       "publications": [
         {
-          "title": "Utility of p53 and p16 immunohistochemistry in the diagnosis of human papillomavirus‐associated oral epithelial dysplasia: a retrospective study of 105 patients",
+          "title": "Utility of p53 and p16 immunohistochemistry in the diagnosis of human papillomavirus\u2010associated oral epithelial dysplasia: a retrospective study of 105 patients",
           "year": 2025,
           "venue": "Histopathology",
           "url": "https://doi.org/10.1111/his.15413",
@@ -15730,7 +15536,7 @@
           "citationCount": 0
         },
         {
-          "title": "Doublecortin-like kinase 1 activates NF-κB to induce inflammatory responses by binding directly to IKKβ",
+          "title": "Doublecortin-like kinase 1 activates NF-\u03baB to induce inflammatory responses by binding directly to IKK\u03b2",
           "year": 2023,
           "venue": "Cell Death and Differentiation",
           "url": "https://doi.org/10.1038/s41418-023-01147-8",
@@ -15744,7 +15550,7 @@
           "citationCount": 13
         },
         {
-          "title": "Schisandrin B Attenuates Diabetic Cardiomyopathy by Targeting MyD88 and Inhibiting MyD88‐Dependent Inflammation",
+          "title": "Schisandrin B Attenuates Diabetic Cardiomyopathy by Targeting MyD88 and Inhibiting MyD88\u2010Dependent Inflammation",
           "year": 2022,
           "venue": "Advanced Science",
           "url": "https://doi.org/10.1002/advs.202202590",
@@ -15826,7 +15632,7 @@
           "citationCount": 2
         },
         {
-          "title": "Neutralizing antibodies to SARS-CoV-2 variants of concern: a pediatric surveillance study",
+          "title": "Neutralizing antibodies to SARS-CoV-2 variants of concern:\u00a0a pediatric surveillance study",
           "year": 2025,
           "venue": "Scientific Reports",
           "url": "https://doi.org/10.1038/s41598-025-95956-1",
@@ -15874,21 +15680,21 @@
           "citationCount": 13
         },
         {
-          "title": "Evaluation of Tavakol et al.: Harnessing organs-on-a-chip to model tissue regeneration",
+          "title": "Evaluation of Tavakol et\u00a0al.: Harnessing organs-on-a-chip to model tissue regeneration",
           "year": 2021,
           "venue": "Cell stem cell",
           "url": "https://doi.org/10.1016/j.stem.2021.05.011",
           "citationCount": 0
         },
         {
-          "title": "The effect of human leukocyte antigen A1 and B35‐Cw4 on sustained BK polyomavirus DNAemia after renal transplantation",
+          "title": "The effect of human leukocyte antigen A1 and B35\u2010Cw4 on sustained BK polyomavirus DNAemia after renal transplantation",
           "year": 2020,
           "venue": "Clinical Transplantation",
           "url": "https://doi.org/10.1111/ctr.14110",
           "citationCount": 3
         },
         {
-          "title": "High Glucose Modulates Transforming Growth Factor-β Signalling to Enhance Adipogenic Differentiation of Bone Marrow-Derived Progenitor Cells",
+          "title": "High Glucose Modulates Transforming Growth Factor-\u03b2 Signalling to Enhance Adipogenic Differentiation of Bone Marrow-Derived Progenitor Cells",
           "year": 2018,
           "venue": "Canadian Journal of Diabetes",
           "url": "https://doi.org/10.1016/j.jcjd.2018.08.102",
@@ -15908,7 +15714,7 @@
       "researchAreas": [],
       "publications": [
         {
-          "title": "Rhinoscleroma and chronic rhinosinusitis—an insidious presentation",
+          "title": "Rhinoscleroma and chronic rhinosinusitis\u2014an insidious presentation",
           "year": 2025,
           "venue": "Journal of the Association of Medical Microbiology and Infectious Disease Canada",
           "url": "https://doi.org/10.3138/jammi-2025-0006",
@@ -16031,7 +15837,7 @@
           "citationCount": 22
         },
         {
-          "title": "Exploring the Microbiome’s Impact on Glioma and Brain Metastases: Insights into Development, Progression, and Treatment Response—A Scoping Review",
+          "title": "Exploring the Microbiome\u2019s Impact on Glioma and Brain Metastases: Insights into Development, Progression, and Treatment Response\u2014A Scoping Review",
           "year": 2025,
           "venue": "Cancers",
           "url": "https://doi.org/10.3390/cancers17071228",
@@ -16065,14 +15871,14 @@
           "citationCount": 4
         },
         {
-          "title": "Utility of p53 and p16 immunohistochemistry in the diagnosis of human papillomavirus‐associated oral epithelial dysplasia: a retrospective study of 105 patients",
+          "title": "Utility of p53 and p16 immunohistochemistry in the diagnosis of human papillomavirus\u2010associated oral epithelial dysplasia: a retrospective study of 105 patients",
           "year": 2025,
           "venue": "Histopathology",
           "url": "https://doi.org/10.1111/his.15413",
           "citationCount": 3
         },
         {
-          "title": "External Validation of Straticyte™, a Quantitative Biomarker-Based Risk Assay in Predicting Oral Cancer",
+          "title": "External Validation of Straticyte\u2122, a Quantitative Biomarker-Based Risk Assay in Predicting Oral Cancer",
           "year": 2024,
           "venue": "Journal of Maxillofacial and Oral Surgery",
           "url": "https://doi.org/10.1007/s12663-024-02362-7",
@@ -16139,16 +15945,16 @@
       "researchAreas": [],
       "publications": [
         {
-          "title": "The Effect of Window Size on Pathologists’ Search for Rare Elements in a Digital Pathology Setting",
+          "title": "The Effect of Window Size on Pathologists\u2019 Search for Rare Elements in a Digital Pathology Setting",
           "year": 2025,
           "venue": "Archives of Pathology & Laboratory Medicine",
           "url": "https://doi.org/10.5858/arpa.2024-0378-oa",
           "citationCount": 0
         },
         {
-          "title": "Histopatología y perfil molecular de un caso de sarcoma de Ewing prostático",
+          "title": "Histopatolog\u00eda y perfil molecular de un caso de sarcoma de Ewing prost\u00e1tico",
           "year": 2017,
-          "venue": "Revista Española de Patología",
+          "venue": "Revista Espa\u00f1ola de Patolog\u00eda",
           "url": "https://doi.org/10.1016/j.patol.2017.10.002",
           "citationCount": 2
         }
@@ -16216,14 +16022,14 @@
           "citationCount": 1
         },
         {
-          "title": "Autocrine Fibroblast Growth Factor Receptor 1 Signaling Activates Lactate Dehydrogenase A‐Aerobic Glycolysis for Advanced Human Prostate Tumor Growth",
+          "title": "Autocrine Fibroblast Growth Factor Receptor 1 Signaling Activates Lactate Dehydrogenase A\u2010Aerobic Glycolysis for Advanced Human Prostate Tumor Growth",
           "year": 2025,
           "venue": "Prostate Cancer",
           "url": "https://doi.org/10.1155/proc/8862153",
           "citationCount": 0
         },
         {
-          "title": "Ferrostatin-1 Protects Against Early Sepsis-Induced Acute Lung Injury by Suppressing Lipid Peroxidation–Driven NINJ1-Mediated DAMP Release and Neutrophil Activation",
+          "title": "Ferrostatin-1 Protects Against Early Sepsis-Induced Acute Lung Injury by Suppressing Lipid Peroxidation\u2013Driven NINJ1-Mediated DAMP Release and Neutrophil Activation",
           "year": 2025,
           "venue": "SSRN Electronic Journal",
           "url": "https://doi.org/10.2139/ssrn.5775176",
@@ -16288,7 +16094,7 @@
     },
     {
       "id": "miguel-qui-ones-mateu",
-      "name": "Miguel Quiñones-Mateu",
+      "name": "Miguel Qui\u00f1ones-Mateu",
       "title": "Professor",
       "department": "Pathology & Laboratory Medicine",
       "email": "",
@@ -16343,7 +16149,7 @@
       "researchAreas": [],
       "publications": [
         {
-          "title": "Positive Predictive Value of Cerebrospinal Fluid Biomarker Testing for a Clinical Diagnosis of Alzheimer’s Disease",
+          "title": "Positive Predictive Value of Cerebrospinal Fluid Biomarker Testing for a Clinical Diagnosis of Alzheimer\u2019s Disease",
           "year": 2025,
           "venue": "Canadian Journal of Neurological Sciences / Journal Canadien des Sciences Neurologiques",
           "url": "https://doi.org/10.1017/cjn.2025.10395",
@@ -16357,7 +16163,7 @@
           "citationCount": 1
         },
         {
-          "title": "Shortcoming of serum B-cell maturation antigen measurement by enzyme-linked immunosorbent assay in one laboratory’s experience: Unsatisfactory assay reproducibility",
+          "title": "Shortcoming of serum B-cell maturation antigen measurement by enzyme-linked immunosorbent assay in one laboratory\u2019s experience: Unsatisfactory assay reproducibility",
           "year": 2025,
           "venue": "Clinical Biochemistry",
           "url": "https://doi.org/10.1016/j.clinbiochem.2025.110941",
@@ -16405,7 +16211,7 @@
           "citationCount": 1
         },
         {
-          "title": "<scp>DNA</scp> Methylation Episignature as a Novel Diagnostic Tool for Diamond‐Blackfan Anemia Syndrome",
+          "title": "<scp>DNA</scp> Methylation Episignature as a Novel Diagnostic Tool for Diamond\u2010Blackfan Anemia Syndrome",
           "year": 2025,
           "venue": "American Journal of Hematology",
           "url": "https://doi.org/10.1002/ajh.70141",
@@ -16548,7 +16354,7 @@
           "citationCount": 0
         },
         {
-          "title": "Injury patterns in motor vehicle collision–youth pedestrian deaths",
+          "title": "Injury patterns in motor vehicle collision\u2013youth pedestrian deaths",
           "year": 2024,
           "venue": "Traffic Injury Prevention",
           "url": "https://doi.org/10.1080/15389588.2024.2351603",
@@ -16689,14 +16495,14 @@
       "researchAreas": [],
       "publications": [
         {
-          "title": "1353-P: Asymptomatic Individuals with β-Thalassemia Trait in Southern China Having Falsely Low Hemoglobin A1c Levels Are Readily Identified by Their Low MCV, Low MCH, and High RDW Values",
+          "title": "1353-P: Asymptomatic Individuals with \u03b2-Thalassemia Trait in Southern China Having Falsely Low Hemoglobin A1c Levels Are Readily Identified by Their Low MCV, Low MCH, and High RDW Values",
           "year": 2025,
           "venue": "Diabetes",
           "url": "https://doi.org/10.2337/db25-1353-p",
           "citationCount": 0
         },
         {
-          "title": "Shortcoming of serum B-cell maturation antigen measurement by enzyme-linked immunosorbent assay in one laboratory’s experience: Unsatisfactory assay reproducibility",
+          "title": "Shortcoming of serum B-cell maturation antigen measurement by enzyme-linked immunosorbent assay in one laboratory\u2019s experience: Unsatisfactory assay reproducibility",
           "year": 2025,
           "venue": "Clinical Biochemistry",
           "url": "https://doi.org/10.1016/j.clinbiochem.2025.110941",
@@ -16744,14 +16550,14 @@
           "citationCount": 0
         },
         {
-          "title": "3′ <scp>UTR</scp> variants of <scp>ALS</scp> ‐linked <scp>RNAs</scp> modify subcellular and cellular phenotypes",
+          "title": "3\u2032 <scp>UTR</scp> variants of <scp>ALS</scp> \u2010linked <scp>RNAs</scp> modify subcellular and cellular phenotypes",
           "year": 2025,
           "venue": "FEBS Journal",
           "url": "https://doi.org/10.1111/febs.70364",
           "citationCount": 0
         },
         {
-          "title": "Co‐localization of tau and <scp>TDP</scp> ‐43 after extracellular vesicle delivery to cells",
+          "title": "Co\u2010localization of tau and <scp>TDP</scp> \u201043 after extracellular vesicle delivery to cells",
           "year": 2025,
           "venue": "FEBS Journal",
           "url": "https://doi.org/10.1111/febs.70336",
@@ -16816,7 +16622,7 @@
           "citationCount": 0
         },
         {
-          "title": "The Effect of Window Size on Pathologists’ Search for Rare Elements in a Digital Pathology Setting",
+          "title": "The Effect of Window Size on Pathologists\u2019 Search for Rare Elements in a Digital Pathology Setting",
           "year": 2025,
           "venue": "Archives of Pathology & Laboratory Medicine",
           "url": "https://doi.org/10.5858/arpa.2024-0378-oa",
@@ -16869,7 +16675,7 @@
       "researchAreas": [],
       "publications": [
         {
-          "title": "The Effect of Window Size on Pathologists’ Search for Rare Elements in a Digital Pathology Setting",
+          "title": "The Effect of Window Size on Pathologists\u2019 Search for Rare Elements in a Digital Pathology Setting",
           "year": 2025,
           "venue": "Archives of Pathology & Laboratory Medicine",
           "url": "https://doi.org/10.5858/arpa.2024-0378-oa",
@@ -16890,7 +16696,7 @@
           "citationCount": 29
         },
         {
-          "title": "Idiopathic avascular necrosis of the scaphoid (Preiser’s disease): a case report and review of the literature",
+          "title": "Idiopathic avascular necrosis of the scaphoid (Preiser\u2019s disease): a case report and review of the literature",
           "year": 2024,
           "venue": "Case Reports in Plastic Surgery and Hand Surgery",
           "url": "https://doi.org/10.1080/23320885.2024.2374550",
@@ -16972,7 +16778,7 @@
           "citationCount": 0
         },
         {
-          "title": "Navigating “Being Seen”: Experiences of Older Adult Arab Immigrants and Family Caregivers Accessing Health Care Services in Ontario",
+          "title": "Navigating \u201cBeing Seen\u201d: Experiences of Older Adult Arab Immigrants and Family Caregivers Accessing Health Care Services in Ontario",
           "year": 2025,
           "venue": "Qualitative Health Research",
           "url": "https://doi.org/10.1177/10497323251367171",
@@ -17066,7 +16872,7 @@
       "researchAreas": [],
       "publications": [
         {
-          "title": "The mitochondrial‐targeted antioxidant SkQ1 prevents skeletal muscle mitochondrial‐apoptotic but not necroptotic signalling during ovarian cancer",
+          "title": "The mitochondrial\u2010targeted antioxidant SkQ1 prevents skeletal muscle mitochondrial\u2010apoptotic but not necroptotic signalling during ovarian cancer",
           "year": 2025,
           "venue": "The Journal of Physiology",
           "url": "https://doi.org/10.1113/jp287912",
@@ -17120,14 +16926,14 @@
           "citationCount": 0
         },
         {
-          "title": "Upper gastrointestinal bleed as the initial presentation of seminoma involving the duodenum in an elderly patient with 9 year follow up: A case report and literature review",
+          "title": "Upper gastrointestinal bleed as the initial presentation of seminoma involving the duodenum in an elderly patient with 9\u00a0year follow up: A case report and literature review",
           "year": 2023,
           "venue": "Diagnostic Cytopathology",
           "url": "https://doi.org/10.1002/dc.25119",
           "citationCount": 2
         },
         {
-          "title": "Carbamazepine‐induced liver injury in an 11‐year‐old female: Case report and review of the literature",
+          "title": "Carbamazepine\u2010induced liver injury in an 11\u2010year\u2010old female: Case report and review of the literature",
           "year": 2022,
           "venue": "Journal of Paediatrics and Child Health",
           "url": "https://doi.org/10.1111/jpc.16200",

@@ -20,7 +20,6 @@ export interface Professor {
   labUrl?: string;
   bio?: string;
   publications: Publication[];
-  hIndex?: number;               // Author h-index (OpenAlex summary_stats)
   lastUpdated: string;
   researchSummary?: string;      // AI-generated research summary
   talkingPoints?: string[];      // Suggested questions/topics for outreach
