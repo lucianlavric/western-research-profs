@@ -70,6 +70,14 @@ export default function ProfessorCard({ professor }: ProfessorCardProps) {
             {pubCount}
           </span>
           <span className="mt-2">pubs</span>
+          {typeof professor.hIndex === "number" && (
+            <>
+              <span className="inline-flex items-center justify-center w-5 h-5 bg-[#6f42c1] border border-[#1a1a1a] text-[10px] font-bold text-white mt-2 ml-auto">
+                {professor.hIndex}
+              </span>
+              <span className="mt-2">h-index</span>
+            </>
+          )}
         </div>
       </div>
     </Link>
